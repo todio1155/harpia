@@ -498,13 +498,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -656,7 +657,7 @@
         "uuid": "1e26a861-6ab4-4d0b-b06f-15f66855a971"
       }
     ],
-    "used_designators": "#PWR13-14,#PWR281-310,ST1",
+    "used_designators": "J11-12,R74-78,#PWR37,#PWR49,#PWR54,#PWR59,#PWR61-62,#PWR64,#PWR67-70,#PWR72,#PWR80,#PWR86,#PWR92-93,#PWR95,#PWR108,#PWR124,#PWR133,#PWR136,#PWR139-142,#PWR223-225,RN1-2",
     "variants": []
   },
   "sheets": [
