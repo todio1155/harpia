@@ -1,0 +1,1 @@
+Projeto "harpia ninho" usa 4 tmc2209 um STM32F407VET6 bucks ldos, etc. e um projeto que eu já tô fazendo há muitos meses ele vai usar o marlin e vai ser corexy simples mais pode e foi feito para ser modificado
