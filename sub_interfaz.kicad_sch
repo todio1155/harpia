@@ -6,10 +6,12 @@
 	(paper "A5")
 	(title_block
 		(title "ihm i2sx3")
-		(date "2026-07-11")
-		(rev "0.1v")
-		(company "by todio")
-		(comment 1 "interface humano-maquina ")
+		(date "2026-08-10")
+		(rev "C")
+		(company "---")
+		(comment 1 "powered by STM32F407VET6")
+		(comment 2 "BY todio")
+		(comment 3 "na pagina \"hapia\" leia os aviosos e pergunta ")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"

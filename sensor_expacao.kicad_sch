@@ -4,6 +4,14 @@
 	(generator_version "10.0")
 	(uuid "a8904494-4601-4239-bca8-4dc3f286d6de")
 	(paper "User" 431.8 279.4)
+	(title_block
+		(date "2026-08-10")
+		(rev "C")
+		(company "---")
+		(comment 1 "powered by STM32F407VET6")
+		(comment 2 "BY todio")
+		(comment 3 "na pagina \"hapia\" leia os aviosos e pergunta ")
+	)
 	(lib_symbols
 		(symbol "74xx:74HC4051"
 			(exclude_from_sim no)

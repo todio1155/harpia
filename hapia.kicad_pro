@@ -230,7 +230,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "C"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -755,7 +755,7 @@
         "uuid": "efba4993-d931-46ce-b72d-dcd9962acd35"
       }
     ],
-    "used_designators": "Q8-20,R76-87,#PWR66,#PWR73-74,#PWR76-77,#PWR128,#PWR130-131,#PWR175,#PWR296-301",
+    "used_designators": "C4-6,D1,#PWR1-2,#PWR37-39,#PWR91-92,#PWR152,J18,R1,R22-23,TP12,TP16-17,F1",
     "variants": []
   },
   "sheets": [
