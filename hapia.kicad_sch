@@ -8446,10 +8446,6 @@
 		(uuid "9ddf264d-39d9-40ec-9bed-ea130168501b")
 	)
 	(no_connect
-		(at 128.27 163.83)
-		(uuid "9ef54fce-6eef-468c-99c4-468de8a391cd")
-	)
-	(no_connect
 		(at 201.93 66.04)
 		(uuid "a1abcc6f-be91-4b91-950d-f713fa578fb3")
 	)
@@ -8518,8 +8514,8 @@
 		(uuid "ea1d72d2-9ee9-473f-97d0-a584055b042e")
 	)
 	(no_connect
-		(at 128.27 166.37)
-		(uuid "ed90444f-b903-4ec1-84dc-b45b8e269056")
+		(at 154.94 165.735)
+		(uuid "f54308c1-14ab-4611-8a67-4bce141fca06")
 	)
 	(no_connect
 		(at 128.27 186.69)
@@ -9501,7 +9497,7 @@
 	)
 	(global_label "SUB_SCL"
 		(shape input)
-		(at 160.655 146.05 0)
+		(at 135.89 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9511,7 +9507,7 @@
 		)
 		(uuid "489f7c05-da52-4ae4-94e5-e42c6a407171")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.9254 146.05 0)
+			(at 147.1604 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10413,7 +10409,7 @@
 	)
 	(global_label "SUB_SDA"
 		(shape input)
-		(at 160.655 148.59 0)
+		(at 135.89 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10423,7 +10419,7 @@
 		)
 		(uuid "af397e06-6d08-407b-97f8-f25b6c9eec92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.9859 148.59 0)
+			(at 147.2209 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12518,7 +12514,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack08_Split")
-		(at 156.845 148.59 270)
+		(at 132.08 166.37 270)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12528,7 +12524,7 @@
 		(dnp no)
 		(uuid "21960864-adb0-4fb8-9af6-e5eb4a11c2a6")
 		(property "Reference" "RN3"
-			(at 174.371 148.59 90)
+			(at 149.606 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12538,7 +12534,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 156.845 148.59 90)
+			(at 132.08 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12548,7 +12544,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 156.845 146.558 90)
+			(at 132.08 164.338 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12559,7 +12555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.845 148.59 0)
+			(at 132.08 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12570,7 +12566,7 @@
 			)
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
-			(at 156.845 148.59 0)
+			(at 132.08 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12581,7 +12577,7 @@
 			)
 		)
 		(property "jlc_pcb/lcsc_ID:" ""
-			(at 156.845 148.59 0)
+			(at 132.08 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12592,7 +12588,7 @@
 			)
 		)
 		(property "mpn" ""
-			(at 156.845 148.59 0)
+			(at 132.08 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13915,7 +13911,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Network04"
+		(property "Value" "100nf"
 			(at 26.2255 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14046,7 +14042,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Network04"
+		(property "Value" "100nf"
 			(at 26.2255 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21614,7 +21610,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack08_Split")
-		(at 156.845 146.05 270)
+		(at 132.08 163.83 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21624,7 +21620,7 @@
 		(dnp no)
 		(uuid "dc40ac39-dc91-4323-aca3-9ba5ddf989a1")
 		(property "Reference" "RN3"
-			(at 174.371 146.304 90)
+			(at 149.606 164.084 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21634,7 +21630,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 156.845 146.05 90)
+			(at 132.08 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21644,7 +21640,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 156.845 144.018 90)
+			(at 132.08 161.798 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21655,7 +21651,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.845 146.05 0)
+			(at 132.08 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21666,7 +21662,7 @@
 			)
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
-			(at 156.845 146.05 0)
+			(at 132.08 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21677,7 +21673,7 @@
 			)
 		)
 		(property "jlc_pcb/lcsc_ID:" ""
-			(at 156.845 146.05 0)
+			(at 132.08 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21688,7 +21684,7 @@
 			)
 		)
 		(property "mpn" ""
-			(at 156.845 146.05 0)
+			(at 132.08 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

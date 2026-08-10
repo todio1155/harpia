@@ -3289,7 +3289,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:PNP"
+		(symbol "Simulation_SPICE:PMOS"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3301,8 +3301,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q9"
-				(at 5.08 1.2701 0)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3312,8 +3312,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PNP"
-				(at 5.08 -1.2699 0)
+			(property "Value" "PMOS"
+				(at 5.08 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3323,8 +3323,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 35.56 0 0)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3334,8 +3334,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-				(at 35.56 0 0)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3345,7 +3345,7 @@
 					)
 				)
 			)
-			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(property "Description" "P-MOSFET transistor, drain/source/gate"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3356,7 +3356,40 @@
 					)
 				)
 			)
-			(property "Sim.Device" "PNP"
+			(property "Sim.Device" "PMOS"
+				(at 0 -17.145 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3367,124 +3400,11 @@
 					)
 				)
 			)
-			(property "Sim.Type" "GUMMELPOON"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=C 2=B 3=E"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "jlc_pcb:" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "mouser:" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "mpn" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PNP_0_1"
+			(symbol "PMOS_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 0.635 0)
+						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3495,7 +3415,78 @@
 				)
 				(polyline
 					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
 					)
 					(stroke
 						(width 0)
@@ -3505,12 +3496,82 @@
 						(type outline)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "PNP_1_1"
-				(pin input line
-					(at -5.08 0 0)
+			(symbol "PMOS_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "B"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3525,10 +3586,10 @@
 						)
 					)
 				)
-				(pin open_emitter line
-					(at 2.54 -5.08 90)
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "E"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3543,10 +3604,10 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 2.54 5.08 270)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "C"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3718,249 +3779,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT:MMBT2222A"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MMBT2222A"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "NPN"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=B 2=E 3=C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MMBT2222A_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MMBT2222A_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4505,10 +4323,28 @@
 		)
 	)
 	(junction
+		(at 208.28 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0151fabb-4b54-40ae-8e29-c349078a4d6a")
+	)
+	(junction
+		(at 189.23 102.235)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04472b83-96b9-4aec-9964-8f3029e90868")
+	)
+	(junction
 		(at 55.88 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "056d8380-73ca-40e8-9fd0-debdc7275f7c")
+	)
+	(junction
+		(at 208.28 184.785)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0655a02d-e117-47a3-b080-bbaf6693c11e")
 	)
 	(junction
 		(at 278.13 185.42)
@@ -4517,22 +4353,22 @@
 		(uuid "07744ff3-d017-4db6-9ed2-d7550d55efe7")
 	)
 	(junction
-		(at 204.47 87.63)
+		(at 129.54 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0cdfc713-5335-4210-a265-fc16112c42ae")
+		(uuid "09050339-b05a-4626-8d27-97f86915913f")
 	)
 	(junction
-		(at 212.09 173.99)
+		(at 196.85 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f86e702-9942-4a51-a8d0-9a37baa6eb74")
+		(uuid "0da25cf3-8bc8-41a0-b74c-1f36f296f1ac")
 	)
 	(junction
-		(at 212.09 132.08)
+		(at 196.85 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "149b6ffb-0295-41aa-9ed4-ecb6f080c8c9")
+		(uuid "120ff3a5-7aaf-476f-80ad-64cf3ab1f8c7")
 	)
 	(junction
 		(at 107.95 39.37)
@@ -4541,10 +4377,10 @@
 		(uuid "14e31d4b-2434-4b00-9d01-bafe5892acb3")
 	)
 	(junction
-		(at 204.47 45.72)
+		(at 189.23 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1e8ff0fc-7848-4cac-bd48-46a14eb53c93")
+		(uuid "2391153c-6400-4159-9524-a4fbdd8e5aa9")
 	)
 	(junction
 		(at 260.35 158.75)
@@ -4559,10 +4395,16 @@
 		(uuid "31cef592-2152-46d7-92cb-6d27674dcc1c")
 	)
 	(junction
-		(at 212.09 45.72)
+		(at 208.28 142.875)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "41e749d8-a672-4bcb-bc92-e6ac1941ef19")
+		(uuid "4b8ef50c-024b-4043-be28-f2d3379be6f8")
+	)
+	(junction
+		(at 196.85 97.155)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c5f74cd-f3a6-4f51-ac54-04f072d5e691")
 	)
 	(junction
 		(at 260.35 48.26)
@@ -4571,10 +4413,22 @@
 		(uuid "59925f6f-c46a-4a60-afd4-0d957d95f907")
 	)
 	(junction
-		(at 204.47 173.99)
+		(at 196.85 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "89c0714e-7e27-430a-91d5-27a8b4901f97")
+		(uuid "774326c5-2e5e-4482-a597-e4d910029a6d")
+	)
+	(junction
+		(at 189.23 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ee636b7-9f97-46f3-8604-0296c0e8bfb3")
+	)
+	(junction
+		(at 139.7 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "850c6550-2440-40ae-bdf2-3f0b1187a76e")
 	)
 	(junction
 		(at 46.99 24.13)
@@ -4595,16 +4449,16 @@
 		(uuid "9d306cc5-64fa-4037-8772-f8ff3c739b4d")
 	)
 	(junction
-		(at 204.47 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad32a61f-e9ad-4449-b6a7-73a40fbd98f4")
-	)
-	(junction
 		(at 260.35 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4cf3407-accc-4a33-b001-d236a22eb980")
+	)
+	(junction
+		(at 208.28 56.515)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8566421-9242-4a47-88b9-a77b00d71d51")
 	)
 	(junction
 		(at 91.44 29.21)
@@ -4619,16 +4473,16 @@
 		(uuid "df0bb515-1fa2-4820-8baa-a6b9cb2e8589")
 	)
 	(junction
-		(at 212.09 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e75298c0-f5bc-46be-a177-83c4682eeb70")
-	)
-	(junction
 		(at 260.35 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efd238bd-d632-4664-b9d1-6537a1a22279")
+	)
+	(junction
+		(at 189.23 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7f78d3e-d40d-4c60-9522-a156f417ced2")
 	)
 	(junction
 		(at 43.18 24.13)
@@ -4664,6 +4518,10 @@
 		(at 54.61 170.18)
 		(uuid "8f3f43c9-08a2-4644-a0ae-3b4957bd4bad")
 	)
+	(no_connect
+		(at 54.61 167.64)
+		(uuid "9be164d6-2632-4758-b624-2ffc6a784518")
+	)
 	(wire
 		(pts
 			(xy 259.08 81.28) (xy 260.35 81.28)
@@ -4696,13 +4554,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 45.72) (xy 212.09 45.72)
+			(xy 208.28 56.515) (xy 196.85 56.515)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ddaeb55-680e-4c98-b295-fa096b6d0d21")
+		(uuid "0b7bb8d1-9dd8-4f69-90b1-c4f68eed8ee2")
 	)
 	(wire
 		(pts
@@ -4736,6 +4594,26 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 55.88) (xy 196.85 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20bca3f3-fabd-44b9-af76-0782640a1058")
+	)
+	(wire
+		(pts
+			(xy 189.23 50.8) (xy 189.23 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261fd393-c81d-4b2c-825e-c9db0287221c")
+	)
+	(wire
+		(pts
 			(xy 87.63 24.13) (xy 91.44 24.13)
 		)
 		(stroke
@@ -4743,26 +4621,6 @@
 			(type default)
 		)
 		(uuid "2685b4d2-6598-46cf-b648-9e1c61b60ecc")
-	)
-	(wire
-		(pts
-			(xy 204.47 87.63) (xy 212.09 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28ae1e77-28fe-492d-883b-5e96fa215795")
-	)
-	(wire
-		(pts
-			(xy 204.47 132.08) (xy 212.09 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31314f00-6d60-4c21-bc97-786652e75ab7")
 	)
 	(wire
 		(pts
@@ -4826,6 +4684,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 184.785) (xy 196.85 184.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a24a4a-49b8-41ef-8949-9d98d8d60c9e")
+	)
+	(wire
+		(pts
 			(xy 275.59 87.63) (xy 275.59 86.36)
 		)
 		(stroke
@@ -4846,13 +4714,33 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 87.63) (xy 212.09 97.79)
+			(xy 189.23 179.07) (xy 189.23 189.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f176acb-e6d2-4ce7-9a91-787bcd9a8411")
+		(uuid "5c625b83-d09f-45ac-aba2-870e7f539f3e")
+	)
+	(wire
+		(pts
+			(xy 208.28 99.06) (xy 208.28 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65917324-5e97-4966-a1a8-b79c4ef833c3")
+	)
+	(wire
+		(pts
+			(xy 208.28 142.875) (xy 196.85 142.875)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e2b9e4d-979d-442c-8061-f7002785d62e")
 	)
 	(wire
 		(pts
@@ -4876,6 +4764,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 142.24) (xy 196.85 142.875)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c8a5158-7e57-40a2-b207-ecca9b8452a1")
+	)
+	(wire
+		(pts
 			(xy 260.35 121.92) (xy 267.97 121.92)
 		)
 		(stroke
@@ -4896,6 +4794,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 97.155) (xy 196.85 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8125d06b-ced8-4f36-8f9d-9e37afe991ab")
+	)
+	(wire
+		(pts
 			(xy 265.43 185.42) (xy 278.13 185.42)
 		)
 		(stroke
@@ -4913,6 +4821,26 @@
 			(type default)
 		)
 		(uuid "86316317-f5bc-4222-92f5-fd16d3af73e0")
+	)
+	(wire
+		(pts
+			(xy 208.28 185.42) (xy 208.28 184.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb4f2d0-c964-44b8-841d-640d4a7c1000")
+	)
+	(wire
+		(pts
+			(xy 189.23 137.16) (xy 189.23 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8caf7922-e6ed-49aa-aa3f-410e7b52bdeb")
 	)
 	(wire
 		(pts
@@ -4956,6 +4884,26 @@
 	)
 	(wire
 		(pts
+			(xy 208.915 56.515) (xy 208.28 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ea20bc-c34c-4b30-8b9b-c776789cad00")
+	)
+	(wire
+		(pts
+			(xy 208.28 97.79) (xy 196.85 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a64e8867-7196-49f3-ae75-ca30d9cbde44")
+	)
+	(wire
+		(pts
 			(xy 27.94 24.13) (xy 36.83 24.13)
 		)
 		(stroke
@@ -4986,6 +4934,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 184.15) (xy 196.85 184.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfbe0ba1-1633-4f1c-93a3-3decf8a8c7e0")
+	)
+	(wire
+		(pts
 			(xy 119.38 29.21) (xy 129.54 29.21)
 		)
 		(stroke
@@ -4993,16 +4951,6 @@
 			(type default)
 		)
 		(uuid "bfbec5cd-be39-4ece-a9e3-12bd60fd2b6d")
-	)
-	(wire
-		(pts
-			(xy 212.09 173.99) (xy 212.09 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7957ff5-2425-44fa-840e-9ca9224b7f97")
 	)
 	(wire
 		(pts
@@ -5016,6 +4964,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 92.075) (xy 189.23 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce64a77e-3c02-4049-bf7e-acf5cb5b4c05")
+	)
+	(wire
+		(pts
 			(xy 76.2 162.56) (xy 78.74 162.56)
 		)
 		(stroke
@@ -5023,16 +4981,6 @@
 			(type default)
 		)
 		(uuid "d67bee99-d92d-4117-accf-b4b6b513385f")
-	)
-	(wire
-		(pts
-			(xy 212.09 132.08) (xy 212.09 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d93717b0-d9a1-4c0f-be33-912024710bb9")
 	)
 	(wire
 		(pts
@@ -5056,16 +5004,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 45.72) (xy 212.09 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0dcfd18-b0f2-4ffb-8471-bf23b20eb7a0")
-	)
-	(wire
-		(pts
 			(xy 15.24 24.13) (xy 20.32 24.13)
 		)
 		(stroke
@@ -5086,6 +5024,26 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 29.21) (xy 139.7 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2accc1-b1b1-4e50-8131-8f4fa21dde1e")
+	)
+	(wire
+		(pts
+			(xy 208.28 143.51) (xy 208.28 142.875)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eddcff97-57de-4482-b065-65a731c5e400")
+	)
+	(wire
+		(pts
 			(xy 66.04 26.67) (xy 72.39 26.67)
 		)
 		(stroke
@@ -5096,13 +5054,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 173.99) (xy 212.09 173.99)
+			(xy 208.28 57.15) (xy 208.28 56.515)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4c783e8-40ca-41d8-9a8c-9be34364ef56")
+		(uuid "f1798ba9-dcff-4615-8db8-d8b636ca8390")
 	)
 	(wire
 		(pts
@@ -5143,6 +5101,46 @@
 			(type default)
 		)
 		(uuid "fecf406f-0f86-48e9-9383-a42b2db2e3da")
+	)
+	(label "output"
+		(at 196.85 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8677a679-c24d-4d41-b68b-2b41330649ca")
+	)
+	(label "output"
+		(at 196.85 97.155 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99b829e0-5731-4b5a-8419-775bddfbc47b")
+	)
+	(label "output"
+		(at 196.85 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a63b50b-ac7b-41ce-8838-2214dc3a1c4b")
+	)
+	(label "output"
+		(at 196.85 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d410ad5a-9203-45a8-8980-29c850cfae2a")
 	)
 	(global_label "Fan_1_D"
 		(shape input)
@@ -5362,7 +5360,7 @@
 	)
 	(global_label "Fan_1_D"
 		(shape input)
-		(at 219.71 137.16 0)
+		(at 208.28 142.875 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5372,7 +5370,7 @@
 		)
 		(uuid "6251cf11-c298-436e-b933-7e9d7b8b1a03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.4965 137.16 0)
+			(at 219.0665 142.875 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5458,7 +5456,7 @@
 	)
 	(global_label "Fan_2_D"
 		(shape input)
-		(at 219.71 179.07 0)
+		(at 208.28 184.785 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5468,7 +5466,7 @@
 		)
 		(uuid "9f910aae-7c43-4426-94de-54a8ac614fa5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.4965 179.07 0)
+			(at 219.0665 184.785 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5482,7 +5480,7 @@
 	)
 	(global_label "hot_bed_d"
 		(shape input)
-		(at 219.71 50.8 0)
+		(at 208.915 56.515 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5492,7 +5490,7 @@
 		)
 		(uuid "adc2083a-cb15-4411-8c69-59b199033a5e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.1897 50.8 0)
+			(at 221.3947 56.515 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5530,7 +5528,7 @@
 	)
 	(global_label "exrtusora_out"
 		(shape input)
-		(at 219.71 92.71 0)
+		(at 208.28 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5540,7 +5538,7 @@
 		)
 		(uuid "decf08d7-f46e-4c75-afe8-3b0871db8fbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.5764 92.71 0)
+			(at 224.1464 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5593,84 +5591,6 @@
 				(type none)
 			)
 			(uuid "bee74d7c-3948-4f24-8ea2-f1fcb452ff7c")
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 219.71 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05316a24-5f92-425a-b245-5b7bb58e1287")
-		(property "Reference" "#PWR0172"
-			(at 219.71 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 219.71 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 219.71 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8d836651-61b4-4c5c-b807-e74f3f061d32")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0172")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5746,6 +5666,124 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "#PWR0305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 194.31 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08678808-1cb3-4f70-b3fc-3731dcca19da")
+		(property "Reference" "Q12"
+			(at 200.025 177.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 200.025 180.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 194.31 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 194.31 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 194.31 196.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 194.31 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 194.31 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1feecf1-2763-47b7-85b9-004bd28dd986")
+		)
+		(pin "3"
+			(uuid "e8740928-b029-460d-b737-be17d437e867")
+		)
+		(pin "2"
+			(uuid "1ab02988-ee2b-47ef-9bc5-7f25d992b401")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -5902,6 +5940,88 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "#PWR0156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 139.065 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ca48521-a0f4-49d6-a174-f65bcd1b0de5")
+		(property "Reference" "C10"
+			(at 211.455 137.7949 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 211.455 140.3349 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.2452 142.875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 139.065 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 139.065 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ba4ef52-238b-4070-905d-ce560d40c798")
+		)
+		(pin "2"
+			(uuid "5aba0e5c-5037-4547-8c9c-36e78d77f346")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6225,8 +6345,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT2222A")
-		(at 217.17 132.08 0)
+		(lib_id "Device:R")
+		(at 185.42 189.23 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6235,56 +6355,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "136a25ad-baed-4370-b782-70d86e46ad5e")
-		(property "Reference" "Q17"
-			(at 222.25 130.8099 0)
+		(uuid "13478cff-fd6a-437b-9a8f-4c3ad9ddb523")
+		(property "Reference" "R110"
+			(at 185.42 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MMBT2222A"
-			(at 222.25 133.3499 0)
+		(property "Value" "100Ω"
+			(at 185.42 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 222.25 133.985 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
-			(at 217.17 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
-			(at 217.17 132.08 0)
+		(property "Footprint" ""
+			(at 185.42 187.452 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6294,8 +6387,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "NPN"
-			(at 217.17 132.08 0)
+		(property "Datasheet" ""
+			(at 185.42 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6305,8 +6398,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 217.17 132.08 0)
+		(property "Description" "Resistor"
+			(at 185.42 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6315,53 +6408,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "jlc_pcb:" "C82460"
-			(at 217.17 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" "MMBT2222ALT1G"
-			(at 217.17 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser:" ""
-			(at 217.17 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "63148d89-7dfb-4e71-9e26-526367ccd429")
 		)
 		(pin "1"
-			(uuid "bd937feb-7c69-4e7c-9aab-581e4d9bb5e1")
+			(uuid "8fa96fbd-21e4-445d-b79d-ea0dcd19c803")
 		)
-		(pin "3"
-			(uuid "d6ca7366-29d1-47ed-b34f-fc2c42967612")
+		(pin "2"
+			(uuid "7a66d3c8-924e-49d4-b0ef-ba7a57d984b3")
 		)
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "Q17")
+					(reference "R110")
 					(unit 1)
 				)
 			)
@@ -6527,6 +6584,84 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "#PWR0190")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 196.85 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1817a175-2403-416f-bda6-110989d87fce")
+		(property "Reference" "#PWR0324"
+			(at 196.85 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 196.85 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 196.85 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f2f8614-bce2-421d-9385-d6e62a78015e")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0324")
 					(unit 1)
 				)
 			)
@@ -6759,157 +6894,6 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PNP")
-		(at 217.17 184.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20540f4d-782e-463b-ae6b-33228aa86fd7")
-		(property "Reference" "Q20"
-			(at 222.25 182.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT2907ALT1G"
-			(at 222.25 185.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 252.73 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 252.73 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 217.17 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PNP"
-			(at 217.17 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 217.17 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 217.17 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "jlc_pcb:" "C40752"
-			(at 217.17 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" ""
-			(at 217.17 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser:" "MMBT2907ALT1G"
-			(at 217.17 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "230985f0-09f0-48b5-9e17-7b6012a6356c")
-		)
-		(pin "1"
-			(uuid "191ac4a9-6bf1-4d3d-a2d1-39052601c0a2")
-		)
-		(pin "3"
-			(uuid "a2113d56-5526-4025-95aa-25dc1c0d2976")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "Q20")
 					(unit 1)
 				)
 			)
@@ -7239,8 +7223,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 204.47 41.91 180)
+		(lib_id "power:GND")
+		(at 196.85 194.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7249,31 +7233,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2aa6fdaf-88d3-4678-b7b7-d6fcea0ef1de")
-		(property "Reference" "R78"
-			(at 207.01 40.6399 0)
+		(uuid "2a1a3f35-4d97-4774-b39b-ef0b750b6e41")
+		(property "Reference" "#PWR0325"
+			(at 196.85 200.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "1kΩ"
-			(at 207.01 43.1799 0)
+		(property "Value" "GND"
+			(at 196.85 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 206.248 41.91 90)
+			(at 196.85 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7284,7 +7267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 41.91 0)
+			(at 196.85 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7294,8 +7277,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 204.47 41.91 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7306,15 +7289,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "69ada7fd-74f3-4993-901b-87838509838c")
-		)
-		(pin "2"
-			(uuid "2ca20095-7721-48d8-8d2c-21fa384ca224")
+			(uuid "91780d4d-fce7-4997-8baa-22b0afe9644d")
 		)
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R78")
+					(reference "#PWR0325")
 					(unit 1)
 				)
 			)
@@ -7393,149 +7373,6 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "#PWR0312")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT2222A")
-		(at 217.17 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2dea26fb-1d30-44db-852e-76721b716e32")
-		(property "Reference" "Q13"
-			(at 222.25 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT2222A"
-			(at 222.25 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 222.25 89.535 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
-			(at 217.17 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
-			(at 217.17 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 217.17 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 217.17 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "jlc_pcb:" "C82460"
-			(at 217.17 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" "MMBT2222ALT1G"
-			(at 217.17 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser:" ""
-			(at 217.17 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d1b56982-20f4-460a-b517-bf14205cd43d")
-		)
-		(pin "1"
-			(uuid "13694ecf-06a6-47dc-bbbf-858bea356dbd")
-		)
-		(pin "3"
-			(uuid "682ccb02-d111-470c-b6a0-f9ccbeec5d51")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "Q13")
 					(unit 1)
 				)
 			)
@@ -7634,8 +7471,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PNP")
-		(at 217.17 142.24 0)
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 194.31 102.235 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7644,9 +7481,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "30381555-6653-43a6-915d-1ef946661075")
-		(property "Reference" "Q18"
-			(at 222.25 140.9699 0)
+		(uuid "30fd29be-70f3-4f92-aa62-9f22912f398f")
+		(property "Reference" "Q23"
+			(at 200.025 100.9649 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7656,8 +7493,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMBT2907ALT1G"
-			(at 222.25 143.5099 0)
+		(property "Value" "NMOS"
+			(at 200.025 103.5049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7665,160 +7502,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 252.73 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 252.73 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 217.17 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PNP"
-			(at 217.17 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 217.17 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 217.17 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "jlc_pcb:" "C40752"
-			(at 217.17 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" ""
-			(at 217.17 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser:" "MMBT2907ALT1G"
-			(at 217.17 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9d698183-bf75-4902-bfc2-b7060e1d789a")
-		)
-		(pin "1"
-			(uuid "74266189-602e-472a-bd07-41803469069f")
-		)
-		(pin "3"
-			(uuid "1fc0ccf5-476d-4137-942b-d9a87512ce1b")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "Q18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 204.47 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30c0434c-a6b8-4314-aeae-5952c83dec20")
-		(property "Reference" "#PWR074"
-			(at 204.47 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 97.79 0)
+			(at 199.39 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7828,8 +7515,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 204.47 97.79 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 194.31 114.935 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7839,8 +7526,41 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 97.79 0)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 194.31 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 194.31 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 194.31 121.285 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 194.31 117.475 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7851,12 +7571,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9dfaf4f-ce18-46b5-989d-75c8087faf33")
+			(uuid "0d42af0c-578f-448c-80f4-78adce915a5d")
+		)
+		(pin "3"
+			(uuid "11498f63-d4e5-42a3-998e-1a32f0922ce9")
+		)
+		(pin "2"
+			(uuid "9473260f-724b-40cd-a254-98111c0266a1")
 		)
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR074")
+					(reference "Q23")
 					(unit 1)
 				)
 			)
@@ -8203,7 +7929,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 219.71 78.74 180)
+		(at 208.28 147.32 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8212,9 +7938,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "399613e3-77da-4154-9aae-538a067ffe83")
-		(property "Reference" "R81"
-			(at 222.25 77.4699 0)
+		(uuid "3c11aada-cbad-4761-9d08-ba6cebf3ea6f")
+		(property "Reference" "R109"
+			(at 210.185 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8224,8 +7950,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "39Ω"
-			(at 222.25 80.0099 0)
+		(property "Value" "220"
+			(at 210.185 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8236,7 +7962,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 221.488 78.74 90)
+			(at 210.058 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8247,7 +7973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 78.74 0)
+			(at 208.28 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8258,7 +7984,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 219.71 78.74 0)
+			(at 208.28 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8269,15 +7995,133 @@
 			)
 		)
 		(pin "1"
-			(uuid "c571eadd-4349-4497-aaa0-8fe8f916c585")
+			(uuid "e9d39e7d-eb70-4022-b0c1-ee7d1a8f1f67")
 		)
 		(pin "2"
-			(uuid "cfde04f8-dc12-4002-83f8-1ca3f00c10b4")
+			(uuid "e752ef65-876b-4a0b-9371-dbf00cd274ae")
 		)
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R81")
+					(reference "R109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 194.31 92.075 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4148550b-6fef-4d56-b94d-b39c6db61ff6")
+		(property "Reference" "Q10"
+			(at 200.025 90.8049 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 200.025 93.3449 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 194.31 104.775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 194.31 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 194.31 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 194.31 111.125 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 194.31 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53163822-7292-4bc0-99cd-9bb2f816d9c2")
+		)
+		(pin "3"
+			(uuid "a119326c-0a0f-4f1a-a3a4-b1881d6d22be")
+		)
+		(pin "2"
+			(uuid "5c8741c7-e9d8-4eeb-a27d-d65b967b9577")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -8285,7 +8129,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 219.71 123.19 180)
+		(at 185.42 147.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8294,31 +8138,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3bb45c6c-ec0e-41c7-bcdd-db644dbdcf02")
-		(property "Reference" "R86"
-			(at 222.25 121.9199 0)
+		(uuid "415cb350-20d5-4e21-9442-f5c451951ceb")
+		(property "Reference" "R106"
+			(at 185.42 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "39Ω"
-			(at 222.25 124.4599 0)
+		(property "Value" "100Ω"
+			(at 185.42 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 221.488 123.19 90)
+			(at 185.42 145.542 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8329,7 +8171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 123.19 0)
+			(at 185.42 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8340,7 +8182,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 219.71 123.19 0)
+			(at 185.42 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8351,15 +8193,335 @@
 			)
 		)
 		(pin "1"
-			(uuid "9c2549c7-4889-4abd-9f6e-53e10c7c3978")
+			(uuid "4cc729e3-f934-4612-886c-a9b78c7c3f5a")
 		)
 		(pin "2"
-			(uuid "da76e93d-8d7f-4aee-8c40-675b96d48660")
+			(uuid "669f182b-76c2-4f9c-87c6-93e57c9e7cdc")
 		)
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R86")
+					(reference "R106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 208.28 60.96 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "426d335a-0df7-48b9-bd79-31e73735c423")
+		(property "Reference" "R101"
+			(at 210.185 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220"
+			(at 210.185 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.058 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.28 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "552c44a0-fb52-4a50-9817-a0b8f539152d")
+		)
+		(pin "2"
+			(uuid "4c6e4c69-a913-4878-a724-ff952363c1eb")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4579633a-6513-448d-953e-0b80162deec9")
+		(property "Reference" "#PWR0175"
+			(at 189.23 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b57197b8-27da-4ea6-a64d-cda540bc4335")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 107.315 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49555e11-5697-4824-8a6e-12041027fd16")
+		(property "Reference" "#PWR0299"
+			(at 196.85 113.665 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 112.395 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "278a1ffe-d843-49a3-9605-c91306ad933e")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0299")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a0bf0ac-b7f5-4373-ac1b-7c76d8785fc3")
+		(property "Reference" "C9"
+			(at 211.455 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 211.455 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.2452 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41825813-fbb8-429d-9c1a-6e400f900dff")
+		)
+		(pin "2"
+			(uuid "7c641a92-82f1-4141-9e57-99fb66f2e097")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8526,6 +8688,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 181.61 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e92592a-2615-4868-8e5f-f955f422af3d")
+		(property "Reference" "#PWR0322"
+			(at 181.61 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20adfb5a-2a8f-47b9-b504-1c4ce8d4601b")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0322")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 269.24 149.86 0)
 		(unit 1)
 		(body_style 1)
@@ -8607,6 +8847,84 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "#PWR0184")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 135.255 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51f4d908-f3bb-4ed3-87d3-ff08c887e59d")
+		(property "Reference" "#PWR0320"
+			(at 208.28 128.905 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 135.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 135.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 135.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f838a064-3b62-46fa-9e14-5d319a3656b0")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0320")
 					(unit 1)
 				)
 			)
@@ -8861,86 +9179,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 204.47 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c900365-9199-483b-9f31-8a2302088c41")
-		(property "Reference" "#PWR0299"
-			(at 204.47 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 204.47 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 204.47 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d179385-2def-44d2-9389-f4400328d514")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0299")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 193.04 92.71 270)
+		(at 189.23 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8949,29 +9189,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5e188d8c-5651-4bac-bb08-d39f2aca5c25")
-		(property "Reference" "R79"
-			(at 193.04 86.36 90)
+		(uuid "5a3a0873-d178-4590-a9c9-b9c2d2801f44")
+		(property "Reference" "R99"
+			(at 191.135 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1kΩ"
-			(at 193.04 88.9 90)
+		(property "Value" "10k"
+			(at 191.135 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 90.932 90)
+			(at 187.452 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8982,7 +9224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 92.71 0)
+			(at 189.23 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8993,7 +9235,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 193.04 92.71 0)
+			(at 189.23 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9004,15 +9246,97 @@
 			)
 		)
 		(pin "1"
-			(uuid "d3946c42-cf80-476a-b2a6-fcae7b4ae763")
+			(uuid "00111589-111f-4094-b525-e3f2bf77b07c")
 		)
 		(pin "2"
-			(uuid "3ac93a59-1a82-4a5b-81b8-804f10eb2ce2")
+			(uuid "5b290c7b-c42a-4341-a206-a65973d9a176")
 		)
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R79")
+					(reference "R99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 196.85 83.185 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dc866a3-08f1-4af5-a740-62119e29b70e")
+		(property "Reference" "R104"
+			(at 198.755 81.9149 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100"
+			(at 198.755 84.4549 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.628 83.185 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 83.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 196.85 83.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69a11059-0600-44bc-8867-8ba81e490034")
+		)
+		(pin "2"
+			(uuid "5f3ee1a2-a599-4244-a88b-2a2187865a4d")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -9414,84 +9738,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67bea88e-5bbd-440e-8bc7-7a5403608105")
-		(property "Reference" "#PWR077"
-			(at 204.47 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5879a25c-1754-459a-a784-fa8af6a73898")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 260.35 129.54 0)
 		(unit 1)
 		(body_style 1)
@@ -9573,6 +9819,124 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "#PWR0181")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 194.31 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68c64243-faec-4ed9-b6bb-a9b331efe732")
+		(property "Reference" "Q25"
+			(at 200.025 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 200.025 190.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 194.31 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 194.31 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 194.31 206.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 194.31 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 194.31 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "177db309-5c71-4e45-993a-4e354b97c6a9")
+		)
+		(pin "3"
+			(uuid "dc9b2113-68b0-418e-b336-5d89fc15cd5f")
+		)
+		(pin "2"
+			(uuid "7dd35395-0fd7-4849-842d-753e1d0f0131")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "Q25")
 					(unit 1)
 				)
 			)
@@ -9729,6 +10093,84 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "#PWR0307")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c0520da-fd00-4966-af57-705fd0cbe073")
+		(property "Reference" "#PWR0170"
+			(at 181.61 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed4f6776-55cd-4797-80af-e845f858a0bd")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -9979,6 +10421,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 196.85 79.375 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75e93998-be6e-474a-adb0-da56a0ebfab2")
+		(property "Reference" "#PWR0316"
+			(at 196.85 83.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 196.85 74.295 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 196.85 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9477aa61-626f-42db-aab3-008f5bc36077")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0316")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 43.18 20.32 180)
 		(unit 1)
@@ -10175,6 +10695,166 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 189.23 109.855 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b2ea158-e4a7-4f43-a7f8-b0f75f8c551c")
+		(property "Reference" "#PWR0298"
+			(at 189.23 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 114.935 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 109.855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b40ce84a-66ce-45ae-93f5-a9c2bcfc01ff")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0298")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 189.23 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b7ba776-1820-4fd7-b03d-4b507fe0f0f7")
+		(property "Reference" "R111"
+			(at 191.135 191.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 191.135 194.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.452 193.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 189.23 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e796b15-d84a-4f50-8974-e9e0920b7048")
+		)
+		(pin "2"
+			(uuid "a0c61a8b-72dd-41bd-ac09-971afc015669")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "R111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 36.83 27.94 0)
 		(unit 1)
@@ -10332,6 +11012,170 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 196.85 170.18 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "807bf3ee-633d-4ed9-ba32-089470e7923a")
+		(property "Reference" "R112"
+			(at 198.755 168.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100"
+			(at 198.755 171.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.628 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 196.85 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6dce1905-2eed-42ef-a96b-d55a334b6d66")
+		)
+		(pin "2"
+			(uuid "b8ff6fd4-4f78-4ab5-94ce-4c6b62e7337b")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "R112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 180.975 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "813ef0d2-bd2d-4f87-aef0-40f69c991a09")
+		(property "Reference" "C12"
+			(at 211.455 179.7049 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 211.455 182.2449 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.2452 184.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 180.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 180.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c87dee6-2cdd-4db9-8773-d26f41c79e63")
+		)
+		(pin "2"
+			(uuid "4a40270b-a88e-4a26-9a54-1186a16e2a31")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -10505,8 +11349,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT2222A")
-		(at 201.93 137.16 0)
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 194.31 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10514,9 +11358,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8855901b-f42c-4206-9d72-ae0dd63c4ea4")
-		(property "Reference" "Q15"
-			(at 207.01 135.8899 0)
+		(fields_autoplaced yes)
+		(uuid "89c0376f-fcac-4b01-8cd5-f0ce86ccc0ad")
+		(property "Reference" "Q11"
+			(at 200.025 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10526,8 +11371,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMBT2222A"
-			(at 208.28 148.336 90)
+		(property "Value" "PMOS"
+			(at 200.025 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10537,33 +11382,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 207.01 139.065 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
-			(at 201.93 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
-			(at 201.93 137.16 0)
+		(property "Footprint" ""
+			(at 199.39 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10573,8 +11393,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "NPN"
-			(at 201.93 137.16 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 194.31 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10584,8 +11404,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 201.93 137.16 0)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 194.31 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10595,8 +11415,8 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" "C82460"
-			(at 201.93 137.16 0)
+		(property "Sim.Device" "PMOS"
+			(at 194.31 154.305 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10606,8 +11426,8 @@
 				)
 			)
 		)
-		(property "mpn" "MMBT2222ALT1G"
-			(at 201.93 137.16 0)
+		(property "Sim.Type" "VDMOS"
+			(at 194.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10617,8 +11437,8 @@
 				)
 			)
 		)
-		(property "mouser:" ""
-			(at 201.93 137.16 0)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 194.31 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10627,28 +11447,28 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "68138e03-1bcc-450b-8904-478737794a7e")
 		)
 		(pin "1"
-			(uuid "ad0fe744-875c-4f64-a419-d400ea255edc")
+			(uuid "cc0e19c6-6af9-4eab-adaa-9835dd625bb6")
 		)
 		(pin "3"
-			(uuid "41565641-8abe-4498-82c2-b5e92e6d1df1")
+			(uuid "b09604ec-48c1-4c37-bc16-a5aae60979aa")
+		)
+		(pin "2"
+			(uuid "f7bebd75-7be3-401f-9803-23cfe7b0bbbb")
 		)
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "Q15")
+					(reference "Q11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT2222A")
-		(at 201.93 50.8 0)
+		(lib_id "Device:R")
+		(at 185.42 102.235 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10656,56 +11476,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8b3d6a4a-c694-46a0-8d29-861c21553e3c")
-		(property "Reference" "Q11"
-			(at 207.01 49.5299 0)
+		(fields_autoplaced yes)
+		(uuid "8b682095-3f7a-4516-a70f-aaf48b383de2")
+		(property "Reference" "R102"
+			(at 185.42 95.885 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MMBT2222A"
-			(at 208.28 61.976 90)
+		(property "Value" "100Ω"
+			(at 185.42 98.425 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 207.01 52.705 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
-			(at 201.93 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
-			(at 201.93 50.8 0)
+		(property "Footprint" ""
+			(at 185.42 100.457 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10715,8 +11509,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "NPN"
-			(at 201.93 50.8 0)
+		(property "Datasheet" ""
+			(at 185.42 102.235 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10726,8 +11520,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 201.93 50.8 0)
+		(property "Description" "Resistor"
+			(at 185.42 102.235 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10736,53 +11530,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "jlc_pcb:" "C82460"
-			(at 201.93 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" "MMBT2222ALT1G"
-			(at 201.93 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser:" ""
-			(at 201.93 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "64dbe64b-35a2-447d-ae58-117523878c5a")
 		)
 		(pin "1"
-			(uuid "c2aa1005-a106-4170-938b-2935b31c7051")
+			(uuid "c358a9d1-e039-45b4-9f6b-c8052f87aac5")
 		)
-		(pin "3"
-			(uuid "71af31c1-831b-4372-8cba-95e304c4448b")
+		(pin "2"
+			(uuid "4fd51701-b4dd-455a-9232-596cc3c2225f")
 		)
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "Q11")
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -10861,6 +11619,84 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "#PWR0303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c15ea20-a36b-4f47-b6a3-7a349280ad33")
+		(property "Reference" "#PWR0287"
+			(at 196.85 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e258dbbf-2049-4f80-9837-ccb1ac381478")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0287")
 					(unit 1)
 				)
 			)
@@ -11264,6 +12100,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 189.23 196.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90af1881-3fc7-403b-8c10-e0a222a7579f")
+		(property "Reference" "#PWR0323"
+			(at 189.23 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b56a0b2-e5be-4aef-a714-e56f0f2d8a4d")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0323")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 275.59 128.27 0)
 		(unit 1)
 		(body_style 1)
@@ -11345,6 +12259,84 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "#PWR0188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "947fae96-1ca9-4492-8da5-56586aef2355")
+		(property "Reference" "#PWR0317"
+			(at 189.23 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11365369-6e6a-4035-b8c1-dccfbe25a2b3")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0317")
 					(unit 1)
 				)
 			)
@@ -11666,8 +12658,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 219.71 189.23 0)
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 194.31 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11676,30 +12668,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9b1b8c64-6a44-4955-9c9e-475db63e3131")
-		(property "Reference" "#PWR0131"
-			(at 219.71 195.58 0)
-			(hide yes)
+		(uuid "9afd8839-5610-4deb-afb3-1ece414e3405")
+		(property "Reference" "Q9"
+			(at 200.025 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 219.71 194.31 0)
+		(property "Value" "PMOS"
+			(at 200.025 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 189.23 0)
+			(at 199.39 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11709,8 +12702,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 219.71 189.23 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 194.31 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11720,8 +12713,41 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 189.23 0)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 194.31 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 194.31 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 194.31 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 194.31 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11732,12 +12758,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "113a6b35-a7b0-416b-99f0-3988a1031e27")
+			(uuid "460bc9cd-28a7-4b7d-afe1-6ce6ab19ef0a")
+		)
+		(pin "3"
+			(uuid "6e56af1d-ca28-4f50-8727-16d2970ec44d")
+		)
+		(pin "2"
+			(uuid "f50a2f37-451c-491b-aa98-84f9417bab2b")
 		)
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0131")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -11903,8 +12935,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 204.47 55.88 0)
+		(lib_id "power:+12V")
+		(at 196.85 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11913,9 +12945,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9bc48f09-cddb-4d52-b91c-57d2d5740a70")
-		(property "Reference" "#PWR073"
-			(at 204.47 62.23 0)
+		(uuid "9c2895ab-de7f-4d59-b221-889ea564e399")
+		(property "Reference" "#PWR0315"
+			(at 196.85 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11925,8 +12957,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 204.47 60.96 0)
+		(property "Value" "+12V"
+			(at 196.85 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11936,7 +12968,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 55.88 0)
+			(at 196.85 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11947,7 +12979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 55.88 0)
+			(at 196.85 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11957,8 +12989,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 55.88 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 196.85 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11969,12 +13001,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "adacd493-0e5f-4abb-8220-3e8abd783cdc")
+			(uuid "5c5e87a9-3058-4a01-a6af-ff2cf58ea9a8")
 		)
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR073")
+					(reference "#PWR0315")
 					(unit 1)
 				)
 			)
@@ -12062,8 +13094,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 204.47 128.27 180)
+		(lib_id "power:GND")
+		(at 208.28 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12072,31 +13104,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9d345814-bdc5-4389-b709-788f50f46b51")
-		(property "Reference" "R84"
-			(at 207.01 126.9999 0)
+		(uuid "9cfca4c1-1f84-4630-a4bb-c3e5539da338")
+		(property "Reference" "#PWR0296"
+			(at 208.28 71.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "1kΩ"
-			(at 207.01 129.5399 0)
+		(property "Value" "GND"
+			(at 208.28 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 206.248 128.27 90)
+			(at 208.28 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12107,7 +13138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 128.27 0)
+			(at 208.28 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12117,8 +13148,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 204.47 128.27 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12129,15 +13160,94 @@
 			)
 		)
 		(pin "1"
-			(uuid "97d9c93d-1a4c-4aaa-917f-cbb8f56fbbff")
-		)
-		(pin "2"
-			(uuid "26b75abe-2853-497f-b352-26432423181f")
+			(uuid "758a8aea-9791-42fc-9716-2419cee021b0")
 		)
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R84")
+					(reference "#PWR0296")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 208.28 102.87 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d53508f-741b-4b90-a170-c990760e2307")
+		(property "Reference" "R105"
+			(at 210.185 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220"
+			(at 210.185 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.058 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.28 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe881a92-ecf3-40f5-a5c2-cf6068a96fc6")
+		)
+		(pin "2"
+			(uuid "4d88d813-e70e-4d78-9a89-e6ba90ee1371")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -12303,8 +13413,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT2222A")
-		(at 201.93 179.07 0)
+		(lib_id "power:GND")
+		(at 208.28 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12312,56 +13422,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a405aba5-e3b1-4c3c-930d-bb7d2afd83d9")
-		(property "Reference" "Q16"
-			(at 207.01 177.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT2222A"
-			(at 208.28 190.246 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 207.01 180.975 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
-			(at 201.93 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
-			(at 201.93 179.07 0)
+		(fields_autoplaced yes)
+		(uuid "a03c3313-2a17-44cb-a5ac-b365a5d3c684")
+		(property "Reference" "#PWR0327"
+			(at 208.28 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12371,8 +13435,18 @@
 				)
 			)
 		)
-		(property "Sim.Device" "NPN"
-			(at 201.93 179.07 0)
+		(property "Value" "GND"
+			(at 208.28 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12382,8 +13456,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 201.93 179.07 0)
+		(property "Datasheet" ""
+			(at 208.28 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12393,8 +13467,8 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" "C82460"
-			(at 201.93 179.07 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12403,42 +13477,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "mpn" "MMBT2222ALT1G"
-			(at 201.93 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser:" ""
-			(at 201.93 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "20ad3e5a-a251-461c-80e0-ced0c9818f94")
 		)
 		(pin "1"
-			(uuid "b2811aa3-acea-4b8a-ad27-8bb5225e6103")
-		)
-		(pin "3"
-			(uuid "19ef46cb-9455-46c3-9736-de3519273af8")
+			(uuid "b2fc5062-55ed-4090-aa49-1a9f92bbbcea")
 		)
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "Q16")
+					(reference "#PWR0327")
 					(unit 1)
 				)
 			)
@@ -12715,8 +13761,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 193.04 137.16 270)
+		(lib_id "power:+12V")
+		(at 196.85 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12725,9 +13771,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a6458b3b-e9cc-4b4d-9075-16af57479d8e")
-		(property "Reference" "R82"
-			(at 193.04 130.81 90)
+		(uuid "a7ba53df-273b-4bbf-b78e-5f7ce8b49977")
+		(property "Reference" "#PWR0318"
+			(at 196.85 128.27 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12736,8 +13783,8 @@
 				)
 			)
 		)
-		(property "Value" "1kΩ"
-			(at 193.04 133.35 90)
+		(property "Value" "+12V"
+			(at 196.85 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12747,7 +13794,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 135.382 90)
+			(at 196.85 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12758,7 +13805,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 137.16 0)
+			(at 196.85 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12768,8 +13815,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 193.04 137.16 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 196.85 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12780,15 +13827,130 @@
 			)
 		)
 		(pin "1"
-			(uuid "d7829f15-6a09-43f1-817a-08d0f2e7b7d7")
-		)
-		(pin "2"
-			(uuid "a610309c-87b2-421d-b3d1-eefaa505096d")
+			(uuid "874b43cb-5998-4ab2-8d65-f74f855b2f2f")
 		)
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R82")
+					(reference "#PWR0318")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 194.31 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7c0352c-bddd-43ca-a908-8869fe02e702")
+		(property "Reference" "Q22"
+			(at 200.025 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 200.025 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 194.31 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 194.31 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 194.31 78.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 194.31 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 194.31 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bd6cb40-1992-4991-8a5f-5377be5ffa96")
+		)
+		(pin "3"
+			(uuid "f17fc527-f859-4129-8042-5721b064891b")
+		)
+		(pin "2"
+			(uuid "50a5665e-8290-4494-aa2d-ff2bbc7e8f59")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "Q22")
 					(unit 1)
 				)
 			)
@@ -12992,86 +14154,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 204.47 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aad08098-84a4-459e-bd7a-9a26c6a091fc")
-		(property "Reference" "#PWR0296"
-			(at 204.47 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 204.47 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 204.47 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1930596b-4bc7-4cab-974c-d35b54274fc2")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0296")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 219.71 36.83 180)
+		(at 189.23 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13080,31 +14164,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ab6c408d-ffcb-476c-8086-eb15a43f41e0")
-		(property "Reference" "R76"
-			(at 222.25 35.5599 0)
+		(uuid "abab63e3-5345-454e-b130-c8d13ded7d58")
+		(property "Reference" "R107"
+			(at 191.135 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "39Ω"
-			(at 222.25 38.0999 0)
+		(property "Value" "10k"
+			(at 191.135 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 221.488 36.83 90)
+			(at 187.452 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13115,7 +14199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 36.83 0)
+			(at 189.23 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13126,7 +14210,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 219.71 36.83 0)
+			(at 189.23 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13137,15 +14221,97 @@
 			)
 		)
 		(pin "1"
-			(uuid "a680d989-dd30-48f9-8440-914ca6a4e56c")
+			(uuid "c18dd884-c2b7-43ab-b681-438c3c9068cf")
 		)
 		(pin "2"
-			(uuid "7268d8a9-2aab-4e2b-9125-e9d2064b2f66")
+			(uuid "bd734da4-369d-4212-ba39-a7c690e8386b")
 		)
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R76")
+					(reference "R107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 208.28 189.23 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac53bccd-336f-4818-adf8-c88fedeb1ca9")
+		(property "Reference" "R113"
+			(at 210.185 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220"
+			(at 210.185 190.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.058 189.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.28 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a61c5a60-7ef1-4506-871d-30b79e063892")
+		)
+		(pin "2"
+			(uuid "82d584fc-3a51-46f3-b9fc-664edd04ebc2")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "R113")
 					(unit 1)
 				)
 			)
@@ -13302,240 +14468,6 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "#PWR0177")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 204.47 166.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0fa68f8-dba4-4b40-9120-5996d49e6a4e")
-		(property "Reference" "#PWR0300"
-			(at 204.47 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 204.47 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 204.47 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "af6aa47f-e757-407a-bf1d-5e4a91dbd569")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0300")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 219.71 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b14f0cac-8d92-46d4-96fd-fb31a82dd906")
-		(property "Reference" "#PWR076"
-			(at 219.71 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 219.71 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "51cb1062-9a35-476e-b185-5fd662a97bdb")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 219.71 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4516075-db77-4e50-baf7-44a57f4e8dbb")
-		(property "Reference" "#PWR066"
-			(at 219.71 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 219.71 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ade30b36-51b6-42a9-b773-abbfc88bcbc7")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -13781,6 +14713,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 208.28 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd1ebe34-93ee-41d4-a277-69fe04d1f4e1")
+		(property "Reference" "#PWR0321"
+			(at 208.28 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0c962d6-5a34-4da9-979e-7a685289c5e0")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0321")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 15.24 24.13 0)
 		(unit 1)
@@ -13853,6 +14863,162 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be6d8e5c-bc2e-4b2f-8f1f-6727a1dcd5c0")
+		(property "Reference" "#PWR0313"
+			(at 181.61 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d3b3673-df73-4b5a-8e52-cfd4d506e22c")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 48.895 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beb04bcf-0179-433a-9ded-1b9d87290548")
+		(property "Reference" "#PWR0288"
+			(at 208.28 42.545 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87e5306c-5335-4ff2-95ac-85401662b88a")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0288")
 					(unit 1)
 				)
 			)
@@ -13941,235 +15107,6 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "#PWR0183")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 219.71 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0d3652a-0d37-4ffd-a94f-82cfd248af8c")
-		(property "Reference" "#PWR0175"
-			(at 219.71 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 219.71 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 219.71 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fb9ffe18-5b28-42f8-a707-3cec6e330df6")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0175")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PNP")
-		(at 217.17 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0fcda52-3f67-4b4a-beb1-9eda769acd81")
-		(property "Reference" "Q14"
-			(at 222.25 96.5199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT2907ALT1G"
-			(at 222.25 99.0599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 252.73 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 252.73 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 217.17 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PNP"
-			(at 217.17 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 217.17 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 217.17 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "jlc_pcb:" "C40752"
-			(at 217.17 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" ""
-			(at 217.17 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser:" "MMBT2907ALT1G"
-			(at 217.17 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1357bf76-b15f-4a67-9bae-4969fed20d2e")
-		)
-		(pin "1"
-			(uuid "a0c84863-a7ad-4f61-8236-0355782271ff")
-		)
-		(pin "3"
-			(uuid "1a06ab90-ab64-4035-91d8-05797b604d04")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "Q14")
 					(unit 1)
 				)
 			)
@@ -14284,84 +15221,6 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "C71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 219.71 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1f7a9e5-6fc7-4eae-b145-243e82460da5")
-		(property "Reference" "#PWR0298"
-			(at 219.71 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 219.71 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 219.71 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25e103e9-0bc3-48fd-b999-a5b416f1ef08")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0298")
 					(unit 1)
 				)
 			)
@@ -14538,6 +15397,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 196.85 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c49d83e9-4f51-4089-baa2-5729d74c5112")
+		(property "Reference" "#PWR0319"
+			(at 196.85 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bfe59af2-fe0f-4a22-a878-946d5da8ffcd")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0319")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 95.25 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -14608,88 +15545,6 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "#PWR0163")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 204.47 170.18 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c946a7bb-1abf-4875-9fba-351685d139e9")
-		(property "Reference" "R85"
-			(at 207.01 168.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 207.01 171.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 206.248 170.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 204.47 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5eeca243-4493-4ca9-b1db-ff4608ef153e")
-		)
-		(pin "2"
-			(uuid "50e7401a-8ced-4e93-a52b-436e6ba64f92")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -14860,84 +15715,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 204.47 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb8cdf7d-fcf3-4575-937d-db562bd5b163")
-		(property "Reference" "#PWR0297"
-			(at 204.47 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 204.47 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 204.47 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e46f58a8-bd75-4d5a-b569-da835a42241d")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0297")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 68.58 180.34 0)
 		(unit 1)
@@ -15015,8 +15792,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 219.71 147.32 0)
+		(lib_id "Device:R")
+		(at 196.85 128.27 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15025,30 +15802,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cef0060c-07d1-4cda-9bb4-9c86a75dd4a8")
-		(property "Reference" "#PWR0130"
-			(at 219.71 153.67 0)
-			(hide yes)
+		(uuid "ceaabb45-7c1c-4af4-b87c-f575d3ccaf2e")
+		(property "Reference" "R108"
+			(at 198.755 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 219.71 152.4 0)
+		(property "Value" "100"
+			(at 198.755 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 147.32 0)
+			(at 198.628 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15059,7 +15837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 147.32 0)
+			(at 196.85 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15069,8 +15847,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 147.32 0)
+		(property "Description" "Resistor"
+			(at 196.85 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15081,12 +15859,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "01a6410b-9e15-4874-bfad-171923648bdb")
+			(uuid "c54eb13d-2d25-44af-baa4-a060f1286d3b")
+		)
+		(pin "2"
+			(uuid "cb1543ea-05f7-4943-9379-ed11ceb33cf3")
 		)
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0130")
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -15170,84 +15951,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 219.71 161.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2bb3b7d-67c0-4494-9d69-7418ffa739de")
-		(property "Reference" "#PWR0301"
-			(at 219.71 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 219.71 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 219.71 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ffc41177-fa68-4ac2-98fc-368f0a4f7d9f")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 260.35 125.73 0)
 		(unit 1)
@@ -15323,6 +16026,88 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 189.23 106.045 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8f93d70-b452-497b-b8bd-42fe181e5afd")
+		(property "Reference" "R103"
+			(at 191.135 104.7749 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 191.135 107.3149 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.452 106.045 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 106.045 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 189.23 106.045 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb1ad561-63ef-4171-a30d-6bccb74baa96")
+		)
+		(pin "2"
+			(uuid "d2184f3b-e8c0-43f0-a34f-ce617e315ee0")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -15455,148 +16240,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT2222A")
-		(at 201.93 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "de607b34-3070-432b-a289-0e9f8de11755")
-		(property "Reference" "Q12"
-			(at 207.01 91.4399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT2222A"
-			(at 208.28 103.886 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 207.01 94.615 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
-			(at 201.93 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
-			(at 201.93 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 201.93 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 201.93 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "jlc_pcb:" "C82460"
-			(at 201.93 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" "MMBT2222ALT1G"
-			(at 201.93 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser:" ""
-			(at 201.93 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "69fccb83-f177-4f79-a022-8e24adde58c6")
-		)
-		(pin "1"
-			(uuid "276a6744-3d4d-4eae-8dec-0634b7fb1373")
-		)
-		(pin "3"
-			(uuid "2662087e-913c-43de-ac72-0de9041a608b")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "Q12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 129.54 36.83 0)
 		(unit 1)
@@ -15676,7 +16319,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 219.71 165.1 180)
+		(at 196.85 41.91 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15685,9 +16328,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "df6a7438-4432-4389-a95c-e1a104b000cb")
-		(property "Reference" "R87"
-			(at 222.25 163.8299 0)
+		(uuid "df2e0a59-3115-46c4-b502-7f8cc390f9fd")
+		(property "Reference" "R100"
+			(at 198.755 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15697,8 +16340,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "39Ω"
-			(at 222.25 166.3699 0)
+		(property "Value" "100"
+			(at 198.755 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15709,7 +16352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 221.488 165.1 90)
+			(at 198.628 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15720,7 +16363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 165.1 0)
+			(at 196.85 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15731,7 +16374,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 219.71 165.1 0)
+			(at 196.85 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15742,158 +16385,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "bf342a59-3e60-4353-91a9-b093676c7c3c")
+			(uuid "180d0658-33b9-4218-8a8c-f1fc7413f552")
 		)
 		(pin "2"
-			(uuid "f3f4427d-a213-446c-86e1-1e4f46bed7fb")
+			(uuid "5e684f6f-fc96-4b16-a0fb-708a732cbf54")
 		)
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R87")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT2222A")
-		(at 217.17 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e04e4f82-bcee-4632-93cd-4e8abc63b6c5")
-		(property "Reference" "Q10"
-			(at 222.25 44.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT2222A"
-			(at 222.25 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 222.25 47.625 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
-			(at 217.17 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
-			(at 217.17 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 217.17 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 217.17 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "jlc_pcb:" "C82460"
-			(at 217.17 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" "MMBT2222ALT1G"
-			(at 217.17 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser:" ""
-			(at 217.17 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c97b32a7-2870-44a8-9a2a-dcd5d46d684e")
-		)
-		(pin "1"
-			(uuid "dc3ba183-ec3c-43b0-acc7-5b4e87edb4b7")
-		)
-		(pin "3"
-			(uuid "e5238c09-9bc5-493c-b278-b67f49c6d82e")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "Q10")
+					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -15975,166 +16475,6 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "C98")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 193.04 50.8 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0b3070a-9c63-4abe-80af-e43b2b39a98d")
-		(property "Reference" "R77"
-			(at 193.04 44.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 193.04 46.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 49.022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 193.04 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d1e528fc-5612-4729-a78c-67f22c9b6f6b")
-		)
-		(pin "2"
-			(uuid "e0fca838-a271-4481-9ce4-a463afa1be20")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 193.04 179.07 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4943467-a153-4f3a-8ee3-8d18667b5eb3")
-		(property "Reference" "R83"
-			(at 193.04 172.72 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 193.04 175.26 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 177.292 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 193.04 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6c2a041e-7b3b-4599-a44b-8fa4329d9a5f")
-		)
-		(pin "2"
-			(uuid "06897131-69a8-497d-af02-c3bf291afba5")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -16431,6 +16771,202 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 194.31 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb52633b-d80d-417b-98f3-833465153494")
+		(property "Reference" "Q24"
+			(at 200.025 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 200.025 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 194.31 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 194.31 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 194.31 164.465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 194.31 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 194.31 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7befd581-72a3-4d48-ade6-d04e2122a68c")
+		)
+		(pin "3"
+			(uuid "5ee8db04-41c8-4550-a49e-6866cdac4416")
+		)
+		(pin "2"
+			(uuid "e9fd1bb3-420c-4f3a-8866-ca2016297b56")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "Q24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 90.17 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb965579-ba60-4ee6-89e0-0f3bba0177a9")
+		(property "Reference" "#PWR0300"
+			(at 208.28 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 85.725 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2cb00541-fa37-48bc-ab61-0d571141db95")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0300")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:ATX-24")
 		(at 41.91 167.64 0)
 		(unit 1)
@@ -16687,84 +17223,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 204.47 184.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "edfcfd94-90df-41d6-abff-4cf5cf9bd2c7")
-		(property "Reference" "#PWR0128"
-			(at 204.47 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 204.47 189.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9d1b0867-6e37-4a23-82a9-83f426c4d87e")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 269.24 109.22 0)
 		(unit 1)
@@ -16879,8 +17337,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PNP")
-		(at 217.17 55.88 0)
+		(lib_id "Device:C")
+		(at 208.28 52.705 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16889,9 +17347,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f2737711-9a9a-426b-9cf5-7421b3773159")
-		(property "Reference" "Q9"
-			(at 222.25 54.6099 0)
+		(uuid "ef4a135f-72a0-4a7b-92e9-f7b6cef49e7e")
+		(property "Reference" "C8"
+			(at 211.455 51.4349 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16901,8 +17359,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMBT2907ALT1G"
-			(at 222.25 57.1499 0)
+		(property "Value" "100nf"
+			(at 211.455 53.9749 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16912,8 +17370,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 252.73 55.88 0)
+		(property "Footprint" ""
+			(at 209.2452 56.515 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16923,8 +17381,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 252.73 55.88 0)
+		(property "Datasheet" ""
+			(at 208.28 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16934,8 +17392,8 @@
 				)
 			)
 		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 217.17 55.88 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16944,86 +17402,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Sim.Device" "PNP"
-			(at 217.17 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 217.17 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 217.17 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "jlc_pcb:" "C40752"
-			(at 217.17 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" ""
-			(at 217.17 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser:" "MMBT2907ALT1G"
-			(at 217.17 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "49b63646-c530-44b8-844a-dd8fe0aa8042")
 		)
 		(pin "1"
-			(uuid "38a82ad6-c92b-4d82-9f80-ddc2399d48ae")
+			(uuid "5bcdb0c8-9afa-41ec-b588-c1df9a852cd1")
 		)
-		(pin "3"
-			(uuid "fb5e962b-343a-4af5-8598-f033e6bf23d8")
+		(pin "2"
+			(uuid "2c5f30c7-41fb-46fe-bd1d-aa8be9fad93e")
 		)
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "Q9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -17107,8 +17496,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT2222A")
-		(at 217.17 173.99 0)
+		(lib_id "Device:R")
+		(at 185.42 60.96 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17117,56 +17506,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f526d480-e0ba-4c02-83af-17072e51a8a1")
-		(property "Reference" "Q19"
-			(at 222.25 172.7199 0)
+		(uuid "f46ca071-c67a-4c26-9a62-eda71e90747e")
+		(property "Reference" "R98"
+			(at 185.42 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MMBT2222A"
-			(at 222.25 175.2599 0)
+		(property "Value" "100Ω"
+			(at 185.42 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 222.25 175.895 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
-			(at 217.17 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
-			(at 217.17 173.99 0)
+		(property "Footprint" ""
+			(at 185.42 59.182 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17176,8 +17538,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "NPN"
-			(at 217.17 173.99 0)
+		(property "Datasheet" ""
+			(at 185.42 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17187,8 +17549,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 217.17 173.99 0)
+		(property "Description" "Resistor"
+			(at 185.42 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17197,53 +17559,95 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "jlc_pcb:" "C82460"
-			(at 217.17 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" "MMBT2222ALT1G"
-			(at 217.17 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser:" ""
-			(at 217.17 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8854cf03-6061-4358-8db6-04687648fd62")
 		)
 		(pin "1"
-			(uuid "89f3e9ae-fc3b-4ba6-9ae6-8e7e07484c61")
+			(uuid "8a781531-7892-4fce-8aec-aa4979790104")
 		)
-		(pin "3"
-			(uuid "5189336a-1a2c-46e5-8abb-daec55347248")
+		(pin "2"
+			(uuid "b43f480a-f5d3-46e5-aa18-2f55ac2adab3")
 		)
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "Q19")
+					(reference "R98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5f4a06b-cc0b-4ed6-b4cd-30d9968e4db0")
+		(property "Reference" "#PWR0301"
+			(at 208.28 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b15f8d0d-957b-41fa-a260-cfacd2077935")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -17606,8 +18010,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 204.47 83.82 180)
+		(lib_id "power:GND")
+		(at 208.28 177.165 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17616,31 +18020,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fb58f305-d9e7-4cc7-a1c7-5ae5b23e3949")
-		(property "Reference" "R80"
-			(at 207.01 82.5499 0)
+		(uuid "fa58f667-7f63-4fd6-89cb-cfe39eeb6280")
+		(property "Reference" "#PWR0326"
+			(at 208.28 170.815 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "1kΩ"
-			(at 207.01 85.0899 0)
+		(property "Value" "GND"
+			(at 208.28 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 206.248 83.82 90)
+			(at 208.28 177.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17651,7 +18054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 83.82 0)
+			(at 208.28 177.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17661,8 +18064,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 204.47 83.82 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 177.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17673,15 +18076,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "70fd3ff8-13a8-4e6c-a8a6-7dd38f87ef98")
-		)
-		(pin "2"
-			(uuid "f1f3c10d-17a9-4377-8665-b11fbab08563")
+			(uuid "a57e9e9e-1ba9-40b9-b2e1-bdf313dca020")
 		)
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R80")
+					(reference "#PWR0326")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 102.235 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa95e219-2165-4d5d-ac83-0ebcf0016b61")
+		(property "Reference" "#PWR0297"
+			(at 181.61 108.585 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 107.315 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "590c1ed0-04b1-46f7-aa64-84b4dc49c0d7")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0297")
 					(unit 1)
 				)
 			)
