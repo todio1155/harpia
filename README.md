@@ -1,1 +1,1 @@
-Projeto "harpia ninho" usa 4 tmc2209 um STM32F407VET6 bucks ldos, etc. e um projeto que eu já tô fazendo há muitos meses ele vai usar o marlin e vai ser corexy simples mais pode e foi feito para ser modificado
+Projeto "Harpia Ninho" é uma impressora 3D projetada para ser open-source (leia a licença atual do projeto antes de usar), durável, modificável e atualmente ficando mais fácil de consertar e fazer módulos de expansão, tipo um LAN/Ethernet, mais NTC, driver de passo, FRAM e muito mais. Ele foi feito para ATX-20 ou ATX-24; futuramente vai ter versão 24V.
