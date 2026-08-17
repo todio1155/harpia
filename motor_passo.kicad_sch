@@ -2739,7 +2739,7 @@
 	)
 	(text "os resisto de bra e brb nessa pcb sao de 100mΩ(0.1Ω) e adequaldo para 1.9A(rms) segundo a tabela do datasheet(página 52 8 Selecting Sense Resistors)"
 		(exclude_from_sim no)
-		(at 62.865 261.62 0)
+		(at 62.865 262.255 0)
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -2967,17 +2967,6 @@
 			(type default)
 		)
 		(uuid "1ab20160-f808-4dc3-beeb-e7bff2973fd2")
-	)
-	(wire
-		(pts
-			(xy 115.57 74.93) (xy 119.38 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "1bacb696-de3c-4846-a506-3bac648bd185")
 	)
 	(wire
 		(pts
@@ -5001,6 +4990,26 @@
 			(uuid "8c18f0a8-03a7-4cd9-9211-ecdaad935517")
 		)
 	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 13.335 259.715) (xy 13.335 261.62) (xy 13.97 260.985) (xy 111.76 260.985) (xy 111.125 260.35)
+				(xy 13.97 260.35)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "fad48c5e-8abf-4938-a619-32086eaa2bd6")
+		)
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 250.19 36.83 0)
@@ -5880,7 +5889,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 82.55 0)
+		(at 115.57 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5891,7 +5900,7 @@
 		(fields_autoplaced yes)
 		(uuid "13968e77-3b83-415d-bee6-19314e783f40")
 		(property "Reference" "#PWR063"
-			(at 119.38 88.9 0)
+			(at 115.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5902,7 +5911,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 87.63 0)
+			(at 115.57 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5912,7 +5921,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 82.55 0)
+			(at 115.57 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5923,7 +5932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 82.55 0)
+			(at 115.57 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5934,7 +5943,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 82.55 0)
+			(at 115.57 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5987,7 +5996,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 110.49 185.7248 0)
 			(hide yes)
 			(show_name no)
@@ -6011,6 +6020,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 106.68 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C21122"
+			(at 106.68 186.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7481,7 +7501,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 302.5648 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -7515,6 +7535,17 @@
 			)
 		)
 		(property "ID:" ""
+			(at 303.53 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C28323"
 			(at 303.53 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -7742,7 +7773,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 281.94 183.1848 0)
 			(hide yes)
 			(show_name no)
@@ -7766,6 +7797,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 278.13 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C21122"
+			(at 278.13 184.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10633,7 +10675,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 281.94 73.9648 0)
 			(hide yes)
 			(show_name no)
@@ -10657,6 +10699,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 278.13 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C21122"
+			(at 278.13 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12942,7 +12995,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 131.1148 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -12976,6 +13029,17 @@
 			)
 		)
 		(property "ID:" ""
+			(at 132.08 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C28323"
 			(at 132.08 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -14229,7 +14293,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 110.49 76.5048 0)
 			(hide yes)
 			(show_name no)
@@ -14253,6 +14317,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 106.68 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C21122"
+			(at 106.68 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17464,7 +17539,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 119.38 78.74 180)
+		(at 115.57 78.74 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17475,7 +17550,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6f792c3-1b44-4bbf-889b-609dc336816d")
 		(property "Reference" "C22"
-			(at 123.19 77.4699 0)
+			(at 119.38 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17486,7 +17561,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 123.19 80.0099 0)
+			(at 119.38 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17497,7 +17572,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 118.4148 74.93 0)
+			(at 114.6048 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17508,7 +17583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 78.74 0)
+			(at 115.57 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17519,7 +17594,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 119.38 78.74 0)
+			(at 115.57 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17530,7 +17605,7 @@
 			)
 		)
 		(property "jlc_pcb/lcsc_ID:" "C346191"
-			(at 119.38 78.74 0)
+			(at 115.57 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17541,7 +17616,7 @@
 			)
 		)
 		(property "jlc_pcb:" "C346191"
-			(at 119.38 78.74 0)
+			(at 115.57 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17552,7 +17627,7 @@
 			)
 		)
 		(property "mpn" "CL10B104KB8NFNC"
-			(at 119.38 78.74 0)
+			(at 115.57 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17968,7 +18043,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 302.5648 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -18002,6 +18077,17 @@
 			)
 		)
 		(property "ID:" ""
+			(at 303.53 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C28323"
 			(at 303.53 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -19439,7 +19525,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 131.1148 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -19473,6 +19559,17 @@
 			)
 		)
 		(property "ID:" ""
+			(at 132.08 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C28323"
 			(at 132.08 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -19920,7 +20017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 42.8752 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -19943,6 +20040,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 41.91 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C346191"
 			(at 41.91 34.29 0)
 			(hide yes)
 			(show_name no)

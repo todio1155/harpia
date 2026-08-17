@@ -455,7 +455,7 @@
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
+      "pin_not_connected": "warning",
       "pin_not_driven": "error",
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
@@ -467,7 +467,7 @@
       "single_global_label": "error",
       "stacked_pin_name": "warning",
       "unannotated": "error",
-      "unconnected_wire_endpoint": "warning",
+      "unconnected_wire_endpoint": "error",
       "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -653,6 +653,12 @@
           "label": "jlc_pcb:",
           "name": "jlc_pcb:",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Descrição",
+          "name": "Descrição",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -682,6 +688,11 @@
         },
         {
           "name": "mouser:",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Descrição",
           "url": false,
           "visible": false
         }
@@ -755,7 +766,7 @@
         "uuid": "efba4993-d931-46ce-b72d-dcd9962acd35"
       }
     ],
-    "used_designators": "R91,R94-113,#PWR93-94,#PWR161,#PWR166-170,#PWR175,#PWR287-288,#PWR296-301,#PWR313-327,C6-10,C12,Q8-12,Q21-25,V1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -778,6 +789,22 @@
     [
       "efba4993-d931-46ce-b72d-dcd9962acd35",
       "sub_interface"
+    ],
+    [
+      "fdff65a4-389f-48da-8d8b-9fba2ba739a4",
+      "driver_nmos"
+    ],
+    [
+      "f0b0ba79-4ddf-439d-a7df-5533d59b07fa",
+      "driver_nmos1"
+    ],
+    [
+      "9d231b4b-b6e5-46e2-ad2a-7f48468ca9f2",
+      "driver_nmos2"
+    ],
+    [
+      "83e46faa-3b31-4ec5-9d35-6fcd740dc154",
+      "driver_nmos3"
     ]
   ],
   "text_variables": {},
