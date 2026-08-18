@@ -764,9 +764,14 @@
         "filename": "sub_interfaz.kicad_sch",
         "name": "sub_interface",
         "uuid": "efba4993-d931-46ce-b72d-dcd9962acd35"
+      },
+      {
+        "filename": "rmii_expansão.kicad_sch",
+        "name": "RMII_expansão",
+        "uuid": "03882c7f-4c9a-440f-b893-3aa618650b49"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J19-20,D7-8,#PWR26,#PWR33,#PWR41-42,#PWR66,#PWR73-74,#PWR76-77,#PWR93-94,#PWR128,#PWR130-131,#PWR161,#PWR184-186,U8,F11,FB4-5,CN3-4,C10,C12,C99,C102",
     "variants": []
   },
   "sheets": [
@@ -805,6 +810,10 @@
     [
       "83e46faa-3b31-4ec5-9d35-6fcd740dc154",
       "driver_nmos3"
+    ],
+    [
+      "03882c7f-4c9a-440f-b893-3aa618650b49",
+      "RMII_expansão"
     ]
   ],
   "text_variables": {},
