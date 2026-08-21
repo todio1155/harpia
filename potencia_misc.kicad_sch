@@ -4341,6 +4341,12 @@
 		(uuid "14e31d4b-2434-4b00-9d01-bafe5892acb3")
 	)
 	(junction
+		(at 56.515 205.105)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "287d4a98-dab0-4cc6-9a53-bf98a575a86a")
+	)
+	(junction
 		(at 260.35 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4447,10 +4453,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9334855-3964-4f26-9c19-4553d7696377")
-	)
-	(no_connect
-		(at 54.61 157.48)
-		(uuid "0e1a7a41-cd41-4dd2-beab-6a5fa61141d4")
 	)
 	(no_connect
 		(at 54.61 177.8)
@@ -4649,6 +4651,16 @@
 			(type default)
 		)
 		(uuid "7125db0b-ceed-4eac-8f10-9d4265ebaf17")
+	)
+	(wire
+		(pts
+			(xy 55.88 205.105) (xy 56.515 205.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740041ec-3b28-4a41-a2a3-2e65167763f5")
 	)
 	(wire
 		(pts
@@ -5014,6 +5026,30 @@
 			)
 		)
 	)
+	(global_label "ATX_PWR"
+		(shape input)
+		(at 55.88 205.105 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f115db1-b334-4b52-aa58-45583b1e60be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.6701 205.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Fan_2"
 		(shape input)
 		(at 246.38 158.75 180)
@@ -5038,9 +5074,33 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 41.91 196.215 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45110597-d7c8-4d03-b2e9-93ee601fa8bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 189.3593 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "hotbed"
 		(shape input)
-		(at 62.23 162.56 90)
+		(at 67.945 162.56 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5050,7 +5110,7 @@
 		)
 		(uuid "53a03a08-d5f1-4335-9787-7994a25eb735")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 153.1645 90)
+			(at 67.945 153.1645 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5230,6 +5290,30 @@
 			)
 		)
 	)
+	(global_label "ATX_PWR"
+		(shape input)
+		(at 54.61 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fbec34f9-7b9d-4678-ab2f-1131056a4ca1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.8199 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(rule_area
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5261,7 +5345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0771e9ef-dc7b-4edf-9304-d48a664eb721")
-		(property "Reference" "#PWR0305"
+		(property "Reference" "#PWR0149"
 			(at 46.99 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5321,7 +5405,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0305")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -5339,7 +5423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09e1c5a6-e655-42b6-a9bc-acaa6cb77ffd")
-		(property "Reference" "#PWR0189"
+		(property "Reference" "#PWR0190"
 			(at 275.59 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5399,7 +5483,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0189")
+					(reference "#PWR0190")
 					(unit 1)
 				)
 			)
@@ -5417,7 +5501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b22cdab-4025-4229-93ad-ffc1fe6c88f0")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR0161"
 			(at 81.915 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -5477,7 +5561,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0156")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -5494,7 +5578,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e723b6a-9fec-49b2-b168-d0389d669ccd")
-		(property "Reference" "R89"
+		(property "Reference" "R72"
 			(at 57.404 34.036 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5558,7 +5642,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R89")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -5576,7 +5660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ee31a9e-e70f-45eb-9761-d62b647a28d4")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR0171"
 			(at 127.635 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -5636,7 +5720,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0157")
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
@@ -5654,7 +5738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11b757ae-7b6c-4785-b277-1eb89e0c9330")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR0160"
 			(at 80.01 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5714,7 +5798,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0174")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -5795,6 +5879,124 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 69.215 205.105 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1485c556-ac8a-44c8-a2ce-1a1dd572d086")
+		(property "Reference" "Q1"
+			(at 74.93 203.8349 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 74.93 206.3749 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.295 202.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 69.215 217.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 69.215 205.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 69.215 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 69.215 224.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 69.215 220.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92b46b2f-9f9b-4d6b-afb2-c76edb99cfec")
+		)
+		(pin "3"
+			(uuid "8f89f805-1f9e-4d9f-a3ac-80ad15d19917")
+		)
+		(pin "2"
+			(uuid "5f15ded7-f33c-4900-829a-f29ba40a4c20")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -5888,7 +6090,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1981a135-b7fd-4f2e-a13a-3862c8450711")
-		(property "Reference" "C31"
+		(property "Reference" "C56"
 			(at 66.294 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5985,7 +6187,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "C31")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -6003,7 +6205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a8389ff-dc33-4b51-9cf1-5bd942d0d1b4")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 279.4 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6103,7 +6305,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -6121,7 +6323,7 @@
 		(dnp no)
 		(uuid "1fe03b1a-1965-429a-a5b1-23319562088d")
 		(property "Reference" "FB3"
-			(at 70.485 161.29 90)
+			(at 72.39 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6233,7 +6435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "242fee51-0163-476c-ae03-32163b632889")
-		(property "Reference" "#PWR0311"
+		(property "Reference" "#PWR0148"
 			(at 43.18 10.16 0)
 			(hide yes)
 			(show_name no)
@@ -6293,7 +6495,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0311")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -6404,7 +6606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "275948c7-e9e4-4fde-b926-52e86cb05d60")
-		(property "Reference" "C15"
+		(property "Reference" "C58"
 			(at 93.98 25.4062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6479,7 +6681,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "C15")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -6496,7 +6698,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28c97cb1-ad9f-4503-869f-da624a6675a9")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 63.5 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6560,7 +6762,85 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "D2")
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 71.755 192.405 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28d29a79-8966-42af-bdcb-12d647300559")
+		(property "Reference" "#PWR0154"
+			(at 71.755 196.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 71.755 187.325 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.755 192.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.755 192.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 71.755 192.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14f01fb3-0e5d-4973-a4fe-6a88484472bd")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -6577,7 +6857,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29362a42-9366-4f8c-b7ea-441f61a86eee")
-		(property "Reference" "R44"
+		(property "Reference" "R79"
 			(at 262.382 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6641,7 +6921,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R44")
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -6659,7 +6939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b3c5374-3e86-447e-9cd0-4a02ee4b172f")
-		(property "Reference" "#PWR0312"
+		(property "Reference" "#PWR0175"
 			(at 139.7 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6719,7 +6999,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0312")
+					(reference "#PWR0175")
 					(unit 1)
 				)
 			)
@@ -6737,7 +7017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f805c1b-6050-4ceb-b5da-37bf4c97b896")
-		(property "Reference" "F3"
+		(property "Reference" "F7"
 			(at 87.63 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6811,7 +7091,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "F3")
+					(reference "F7")
 					(unit 1)
 				)
 			)
@@ -6828,7 +7108,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "325c4ed6-5706-46cf-a8e5-77f7312a34f5")
-		(property "Reference" "R88"
+		(property "Reference" "R71"
 			(at 58.166 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6892,7 +7172,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R88")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -6910,7 +7190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3789465e-f304-4b4e-b6d9-db83997f74f7")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0158"
 			(at 69.215 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -7004,7 +7284,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR01")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -7022,7 +7302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37edb44a-81cf-4b05-803b-692ca8a850b5")
-		(property "Reference" "M1"
+		(property "Reference" "M3"
 			(at 283.21 191.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7086,7 +7366,85 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "M1")
+					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.755 210.185 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47d66107-b186-4c04-a1dd-3152b0336a57")
+		(property "Reference" "#PWR0155"
+			(at 71.755 216.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.755 214.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.755 210.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.755 210.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.755 210.185 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3885afff-ebcc-4fdb-9baf-1e444b58363b")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -7103,7 +7461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49bf08f3-1967-45b0-a58f-08446e615f62")
-		(property "Reference" "#PWR0180"
+		(property "Reference" "#PWR0191"
 			(at 275.59 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -7163,7 +7521,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0180")
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -7180,7 +7538,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4aaa5def-d084-4ecd-93d6-45119f4e4d24")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0181"
 			(at 260.35 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7240,7 +7598,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0168")
+					(reference "#PWR0181")
 					(unit 1)
 				)
 			)
@@ -7258,7 +7616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ac2893f-93cd-4844-aaea-1fa6fa29c90b")
-		(property "Reference" "#PWR0308"
+		(property "Reference" "#PWR0170"
 			(at 119.38 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7318,7 +7676,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0308")
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -7335,7 +7693,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d218851-a2f2-4464-a6df-84626a2d6330")
-		(property "Reference" "JP5"
+		(property "Reference" "JP2"
 			(at 74.422 45.212 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7399,7 +7757,89 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "JP5")
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 71.755 196.215 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "522e0465-5134-47d4-8e59-d123773ceee6")
+		(property "Reference" "R75"
+			(at 73.66 194.9449 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1kΩ"
+			(at 73.66 197.4849 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.533 196.215 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.755 196.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.755 196.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db8a7c49-b4fa-4796-a051-25aef5fb9a4a")
+		)
+		(pin "2"
+			(uuid "30ca0869-2bb4-46c2-8986-b4aa3c1b5323")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -7416,7 +7856,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53ca2faa-d6f3-40d9-a3d6-e2dc483824cb")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR0189"
 			(at 275.59 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7476,7 +7916,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0178")
+					(reference "#PWR0189")
 					(unit 1)
 				)
 			)
@@ -7494,7 +7934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54248e0f-3c77-4e03-90fd-fc7cfd5e1ed0")
-		(property "Reference" "R93"
+		(property "Reference" "R77"
 			(at 110.49 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7558,7 +7998,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R93")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -7576,7 +8016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5549ebf0-7bbb-4ae6-af94-c6571622f846")
-		(property "Reference" "#PWR0306"
+		(property "Reference" "#PWR0174"
 			(at 139.7 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7636,7 +8076,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0306")
+					(reference "#PWR0174")
 					(unit 1)
 				)
 			)
@@ -7654,7 +8094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f2d4ee6-b5b3-4bed-a938-4e806f0f9e81")
-		(property "Reference" "#PWR0289"
+		(property "Reference" "#PWR0164"
 			(at 105.41 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7714,7 +8154,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0289")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 			)
@@ -7731,7 +8171,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60199387-5beb-4ce2-b144-891480a0eb35")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR0185"
 			(at 265.43 203.835 0)
 			(hide yes)
 			(show_name no)
@@ -7791,7 +8231,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0183")
+					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
@@ -7809,7 +8249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61acc607-2b70-4bed-bfe0-1e94b2f497b1")
-		(property "Reference" "C6"
+		(property "Reference" "C57"
 			(at 76.2 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7884,7 +8324,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "C6")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -7901,7 +8341,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6271d721-43a5-4b37-8f09-4b7131170d68")
-		(property "Reference" "#PWR0286"
+		(property "Reference" "#PWR0180"
 			(at 157.48 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -7994,7 +8434,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0286")
+					(reference "#PWR0180")
 					(unit 1)
 				)
 			)
@@ -8012,7 +8452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "632afaea-6f82-4555-b66c-e94d512961f8")
-		(property "Reference" "Q3"
+		(property "Reference" "Q4"
 			(at 279.4 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8112,7 +8552,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "Q3")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -8130,7 +8570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a0b2963-29c7-4b02-a3eb-efdd1a8e425b")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR0159"
 			(at 74.93 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8190,7 +8630,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0155")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -8208,7 +8648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bcb7c6d-7807-4a2a-89b8-4faa8617ec1e")
-		(property "Reference" "#PWR0307"
+		(property "Reference" "#PWR0145"
 			(at 36.83 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8268,7 +8708,89 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0307")
+					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 56.515 208.915 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d366432-260d-44d3-80ba-6168b8e65792")
+		(property "Reference" "R73"
+			(at 58.42 207.6449 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 58.42 210.1849 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.293 208.915 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 56.515 208.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 56.515 208.915 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b669ff8-8564-4850-b8cf-4f63bfeef39f")
+		)
+		(pin "2"
+			(uuid "18e3b1a1-eb48-41da-b9a7-9e78b5f2d441")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -8286,7 +8808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6eac988c-2992-4d09-a7b0-a4cc8bfbf040")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR0163"
 			(at 93.345 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8346,7 +8868,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0159")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -8363,7 +8885,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "717e9130-7eb8-42cb-a07f-3a1e277cc569")
-		(property "Reference" "TP11"
+		(property "Reference" "TP13"
 			(at 25.4 108.4579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8424,7 +8946,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "TP11")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -8441,7 +8963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "763fcc8f-738d-439e-bce6-405757fab984")
-		(property "Reference" "C101"
+		(property "Reference" "C54"
 			(at 45.974 20.828 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8538,7 +9060,87 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "C101")
+					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.325 205.105 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7800b74f-22e3-467f-9d73-4779539d31dd")
+		(property "Reference" "R74"
+			(at 60.325 199.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 60.325 201.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.325 206.883 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.325 205.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.325 205.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7580b3cd-74dc-4f9c-8cdf-d137124d0aae")
+		)
+		(pin "2"
+			(uuid "bf046656-ee2a-4831-84cd-aa2330bee908")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -8556,7 +9158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ad7d170-dd1c-4935-890b-3e31eff2b92f")
-		(property "Reference" "M3"
+		(property "Reference" "M2"
 			(at 280.67 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8620,7 +9222,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "M3")
+					(reference "M2")
 					(unit 1)
 				)
 			)
@@ -8637,7 +9239,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e1db101-1dc4-43e2-bed4-8e43865144f7")
-		(property "Reference" "C49"
+		(property "Reference" "C53"
 			(at 39.116 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8701,7 +9303,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "C49")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -8719,7 +9321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "836e4914-5735-44e8-8ab2-49cfcef84370")
-		(property "Reference" "TP13"
+		(property "Reference" "TP14"
 			(at 77.47 136.3979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8780,7 +9382,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "TP13")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -8798,7 +9400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b76923c-d693-4227-857a-bbef7d75b434")
-		(property "Reference" "#PWR0303"
+		(property "Reference" "#PWR0153"
 			(at 64.77 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8858,7 +9460,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0303")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -8875,7 +9477,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bdd5ed2-1d36-47cf-b8b9-31d49d8c6178")
-		(property "Reference" "#PWR0176"
+		(property "Reference" "#PWR0182"
 			(at 260.35 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8935,7 +9537,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0176")
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
@@ -8953,7 +9555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ca3861f-5e47-4f25-aeca-26e2d45cf778")
-		(property "Reference" "#PWR0304"
+		(property "Reference" "#PWR0156"
 			(at 72.39 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9013,7 +9615,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0304")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -9031,7 +9633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dd6d635-7190-4bc9-887d-c5e26bcfae85")
-		(property "Reference" "C94"
+		(property "Reference" "C59"
 			(at 109.22 145.1609 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9139,7 +9741,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "C94")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -9156,7 +9758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8eb28c3c-454d-42f0-b760-8ab722030902")
-		(property "Reference" "C100"
+		(property "Reference" "C61"
 			(at 122.174 25.908 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9253,7 +9855,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "C100")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -9271,7 +9873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "900e79f5-7ec7-4b5a-b398-e9c80cd34421")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0178"
 			(at 155.575 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -9331,7 +9933,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0164")
+					(reference "#PWR0178")
 					(unit 1)
 				)
 			)
@@ -9348,7 +9950,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96540481-b280-4014-b16d-74ebb20856f6")
-		(property "Reference" "#PWR0179"
+		(property "Reference" "#PWR0183"
 			(at 260.35 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -9408,7 +10010,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0179")
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
@@ -9426,7 +10028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9685d8c0-57f9-412f-a637-a81ebaf77a5e")
-		(property "Reference" "C61"
+		(property "Reference" "C60"
 			(at 118.745 160.6549 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9523,7 +10125,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "C61")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -9541,7 +10143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9866e3f7-e6c3-41dc-9f5f-bd54ae04d41b")
-		(property "Reference" "Q4"
+		(property "Reference" "Q5"
 			(at 279.4 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9641,7 +10243,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "Q4")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -9659,7 +10261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a1b85df-bbca-4416-a885-88a4b154937c")
-		(property "Reference" "R90"
+		(property "Reference" "R78"
 			(at 110.49 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9723,7 +10325,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R90")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -9741,7 +10343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b251c84-e0fb-4ee1-a458-6389adbb5069")
-		(property "Reference" "#PWR0173"
+		(property "Reference" "#PWR0166"
 			(at 107.95 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9801,7 +10403,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0173")
+					(reference "#PWR0166")
 					(unit 1)
 				)
 			)
@@ -9819,7 +10421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b6b3b5c-8ce1-468c-b156-692bf801b754")
-		(property "Reference" "F9"
+		(property "Reference" "F4"
 			(at 29.845 17.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9882,7 +10484,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "F9")
+					(reference "F4")
 					(unit 1)
 				)
 			)
@@ -9900,7 +10502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b94724a-7173-4998-a3f9-c04421d1048c")
-		(property "Reference" "D7"
+		(property "Reference" "D4"
 			(at 142.24 31.7499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9964,7 +10566,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "D7")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9981,7 +10583,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cfaec86-3f7b-4b8c-8bb9-a18d087cc30e")
-		(property "Reference" "C51"
+		(property "Reference" "C55"
 			(at 49.276 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10045,7 +10647,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "C51")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -10063,7 +10665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e7df225-140e-4bcc-80fd-aa8892c1e9df")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR0151"
 			(at 55.88 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10123,7 +10725,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0302")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -10140,7 +10742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f5c4a5c-63e7-4f32-b185-50bf5e8c678a")
-		(property "Reference" "R45"
+		(property "Reference" "R80"
 			(at 262.382 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10204,7 +10806,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R45")
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -10221,7 +10823,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4717a8a-eef0-496a-ab2e-aa007b2d25ba")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR0172"
 			(at 127.635 172.085 0)
 			(hide yes)
 			(show_name no)
@@ -10281,7 +10883,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0158")
+					(reference "#PWR0172")
 					(unit 1)
 				)
 			)
@@ -10299,7 +10901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4e069cc-8f57-4b06-9d4c-48c0b3b166f4")
-		(property "Reference" "C69"
+		(property "Reference" "C67"
 			(at 269.24 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10396,7 +10998,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "C69")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -10414,7 +11016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5e07639-94f4-470c-a690-04f34f8c4b79")
-		(property "Reference" "#PWR0187"
+		(property "Reference" "#PWR0188"
 			(at 275.59 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -10474,7 +11076,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0187")
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
@@ -10492,7 +11094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a91ebbb5-e009-405d-bf7f-d0d402f1e0b1")
-		(property "Reference" "C64"
+		(property "Reference" "C65"
 			(at 145.415 160.6549 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10589,7 +11191,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "C64")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -10607,7 +11209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa5bf8f1-cec2-40e8-8f7b-73dad49be639")
-		(property "Reference" "F4"
+		(property "Reference" "F8"
 			(at 278.13 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10671,7 +11273,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "F4")
+					(reference "F8")
 					(unit 1)
 				)
 			)
@@ -10689,7 +11291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af3ea1c1-7f3b-4ffa-979c-528b5e0af938")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0176"
 			(at 141.605 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -10749,7 +11351,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0162")
+					(reference "#PWR0176")
 					(unit 1)
 				)
 			)
@@ -10767,7 +11369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b03b932e-5916-40c3-8c90-bdbe5de57c4f")
-		(property "Reference" "#PWR0177"
+		(property "Reference" "#PWR0192"
 			(at 278.13 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -10827,7 +11429,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0177")
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -10845,7 +11447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0bf7082-3c75-46d3-9f85-5d1e33f27afc")
-		(property "Reference" "F10"
+		(property "Reference" "F5"
 			(at 58.42 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10908,7 +11510,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "F10")
+					(reference "F5")
 					(unit 1)
 				)
 			)
@@ -10926,7 +11528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b564d7a8-c494-4a54-a463-6d43e45c9669")
-		(property "Reference" "TP15"
+		(property "Reference" "TP16"
 			(at 160.02 14.4779 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10987,7 +11589,85 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "TP15")
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 196.215 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b62e1a86-bd52-428c-9596-4104e2eec4f4")
+		(property "Reference" "#PWR0147"
+			(at 41.91 202.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 201.295 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 196.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 196.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 196.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "948a1ef7-fe24-4d13-8e11-209920ba1e73")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -11005,7 +11685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7bd3745-0be2-43f5-9bdb-9971b5038853")
-		(property "Reference" "R49"
+		(property "Reference" "R84"
 			(at 278.13 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11069,7 +11749,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R49")
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -11087,7 +11767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8c3aab0-ea04-4b8b-bdb3-7e7c41d5dde2")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR0162"
 			(at 88.9 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -11147,7 +11827,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0160")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -11165,7 +11845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdc3c4fb-1ef6-4def-8063-c1a091c72826")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0144"
 			(at 20.955 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11225,7 +11905,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0145")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -11242,7 +11922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c17d4a16-60f9-48e5-9854-179c5efcf171")
-		(property "Reference" "C71"
+		(property "Reference" "C69"
 			(at 260.35 145.796 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11339,7 +12019,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "C71")
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -11356,7 +12036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c282217c-8da4-44c4-ab2a-c3b2f30307c0")
-		(property "Reference" "C97"
+		(property "Reference" "C62"
 			(at 121.666 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11420,7 +12100,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "C97")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -11437,7 +12117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5c531fc-1acf-4b57-a061-85ed5b1af3fc")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0177"
 			(at 141.605 172.085 0)
 			(hide yes)
 			(show_name no)
@@ -11497,7 +12177,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0163")
+					(reference "#PWR0177")
 					(unit 1)
 				)
 			)
@@ -11515,7 +12195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca2179b7-3d3c-43b3-8429-a857b432a092")
-		(property "Reference" "R92"
+		(property "Reference" "R76"
 			(at 110.49 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11579,7 +12259,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R92")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -11597,7 +12277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb0aaead-b926-487a-8e31-afa42943d818")
-		(property "Reference" "M2"
+		(property "Reference" "M1"
 			(at 280.67 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11661,7 +12341,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "M2")
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -11678,7 +12358,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cccf4ef3-a992-42e0-84b3-ced84d3ef2c6")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR0168"
 			(at 114.935 172.085 0)
 			(hide yes)
 			(show_name no)
@@ -11738,7 +12418,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0154")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
@@ -11755,7 +12435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d18b8445-6902-4b00-a71b-a58221c8cfac")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR0186"
 			(at 275.59 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -11815,7 +12495,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0169")
+					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
@@ -11832,7 +12512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1bc6f08-a90b-4cb4-9aaa-ef321b0b4ad2")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR0179"
 			(at 155.575 172.085 0)
 			(hide yes)
 			(show_name no)
@@ -11892,7 +12572,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0165")
+					(reference "#PWR0179")
 					(unit 1)
 				)
 			)
@@ -11909,7 +12589,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d785cf23-d92d-479a-8133-18327433db82")
-		(property "Reference" "R46"
+		(property "Reference" "R81"
 			(at 262.382 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11973,7 +12653,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R46")
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -11991,7 +12671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc8fdaea-355a-46eb-81fd-9bda08b19302")
-		(property "Reference" "C65"
+		(property "Reference" "C66"
 			(at 159.385 159.7659 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12099,7 +12779,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "C65")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -12116,7 +12796,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "deb0b01d-8b76-4e7e-ba3f-347f0d239ba8")
-		(property "Reference" "#PWR0182"
+		(property "Reference" "#PWR0193"
 			(at 278.13 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -12176,7 +12856,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0182")
+					(reference "#PWR0193")
 					(unit 1)
 				)
 			)
@@ -12194,7 +12874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df032572-0a67-418f-9b20-646a9f11f227")
-		(property "Reference" "#PWR0309"
+		(property "Reference" "#PWR0173"
 			(at 129.54 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12254,7 +12934,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0309")
+					(reference "#PWR0173")
 					(unit 1)
 				)
 			)
@@ -12271,7 +12951,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e098321e-0403-4de2-b27c-72e4c10a6cd7")
-		(property "Reference" "C98"
+		(property "Reference" "C64"
 			(at 131.826 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12335,7 +13015,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "C98")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -12352,7 +13032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1622983-212c-4120-a5ff-5fe3b07fc359")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR0152"
 			(at 62.23 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -12412,7 +13092,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0166")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -12430,7 +13110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5440632-a8e8-4620-8a1b-42e309074dc9")
-		(property "Reference" "TP14"
+		(property "Reference" "TP15"
 			(at 91.44 136.3979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12491,7 +13171,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "TP14")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -12509,7 +13189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e57550db-960c-4812-b6dc-01dc72fad1a9")
-		(property "Reference" "F2"
+		(property "Reference" "F6"
 			(at 77.47 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12571,7 +13251,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "F2")
+					(reference "F6")
 					(unit 1)
 				)
 			)
@@ -12589,7 +13269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5c09001-8a6a-4069-a954-f40360fb0626")
-		(property "Reference" "U9"
+		(property "Reference" "U8"
 			(at 80.01 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12702,7 +13382,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "U9")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -12719,7 +13399,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb543c36-7d51-48b0-83d6-3091230718cd")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR0157"
 			(at 72.39 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -12779,7 +13459,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0167")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -12797,7 +13477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed06e125-eafa-471d-a309-4a308d7679d4")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 41.91 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12969,7 +13649,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -12986,7 +13666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed496074-8838-44c9-b132-19db163a411b")
-		(property "Reference" "#PWR0290"
+		(property "Reference" "#PWR0165"
 			(at 105.41 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -13046,7 +13726,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0290")
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
@@ -13063,7 +13743,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eee7315e-9b59-4ba4-af80-e8b85455298c")
-		(property "Reference" "C70"
+		(property "Reference" "C68"
 			(at 260.35 108.966 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13160,7 +13840,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "C70")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -13177,7 +13857,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f32c8c19-af4e-4d6d-b9f4-3fe116a74b20")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR0146"
 			(at 41.91 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -13237,7 +13917,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0151")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -13254,7 +13934,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f51f5083-2812-4d14-9852-aeaf117de6cb")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR0187"
 			(at 275.59 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -13314,7 +13994,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0170")
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -13332,7 +14012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f708f233-ebe5-4052-8d75-ad8860b003e8")
-		(property "Reference" "R48"
+		(property "Reference" "R83"
 			(at 278.13 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13396,7 +14076,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R48")
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -13414,7 +14094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7bf4537-9dd3-4665-a07e-2dba6c47a050")
-		(property "Reference" "Q2"
+		(property "Reference" "Q3"
 			(at 279.4 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13514,7 +14194,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "Q2")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -13532,7 +14212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9076525-7fd7-45b2-8b0c-d130f0b45a8b")
-		(property "Reference" "#PWR0310"
+		(property "Reference" "#PWR0169"
 			(at 119.38 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -13592,7 +14272,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0310")
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -13609,7 +14289,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9ada04b-567a-4083-86d7-6b87a919e79b")
-		(property "Reference" "#PWR0181"
+		(property "Reference" "#PWR0184"
 			(at 260.35 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -13669,7 +14349,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0181")
+					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -13687,7 +14367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9d5ea36-01a7-4cea-b5b0-c865fbd73661")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR0167"
 			(at 114.935 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -13747,7 +14427,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0153")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -13764,7 +14444,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd3c65d2-93df-4641-9ada-68a0e220d47b")
-		(property "Reference" "R47"
+		(property "Reference" "R82"
 			(at 262.382 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13828,7 +14508,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "R47")
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -13846,7 +14526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff7fa769-958c-433f-b8a6-769453b08ba9")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 104.14 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13908,7 +14588,7 @@
 		(instances
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)

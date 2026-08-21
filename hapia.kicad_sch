@@ -8400,12 +8400,8 @@
 		(uuid "fc4555b7-d90d-411c-a37d-d8d9293be1a0")
 	)
 	(no_connect
-		(at 77.47 153.67)
-		(uuid "0138bbea-2b1e-4fd2-ac20-f2e4abfe480d")
-	)
-	(no_connect
-		(at 128.27 217.17)
-		(uuid "0871ec00-ef65-4297-be2d-afd0d3dcddde")
+		(at 128.27 125.73)
+		(uuid "066c5573-d732-492b-82f3-a27fd1656422")
 	)
 	(no_connect
 		(at 224.79 58.42)
@@ -8420,108 +8416,80 @@
 		(uuid "2f7d27e6-c9ce-4da1-950a-f95270009e4b")
 	)
 	(no_connect
-		(at 128.27 120.65)
-		(uuid "30177d10-c070-44c5-8d90-d77217661ef9")
+		(at 128.27 123.19)
+		(uuid "3068abbe-3b13-458b-ac1c-9ed00e5953db")
 	)
 	(no_connect
-		(at 128.27 115.57)
-		(uuid "34143035-8551-4ffa-bc00-16afd1a888c9")
+		(at 128.27 143.51)
+		(uuid "3caadaf4-991e-4bd1-8505-c34dbfea603a")
 	)
 	(no_connect
-		(at 77.47 128.27)
-		(uuid "4b279ef6-8c6f-4e98-8b74-5b898a0a19ac")
+		(at 128.27 184.15)
+		(uuid "5209ba6a-8a51-4bc3-a14a-26478ef078df")
 	)
 	(no_connect
-		(at 128.27 168.91)
-		(uuid "682e14f4-3a78-4369-9775-037fcdf9b22f")
+		(at 128.27 214.63)
+		(uuid "71596bc5-7c4b-48ef-bc79-9feed7001713")
 	)
 	(no_connect
-		(at 128.27 125.73)
-		(uuid "7e8ff143-9f54-4662-9df8-aeabac8165cd")
+		(at 77.47 194.31)
+		(uuid "75876a39-8650-4a53-b74c-746162798540")
 	)
 	(no_connect
-		(at 128.27 171.45)
-		(uuid "9bbf3f67-41a4-45a6-96e3-3601d748d4f8")
+		(at 128.27 118.11)
+		(uuid "76d0735f-b6d1-49f2-b12a-7c6411cfe665")
 	)
 	(no_connect
-		(at 128.27 181.61)
-		(uuid "9ddf264d-39d9-40ec-9bed-ea130168501b")
+		(at 128.27 219.71)
+		(uuid "793aa2a0-10f4-4726-bc64-c570e638b064")
+	)
+	(no_connect
+		(at 128.27 217.17)
+		(uuid "89c8eb19-f481-40a2-a533-198cb047c83d")
+	)
+	(no_connect
+		(at 128.27 176.53)
+		(uuid "973b1120-9394-466b-b162-2451bfedd1e3")
 	)
 	(no_connect
 		(at 201.93 66.04)
 		(uuid "a1abcc6f-be91-4b91-950d-f713fa578fb3")
 	)
 	(no_connect
-		(at 128.27 184.15)
-		(uuid "acb1a395-36f8-4523-837f-227935d54b59")
+		(at 77.47 191.77)
+		(uuid "a8d5f9cc-781e-4432-b964-ffacdbf36e0e")
+	)
+	(no_connect
+		(at 128.27 133.35)
+		(uuid "ac4c4252-6ac7-45fe-aebc-8b54fa0353c7")
 	)
 	(no_connect
 		(at 69.215 43.18)
 		(uuid "aeab596c-5290-479d-a3f9-a7625f006e0d")
 	)
 	(no_connect
-		(at 77.47 123.19)
-		(uuid "b49d22ca-b190-458f-b85f-750a3dacb4b1")
-	)
-	(no_connect
-		(at 128.27 214.63)
-		(uuid "be4f9832-6fa2-443f-9651-33c00cd9b26d")
-	)
-	(no_connect
-		(at 128.27 176.53)
-		(uuid "c8adb370-680c-41d2-b7ad-1ad84d1b91e9")
-	)
-	(no_connect
-		(at 128.27 189.23)
-		(uuid "c8c0c473-ea1c-4c61-9d90-4ee081f4c343")
-	)
-	(no_connect
-		(at 128.27 204.47)
-		(uuid "cb6969cd-60d1-4c5e-9e74-b8f987c9271c")
+		(at 128.27 163.83)
+		(uuid "b2c75f16-ffbd-4359-ae9c-0e0e2a87c1f6")
 	)
 	(no_connect
 		(at 128.27 173.99)
 		(uuid "d271fce6-a919-4523-80d3-d03ac5a989ef")
 	)
 	(no_connect
-		(at 77.47 130.81)
-		(uuid "d35448bf-1df1-45dd-bcc9-4c4fd715306f")
-	)
-	(no_connect
-		(at 128.27 118.11)
-		(uuid "d7742404-9fa7-44ff-a402-d73bc9d683e8")
-	)
-	(no_connect
-		(at 77.47 156.21)
-		(uuid "d9b1ff91-60be-4951-b25e-e4a2939d8fa5")
-	)
-	(no_connect
-		(at 128.27 123.19)
-		(uuid "dc1a2abc-f94c-400c-a47b-ec4a3ff06071")
-	)
-	(no_connect
-		(at 77.47 133.35)
-		(uuid "de66d687-9f53-409c-880e-f2f2c381d11c")
-	)
-	(no_connect
-		(at 128.27 219.71)
-		(uuid "e380a725-1b75-480a-bc06-b5f54888015b")
+		(at 77.47 189.23)
+		(uuid "d5a66858-cf96-41bc-801d-4b1a005ce96f")
 	)
 	(no_connect
 		(at 260.35 43.18)
 		(uuid "e9eb25aa-c45c-41ce-932c-9757b82f7f4c")
 	)
 	(no_connect
-		(at 77.47 125.73)
-		(uuid "ea1d72d2-9ee9-473f-97d0-a584055b042e")
+		(at 128.27 120.65)
+		(uuid "f545cf21-6351-4283-80ca-113b7ae8da5c")
 	)
 	(no_connect
-		(at 154.94 165.735)
-		(uuid "f54308c1-14ab-4611-8a67-4bce141fca06")
-	)
-	(no_connect
-		(at 128.27 186.69)
-		(uuid "fa87d1a9-183f-4e01-a0c2-85e56adef0b3")
+		(at 128.27 115.57)
+		(uuid "f7b84f34-c1f1-463e-9479-bc9098e3ab6b")
 	)
 	(wire
 		(pts
@@ -8562,6 +8530,16 @@
 			(type default)
 		)
 		(uuid "08fdeae5-98ba-44a6-afc3-3d973dd9d55e")
+	)
+	(wire
+		(pts
+			(xy 45.085 67.31) (xy 45.085 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a3525d9-14a0-48aa-ad9b-0da384bb61c9")
 	)
 	(wire
 		(pts
@@ -8866,6 +8844,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 189.23) (xy 136.525 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84d49438-94d4-427e-a97d-a733d2f01fe1")
+	)
+	(wire
+		(pts
 			(xy 24.13 96.52) (xy 24.13 95.25)
 		)
 		(stroke
@@ -9107,6 +9095,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 95.25) (xy 139.065 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f758c867-a12e-4c68-b341-8986d9a821d5")
+	)
+	(wire
+		(pts
 			(xy 107.95 85.09) (xy 110.49 85.09)
 		)
 		(stroke
@@ -9117,7 +9115,7 @@
 	)
 	(global_label "SWD{slash}jtag_rst"
 		(shape input)
-		(at 128.27 148.59 0)
+		(at 128.27 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9127,7 +9125,7 @@
 		)
 		(uuid "029db724-5fa1-4bb9-932f-aa939c462aad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.6527 148.59 0)
+			(at 143.6527 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9141,7 +9139,7 @@
 	)
 	(global_label "gpi_PD5"
 		(shape input)
-		(at 69.85 173.99 180)
+		(at 69.85 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9151,7 +9149,7 @@
 		)
 		(uuid "0794753e-8312-42ce-9e22-81b51383ec57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.2449 173.99 0)
+			(at 59.2449 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9189,7 +9187,7 @@
 	)
 	(global_label "sd_mosi"
 		(shape input)
-		(at 135.89 212.09 0)
+		(at 135.89 201.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9199,7 +9197,7 @@
 		)
 		(uuid "102d891b-a1a8-4d88-9b88-27eeb20f8690")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.4951 212.09 0)
+			(at 146.4951 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9261,7 +9259,7 @@
 	)
 	(global_label "SWD_SWO"
 		(shape input)
-		(at 128.27 146.05 0)
+		(at 128.27 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9271,7 +9269,31 @@
 		)
 		(uuid "16d120a7-4155-45a8-a6f9-3955d738be18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.1451 146.05 0)
+			(at 140.1451 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SUB_RMII_TXD0"
+		(shape input)
+		(at 135.89 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17f53396-8d92-4179-844a-29a2e4eca2dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.208 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9285,17 +9307,17 @@
 	)
 	(global_label "TMC_DIR_3"
 		(shape input)
-		(at 135.89 191.77 0)
+		(at 69.85 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "1c7f8b25-5d6f-490a-834f-5f40a91e795b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.8537 191.77 0)
+			(at 56.8863 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9303,7 +9325,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -9357,7 +9379,7 @@
 	)
 	(global_label "sd_SCK"
 		(shape input)
-		(at 135.89 207.01 0)
+		(at 135.89 196.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9367,7 +9389,7 @@
 		)
 		(uuid "290ed1a8-639f-406d-9ede-5ee067b5a3ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.7694 207.01 0)
+			(at 145.7694 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9381,7 +9403,7 @@
 	)
 	(global_label "TMC_DIR_4"
 		(shape input)
-		(at 69.85 138.43 180)
+		(at 69.85 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9391,7 +9413,7 @@
 		)
 		(uuid "2e4ce40e-f4a7-4bb4-b5ba-3ad7626de058")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.8863 138.43 0)
+			(at 56.8863 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9403,9 +9425,33 @@
 			)
 		)
 	)
+	(global_label "SUB_GPIO_1"
+		(shape input)
+		(at 135.89 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e7856ca-5453-40fc-ac78-5b6cd80257c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.3052 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SUB_3"
 		(shape input)
-		(at 135.89 153.67 0)
+		(at 135.89 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9415,7 +9461,31 @@
 		)
 		(uuid "2ec611d8-5e96-4d65-aa09-adf59e66e65e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.8623 153.67 0)
+			(at 144.8623 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SUB_RMII_TXD1"
+		(shape input)
+		(at 135.89 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "310a5ea6-9400-4b49-a84b-11d3c1be575d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.208 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9451,9 +9521,33 @@
 			)
 		)
 	)
+	(global_label "SUB_RMII_RXD0"
+		(shape input)
+		(at 135.89 191.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "377e1c7c-f92c-4b67-88b0-3b8e45390158")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.5104 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SUB_2"
 		(shape input)
-		(at 135.89 151.13 0)
+		(at 135.89 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9463,7 +9557,7 @@
 		)
 		(uuid "384eb0c8-12bd-4207-9821-1de4123f05cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.8623 151.13 0)
+			(at 144.8623 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9549,17 +9643,17 @@
 	)
 	(global_label "SUB_SCL"
 		(shape input)
-		(at 135.89 163.83 0)
+		(at 69.85 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "489f7c05-da52-4ae4-94e5-e42c6a407171")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.1604 163.83 0)
+			(at 58.5796 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9567,7 +9661,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -9621,17 +9715,17 @@
 	)
 	(global_label "gpi_PD12"
 		(shape input)
-		(at 69.85 191.77 180)
+		(at 135.89 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "4d427bf0-c1fe-4f8d-8a61-b3bcbe41bb76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.0354 191.77 0)
+			(at 147.7046 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9639,13 +9733,37 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SUB_RMII_CRS_DV"
+		(shape input)
+		(at 135.89 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "505c82db-1a2e-4515-b276-75368fe41c26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.6271 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
 	(global_label "NTC_MUX_1"
 		(shape input)
-		(at 77.47 148.59 180)
+		(at 77.47 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9655,7 +9773,7 @@
 		)
 		(uuid "562f2e70-d5b8-4da9-9dfb-7ab7971862a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.7806 148.59 0)
+			(at 63.7806 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9669,31 +9787,7 @@
 	)
 	(global_label "NTC_MUX_out"
 		(shape input)
-		(at 77.47 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5c25a0ba-cc64-4896-a7df-818c7c6176a2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.9664 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SUB_6"
-		(shape input)
-		(at 135.89 161.29 0)
+		(at 128.27 181.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9701,9 +9795,9 @@
 			)
 			(justify left)
 		)
-		(uuid "5f13ae6e-8fb6-4ea8-b3f5-0228b7771ba2")
+		(uuid "5c25a0ba-cc64-4896-a7df-818c7c6176a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.8623 161.29 0)
+			(at 143.7736 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9715,9 +9809,9 @@
 			)
 		)
 	)
-	(global_label "gpi_PD2"
+	(global_label "SUB_6"
 		(shape input)
-		(at 69.85 166.37 180)
+		(at 69.85 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9725,9 +9819,9 @@
 			)
 			(justify right)
 		)
-		(uuid "6582e1a6-b8d4-42af-8ca2-8d23e9cc21f5")
+		(uuid "5f13ae6e-8fb6-4ea8-b3f5-0228b7771ba2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.2449 166.37 0)
+			(at 60.8777 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9736,6 +9830,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "gpi_PD2"
+		(shape input)
+		(at 135.89 209.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6582e1a6-b8d4-42af-8ca2-8d23e9cc21f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.4951 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -9765,7 +9883,7 @@
 	)
 	(global_label "TMC_uart"
 		(shape input)
-		(at 146.05 95.25 0)
+		(at 146.685 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9775,7 +9893,7 @@
 		)
 		(uuid "6ba9d639-3550-4380-bbcc-9a67f3090e40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.5017 95.25 0)
+			(at 158.1367 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9835,43 +9953,19 @@
 			)
 		)
 	)
-	(global_label "USB_det_2.5v"
-		(shape input)
-		(at 135.89 201.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6d4be7aa-c202-47c8-8747-3e6bbd823f6f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.5751 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "gpi_PD15"
 		(shape input)
-		(at 135.89 196.85 0)
+		(at 69.85 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "6e3d3743-e85a-411f-95d4-3973f67ec49e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.7046 196.85 0)
+			(at 58.0354 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9879,7 +9973,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -10005,7 +10099,7 @@
 	)
 	(global_label "gpi_PD7"
 		(shape input)
-		(at 69.85 179.07 180)
+		(at 69.85 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10015,7 +10109,7 @@
 		)
 		(uuid "782d4527-931b-4679-94e3-5a2b75ad1cbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.2449 179.07 0)
+			(at 59.2449 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10029,17 +10123,17 @@
 	)
 	(global_label "gpi_PD14"
 		(shape input)
-		(at 135.89 199.39 0)
+		(at 69.85 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7a6dd3af-d72e-481f-9e8b-6a7615fd9a1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.7046 199.39 0)
+			(at 58.0354 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10047,13 +10141,13 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
 	(global_label "gpi_PD3"
 		(shape input)
-		(at 69.85 168.91 180)
+		(at 69.85 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10063,7 +10157,7 @@
 		)
 		(uuid "7bbd7698-0b37-42db-b14b-0336c9fc4cb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.2449 168.91 0)
+			(at 59.2449 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10077,7 +10171,7 @@
 	)
 	(global_label "STM_boot"
 		(shape input)
-		(at 45.085 66.04 270)
+		(at 45.085 67.31 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10087,7 +10181,7 @@
 		)
 		(uuid "7c1ef3cb-9594-4c8f-8c1e-698eeeb0ff8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.085 77.794 90)
+			(at 45.085 79.064 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10173,7 +10267,7 @@
 	)
 	(global_label "gpi_PD6"
 		(shape input)
-		(at 69.85 176.53 180)
+		(at 69.85 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10183,7 +10277,7 @@
 		)
 		(uuid "82f77a2e-c3f0-48c3-ae00-586814e21526")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.2449 176.53 0)
+			(at 59.2449 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10221,7 +10315,7 @@
 	)
 	(global_label "NTC_MUX_0"
 		(shape input)
-		(at 77.47 146.05 180)
+		(at 77.47 181.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10231,7 +10325,7 @@
 		)
 		(uuid "89606861-c501-43d0-8ced-b125d38e0bcb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.7806 146.05 0)
+			(at 63.7806 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10245,7 +10339,7 @@
 	)
 	(global_label "cont_sd"
 		(shape input)
-		(at 69.85 120.65 180)
+		(at 69.85 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10255,7 +10349,7 @@
 		)
 		(uuid "8bd6a98f-b801-4b02-b11d-98fd98209e75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.6078 120.65 0)
+			(at 59.6078 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10269,7 +10363,7 @@
 	)
 	(global_label "sd_miso"
 		(shape input)
-		(at 135.89 209.55 0)
+		(at 135.89 199.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10279,7 +10373,7 @@
 		)
 		(uuid "92db5958-ebe2-4109-83a5-e4f09bfee428")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.4951 209.55 0)
+			(at 146.4951 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10293,30 +10387,6 @@
 	)
 	(global_label "gpi_PD4"
 		(shape input)
-		(at 69.85 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9dc955c3-c7be-41af-895b-9e4a8d3d0717")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.2449 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "gpi_PD1"
-		(shape input)
 		(at 69.85 163.83 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10325,7 +10395,7 @@
 			)
 			(justify right)
 		)
-		(uuid "9ff2f63c-6914-4fbe-a5c8-6c6966bf402e")
+		(uuid "9dc955c3-c7be-41af-895b-9e4a8d3d0717")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 59.2449 163.83 0)
 			(hide yes)
@@ -10339,9 +10409,33 @@
 			)
 		)
 	)
+	(global_label "gpi_PD1"
+		(shape input)
+		(at 135.89 212.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ff2f63c-6914-4fbe-a5c8-6c6966bf402e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.4951 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "sd_cs"
 		(shape input)
-		(at 135.89 133.35 0)
+		(at 135.89 204.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10351,7 +10445,7 @@
 		)
 		(uuid "a171487a-f45d-4d7c-aa95-bcd00fa3f290")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.1366 133.35 0)
+			(at 144.1366 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10365,7 +10459,7 @@
 	)
 	(global_label "SUB_led"
 		(shape input)
-		(at 69.85 118.11 180)
+		(at 69.85 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10375,7 +10469,7 @@
 		)
 		(uuid "a81d9e24-b461-44fb-ba57-80b3fa852ee0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.1844 118.11 0)
+			(at 59.1844 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10437,7 +10531,7 @@
 	)
 	(global_label "gpi_PD8"
 		(shape input)
-		(at 69.85 181.61 180)
+		(at 69.85 173.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10447,7 +10541,7 @@
 		)
 		(uuid "ad5d44aa-2499-4460-b41d-ba3afca112a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.2449 181.61 0)
+			(at 59.2449 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10461,17 +10555,17 @@
 	)
 	(global_label "SUB_SDA"
 		(shape input)
-		(at 135.89 166.37 0)
+		(at 69.85 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "af397e06-6d08-407b-97f8-f25b6c9eec92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.2209 166.37 0)
+			(at 58.5191 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10479,7 +10573,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -10509,17 +10603,17 @@
 	)
 	(global_label "gpi_PD0"
 		(shape input)
-		(at 69.85 161.29 180)
+		(at 135.89 207.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b1e31edb-cc72-45e5-9afe-cfa53c761ba6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.2449 161.29 0)
+			(at 146.4951 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10527,7 +10621,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -10605,17 +10699,17 @@
 	)
 	(global_label "Fan_1"
 		(shape input)
-		(at 135.89 143.51 0)
+		(at 69.85 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "b8acce59-9607-4cfe-82ee-d9e5b76262da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.4389 143.51 0)
+			(at 61.3011 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10623,13 +10717,13 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
 	(global_label "NTC_MUX_2"
 		(shape input)
-		(at 77.47 151.13 180)
+		(at 77.47 186.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10639,7 +10733,7 @@
 		)
 		(uuid "b9d06b8d-83f7-46d7-97e6-149162587bcf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.7806 151.13 0)
+			(at 63.7806 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10648,6 +10742,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "SUB_GPIO_2"
+		(shape input)
+		(at 136.525 189.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bae355a2-ad2e-484f-9200-3b1a3c45009f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.9402 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -10677,7 +10795,7 @@
 	)
 	(global_label "SUB_5"
 		(shape input)
-		(at 135.89 158.75 0)
+		(at 135.89 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10687,7 +10805,7 @@
 		)
 		(uuid "bd4ad370-f2db-4dbc-9aea-e41d01801f03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.8623 158.75 0)
+			(at 144.8623 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10701,7 +10819,7 @@
 	)
 	(global_label "gpi_PD10"
 		(shape input)
-		(at 69.85 186.69 180)
+		(at 69.85 179.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10711,7 +10829,7 @@
 		)
 		(uuid "bfe77b88-f35f-4781-a675-bb0950cc4db6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.0354 186.69 0)
+			(at 58.0354 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10725,7 +10843,7 @@
 	)
 	(global_label "SUB_4"
 		(shape input)
-		(at 135.89 156.21 0)
+		(at 135.89 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10735,7 +10853,7 @@
 		)
 		(uuid "c226f98c-653d-4baf-9659-4bec3d0875b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.8623 156.21 0)
+			(at 144.8623 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10749,17 +10867,17 @@
 	)
 	(global_label "exrtusora"
 		(shape input)
-		(at 135.89 138.43 0)
+		(at 69.85 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c4e518f6-5a57-4f08-8878-16763da73a58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.7651 138.43 0)
+			(at 57.9749 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10767,7 +10885,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -10821,31 +10939,7 @@
 	)
 	(global_label "gpi_PD11"
 		(shape input)
-		(at 69.85 189.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c88628f6-2e9f-4e17-ad08-a921fd7110ae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.0354 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "TMC_step_3"
-		(shape input)
-		(at 135.89 194.31 0)
+		(at 135.89 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10853,9 +10947,9 @@
 			)
 			(justify left)
 		)
-		(uuid "cc2395fa-e6e1-4741-a6c4-a8a3db571d84")
+		(uuid "c88628f6-2e9f-4e17-ad08-a921fd7110ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.7003 194.31 0)
+			(at 147.7046 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10864,6 +10958,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "TMC_step_3"
+		(shape input)
+		(at 69.85 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc2395fa-e6e1-4741-a6c4-a8a3db571d84")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.0397 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -10917,7 +11035,7 @@
 	)
 	(global_label "Fan_2"
 		(shape input)
-		(at 69.85 140.97 180)
+		(at 69.85 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10927,7 +11045,7 @@
 		)
 		(uuid "d54d9529-ea25-4343-a4cc-e8617a776f6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.3011 140.97 0)
+			(at 61.3011 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10941,7 +11059,7 @@
 	)
 	(global_label "TMC_step_4"
 		(shape input)
-		(at 69.85 135.89 180)
+		(at 69.85 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10951,7 +11069,7 @@
 		)
 		(uuid "da38cade-4e1f-4498-b18e-f4e4406c60ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.0397 135.89 0)
+			(at 56.0397 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10963,9 +11081,33 @@
 			)
 		)
 	)
+	(global_label "SUB_RMII_RXD1"
+		(shape input)
+		(at 135.89 194.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfe4bfff-ad59-4acd-9ce5-1404e315eaa7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.5104 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "gpi_PD9"
 		(shape input)
-		(at 69.85 184.15 180)
+		(at 69.85 176.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10975,7 +11117,7 @@
 		)
 		(uuid "e0f248da-66b1-4a48-8f9c-2ca18eee0740")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.2449 184.15 0)
+			(at 59.2449 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11037,7 +11179,55 @@
 	)
 	(global_label "gpi_PD13"
 		(shape input)
-		(at 69.85 194.31 180)
+		(at 135.89 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecf054b3-45c4-49c4-9a95-017416b538ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.7046 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SUB_RMII_TXEN"
+		(shape input)
+		(at 135.89 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2c304b8-db6b-4a77-9f8e-13b280d09735")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.208 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "hot_bed"
+		(shape input)
+		(at 69.85 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11045,9 +11235,9 @@
 			)
 			(justify right)
 		)
-		(uuid "ecf054b3-45c4-49c4-9a95-017416b538ea")
+		(uuid "f40a8f94-b197-4f90-ada3-b2bf179c8f7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.0354 194.31 0)
+			(at 59.4869 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11059,43 +11249,19 @@
 			)
 		)
 	)
-	(global_label "hot_bed"
-		(shape input)
-		(at 135.89 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f40a8f94-b197-4f90-ada3-b2bf179c8f7b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.2531 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "TMC_step_3"
 		(shape input)
-		(at 135.89 113.03 0)
+		(at 69.85 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "fa2946d4-b3c3-4eea-b316-b4890ff82d6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.7003 113.03 0)
+			(at 56.0397 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11103,7 +11269,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -11256,7 +11422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "031fc61b-1737-4fd9-80b4-e4e9f31b3b48")
-		(property "Reference" "R43"
+		(property "Reference" "R1"
 			(at 75.692 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11320,147 +11486,15 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R43")
+					(reference "R1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 73.66 163.83 90)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "069c0422-2b04-44d9-a6fa-248e3b064365")
-		(property "Reference" "RN1"
-			(at 56.642 163.83 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 73.66 163.83 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 73.66 165.862 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 73.66 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ID:" "C713459"
-			(at 73.66 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "ae1f94af-6ed5-46bf-b7e5-b72d732fcda0")
-		)
-		(pin "4"
-			(uuid "93d6e45d-668c-47d4-aa42-7f49bfcdcc5d")
-		)
-		(pin "16"
-			(uuid "2dc19751-3258-43f1-8699-66042ae42227")
-		)
-		(pin "12"
-			(uuid "2d92a492-d4d1-4653-a9a6-30e2dd3485e2")
-		)
-		(pin "8"
-			(uuid "a43080f7-af4a-4eae-a069-b79098952651")
-		)
-		(pin "5"
-			(uuid "5a564968-ec86-44f2-b049-462840b86d2b")
-		)
-		(pin "2"
-			(uuid "c173f603-5c1f-454c-ba5a-79c9b5e8cc99")
-		)
-		(pin "3"
-			(uuid "fe48122d-2d02-4560-ac89-2f4bd3f6300a")
-		)
-		(pin "1"
-			(uuid "79ed1ac7-bd46-4f93-b9ac-31f48a5031f8")
-		)
-		(pin "13"
-			(uuid "bf4408ad-0e75-42d5-a682-814924040b86")
-		)
-		(pin "6"
-			(uuid "d1be7837-bc5c-4dc5-8a5a-9d03c733077d")
-		)
-		(pin "7"
-			(uuid "cb73aa29-870f-4e1e-858c-a47d00526a28")
-		)
-		(pin "15"
-			(uuid "fda56c43-2147-4383-99a1-e96fd8e05c87")
-		)
-		(pin "14"
-			(uuid "7c6d32dd-a33f-414e-93f7-49a5e379c043")
-		)
-		(pin "11"
-			(uuid "46444ced-6324-4843-b371-54fd4e272c7c")
-		)
-		(pin "9"
-			(uuid "14ef5135-536f-48a8-89b3-1d4d4cd5aa5b")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 73.66 161.29 90)
+		(lib_id "Device:R")
+		(at 73.66 128.27 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11468,9 +11502,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "07092dff-1eb9-49f2-b676-4ffb2f877b7b")
-		(property "Reference" "RN1"
-			(at 56.642 161.1993 90)
+		(uuid "0b1c9503-56e8-4a3f-9d03-9bf14e09fe43")
+		(property "Reference" "R5"
+			(at 55.88 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11480,7 +11514,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 73.66 161.29 90)
+			(at 73.406 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11489,8 +11523,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 73.66 163.322 90)
+		(property "Footprint" ""
+			(at 73.66 126.492 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11501,7 +11535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 161.29 0)
+			(at 73.66 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11511,8 +11545,8 @@
 				)
 			)
 		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 73.66 161.29 0)
+		(property "Description" "Resistor"
+			(at 73.66 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11521,70 +11555,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "ID:" "C713459"
-			(at 73.66 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "ae1f94af-6ed5-46bf-b7e5-b72d732fcda1")
-		)
-		(pin "4"
-			(uuid "93d6e45d-668c-47d4-aa42-7f49bfcdcc5e")
-		)
-		(pin "16"
-			(uuid "2dc19751-3258-43f1-8699-66042ae42228")
-		)
-		(pin "12"
-			(uuid "2d92a492-d4d1-4653-a9a6-30e2dd3485e3")
-		)
-		(pin "8"
-			(uuid "a43080f7-af4a-4eae-a069-b79098952652")
-		)
-		(pin "5"
-			(uuid "5a564968-ec86-44f2-b049-462840b86d2c")
 		)
 		(pin "2"
-			(uuid "c173f603-5c1f-454c-ba5a-79c9b5e8cc9a")
-		)
-		(pin "3"
-			(uuid "fe48122d-2d02-4560-ac89-2f4bd3f6300b")
+			(uuid "b0dd7eb7-17df-4c2e-a40a-d44d3f2f0314")
 		)
 		(pin "1"
-			(uuid "79ed1ac7-bd46-4f93-b9ac-31f48a5031f9")
-		)
-		(pin "13"
-			(uuid "bf4408ad-0e75-42d5-a682-814924040b87")
-		)
-		(pin "6"
-			(uuid "d1be7837-bc5c-4dc5-8a5a-9d03c733077e")
-		)
-		(pin "7"
-			(uuid "cb73aa29-870f-4e1e-858c-a47d00526a29")
-		)
-		(pin "15"
-			(uuid "fda56c43-2147-4383-99a1-e96fd8e05c88")
-		)
-		(pin "14"
-			(uuid "7c6d32dd-a33f-414e-93f7-49a5e379c044")
-		)
-		(pin "11"
-			(uuid "46444ced-6324-4843-b371-54fd4e272c7d")
-		)
-		(pin "9"
-			(uuid "14ef5135-536f-48a8-89b3-1d4d4cd5aa5c")
+			(uuid "bc557ec0-fd39-49a8-a4de-de984c27ea61")
 		)
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -11602,7 +11583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d87f3fe-ca41-4f0b-a0e3-34f6c1527d1a")
-		(property "Reference" "J18"
+		(property "Reference" "J1"
 			(at 44.45 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11690,7 +11671,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "J18")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -11698,7 +11679,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 140.97 270)
+		(at 132.08 171.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11706,9 +11687,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "128e735d-60e2-4cd3-82bc-40bee1c8c38d")
-		(property "Reference" "R4"
-			(at 60.198 140.97 90)
+		(uuid "0f34d43d-f402-4c08-a06c-1c2da1ccb6d4")
+		(property "Reference" "R38"
+			(at 155.575 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11718,7 +11699,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 73.406 140.97 90)
+			(at 132.334 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11728,7 +11709,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 139.192 90)
+			(at 132.08 173.228 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11739,7 +11720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 140.97 0)
+			(at 132.08 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11750,7 +11731,86 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 140.97 0)
+			(at 132.08 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c2ac5fb3-9ae8-4a01-b411-740a8d973407")
+		)
+		(pin "1"
+			(uuid "1db3f58a-99de-4a73-86b0-84c9900cc292")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 148.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "128e735d-60e2-4cd3-82bc-40bee1c8c38d")
+		(property "Reference" "R13"
+			(at 60.198 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 73.406 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 146.812 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11769,7 +11829,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R4")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -11777,7 +11837,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 212.09 90)
+		(at 132.08 201.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11786,8 +11846,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "149c6186-52b0-45e3-b6f4-e3527a721ff1")
-		(property "Reference" "R14"
-			(at 148.082 211.582 90)
+		(property "Reference" "R43"
+			(at 148.082 201.422 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11797,7 +11857,7 @@
 			)
 		)
 		(property "Value" "33r"
-			(at 132.08 212.09 90)
+			(at 132.08 201.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11807,7 +11867,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 213.868 90)
+			(at 132.08 203.708 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11818,7 +11878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 212.09 0)
+			(at 132.08 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11829,7 +11889,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 212.09 0)
+			(at 132.08 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11848,7 +11908,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R14")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -11865,7 +11925,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14a1c044-68a2-4ed4-b01f-5146f1685b1c")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR018"
 			(at 76.2 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -11925,7 +11985,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR022")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11942,7 +12002,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15eaa3fa-97be-437d-92ea-de789c5558c1")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR028"
 			(at 138.43 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -12002,7 +12062,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR0171")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -12020,7 +12080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18bc9273-ec15-4caa-a159-2ca458ac908d")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 115.57 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12107,7 +12167,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -12124,7 +12184,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1aa90962-18dd-45a2-b704-4d61297b6e07")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR013"
 			(at 52.07 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -12184,158 +12244,15 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR037")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 132.08 151.13 270)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1cf6e17c-eeac-4e47-9673-37f045f6a92f")
-		(property "Reference" "RN3"
-			(at 147.066 151.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 132.08 151.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 132.08 149.098 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 132.08 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "jlc_pcb/lcsc_ID:" ""
-			(at 132.08 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" ""
-			(at 132.08 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "14"
-			(uuid "99c92c02-0998-4ea7-b5ef-ca6bbe59f12a")
-		)
-		(pin "2"
-			(uuid "4b3f2a6d-641a-4fb0-97eb-e57ab8b34c28")
-		)
-		(pin "15"
-			(uuid "4f2121b4-8119-4925-b0e5-559bd2b68d1d")
-		)
-		(pin "3"
-			(uuid "b405ce75-64c9-473b-b253-73d83781bfea")
-		)
-		(pin "9"
-			(uuid "39b0dbc7-8f95-40f6-836a-8ce1a0e14499")
-		)
-		(pin "12"
-			(uuid "e65905c4-9a7b-47dd-8001-3e8eab6915ea")
-		)
-		(pin "1"
-			(uuid "8ee3e839-c7e9-410f-b42e-7b7005f536ea")
-		)
-		(pin "6"
-			(uuid "1a69af6d-9324-4b27-9329-0e43968aaa11")
-		)
-		(pin "10"
-			(uuid "bcd97511-d0ab-4c29-993b-9cc9f7ae6a0a")
-		)
-		(pin "7"
-			(uuid "56711566-6942-49ac-9734-dd4dfe342a06")
-		)
-		(pin "11"
-			(uuid "f494f768-f36d-4c35-a4d8-15b3846361f5")
-		)
-		(pin "8"
-			(uuid "19ec3ca6-5cd2-44da-8a9c-aff796b4604b")
-		)
-		(pin "16"
-			(uuid "02e6601d-e7e2-4ee3-9209-ddfb585c1434")
-		)
-		(pin "4"
-			(uuid "79b3457d-1eaf-46ad-8e87-fe100735ebe2")
-		)
-		(pin "13"
-			(uuid "7fd218c6-2562-47f3-aef2-857880da3f55")
-		)
-		(pin "5"
-			(uuid "6f16bf78-252d-4099-b1c1-ffa32ba147aa")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 132.08 143.51 90)
+		(at 132.08 209.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12343,9 +12260,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1f40dd50-48b8-4c09-a280-edda609413c1")
-		(property "Reference" "R8"
-			(at 145.288 143.51 90)
+		(uuid "1bdcc41e-82cf-4e12-9520-201ef17f3a74")
+		(property "Reference" "R46"
+			(at 147.955 209.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12355,7 +12272,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 132.334 143.51 90)
+			(at 132.334 209.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12365,7 +12282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 145.288 90)
+			(at 132.08 211.328 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12376,7 +12293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 143.51 0)
+			(at 132.08 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12387,7 +12304,86 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 143.51 0)
+			(at 132.08 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cfb412dd-347d-4843-953a-b6079952ddb5")
+		)
+		(pin "1"
+			(uuid "701f2864-200c-4935-a497-575bc6e8b462")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 135.89 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f40dd50-48b8-4c09-a280-edda609413c1")
+		(property "Reference" "R8"
+			(at 55.245 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 73.406 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 134.112 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12424,7 +12420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "200de2b5-439e-46dd-a255-926f89c74669")
-		(property "Reference" "C13"
+		(property "Reference" "C2"
 			(at 25.4 201.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12488,140 +12484,8 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "C13")
+					(reference "C2")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 73.66 173.99 90)
-		(unit 6)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "20f90d09-35a7-4f9c-b31d-0385020cd44a")
-		(property "Reference" "RN1"
-			(at 56.642 173.6248 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 73.66 173.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 73.66 176.022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 73.66 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ID:" "C713459"
-			(at 73.66 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "ae1f94af-6ed5-46bf-b7e5-b72d732fcda2")
-		)
-		(pin "4"
-			(uuid "93d6e45d-668c-47d4-aa42-7f49bfcdcc5f")
-		)
-		(pin "16"
-			(uuid "2dc19751-3258-43f1-8699-66042ae42229")
-		)
-		(pin "12"
-			(uuid "2d92a492-d4d1-4653-a9a6-30e2dd3485e4")
-		)
-		(pin "8"
-			(uuid "a43080f7-af4a-4eae-a069-b79098952653")
-		)
-		(pin "5"
-			(uuid "5a564968-ec86-44f2-b049-462840b86d2d")
-		)
-		(pin "2"
-			(uuid "c173f603-5c1f-454c-ba5a-79c9b5e8cc9b")
-		)
-		(pin "3"
-			(uuid "fe48122d-2d02-4560-ac89-2f4bd3f6300c")
-		)
-		(pin "1"
-			(uuid "79ed1ac7-bd46-4f93-b9ac-31f48a5031fa")
-		)
-		(pin "13"
-			(uuid "bf4408ad-0e75-42d5-a682-814924040b88")
-		)
-		(pin "6"
-			(uuid "d1be7837-bc5c-4dc5-8a5a-9d03c733077f")
-		)
-		(pin "7"
-			(uuid "cb73aa29-870f-4e1e-858c-a47d00526a2a")
-		)
-		(pin "15"
-			(uuid "fda56c43-2147-4383-99a1-e96fd8e05c89")
-		)
-		(pin "14"
-			(uuid "7c6d32dd-a33f-414e-93f7-49a5e379c045")
-		)
-		(pin "11"
-			(uuid "46444ced-6324-4843-b371-54fd4e272c7e")
-		)
-		(pin "9"
-			(uuid "14ef5135-536f-48a8-89b3-1d4d4cd5aa5d")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN1")
-					(unit 6)
 				)
 			)
 		)
@@ -12637,8 +12501,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21960864-adb0-4fb8-9af6-e5eb4a11c2a6")
-		(property "Reference" "RN3"
-			(at 149.606 166.37 90)
+		(property "Reference" "RN1"
+			(at 155.575 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12763,8 +12627,166 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN3")
+					(reference "RN1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 171.45 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "223f2b15-a865-4f1e-83bf-8af6a6ab48a4")
+		(property "Reference" "R21"
+			(at 57.785 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 73.406 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 169.672 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2929a953-d7ed-4ff4-870c-75d13f2f35e9")
+		)
+		(pin "1"
+			(uuid "4428defb-595f-4b66-bc06-7db096feeedf")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 189.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "23646544-cd46-42db-8d2a-40f0489c3657")
+		(property "Reference" "R40"
+			(at 151.765 189.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 132.334 189.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 191.008 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "09fb33d5-c578-4120-838a-1ead39704098")
+		)
+		(pin "1"
+			(uuid "a9fb7558-581f-4a13-9334-3c6bf0445d1a")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R40")
+					(unit 1)
 				)
 			)
 		)
@@ -12780,7 +12802,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "239f3f16-cbeb-4f3c-8adf-c22fc360b7d2")
-		(property "Reference" "TP2"
+		(property "Reference" "TP4"
 			(at 242.57 19.5579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12841,7 +12863,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "TP2")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -12858,7 +12880,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "266d3c54-37fa-47be-98a3-b81a919d41a1")
-		(property "Reference" "RN4"
+		(property "Reference" "RN3"
 			(at 151.638 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12938,7 +12960,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN4")
+					(reference "RN3")
 					(unit 2)
 				)
 			)
@@ -12955,7 +12977,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "281af3e9-de50-41a6-9dca-52d0924bc9fb")
-		(property "Reference" "C29"
+		(property "Reference" "C8"
 			(at 63.246 208.534 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13019,7 +13041,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "C29")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -13036,7 +13058,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29826617-9af9-4373-bb7a-647e20dafdb1")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 26.416 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13133,136 +13155,15 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 73.66 189.23 90)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2a62c188-0c59-443c-bbb8-ab106bc475b7")
-		(property "Reference" "RN2"
-			(at 55.626 189.0872 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 73.66 189.23 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 73.66 191.262 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 73.66 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "ae1f94af-6ed5-46bf-b7e5-b72d732fcda3")
-		)
-		(pin "4"
-			(uuid "2d462b03-afbf-4428-b601-e83f1833853a")
-		)
-		(pin "16"
-			(uuid "2dc19751-3258-43f1-8699-66042ae4222a")
-		)
-		(pin "12"
-			(uuid "2d92a492-d4d1-4653-a9a6-30e2dd3485e5")
-		)
-		(pin "8"
-			(uuid "a43080f7-af4a-4eae-a069-b79098952654")
-		)
-		(pin "5"
-			(uuid "5a564968-ec86-44f2-b049-462840b86d2e")
-		)
-		(pin "2"
-			(uuid "c173f603-5c1f-454c-ba5a-79c9b5e8cc9c")
-		)
-		(pin "3"
-			(uuid "fe48122d-2d02-4560-ac89-2f4bd3f6300d")
-		)
-		(pin "1"
-			(uuid "79ed1ac7-bd46-4f93-b9ac-31f48a5031fb")
-		)
-		(pin "13"
-			(uuid "727b6651-12cd-4b17-8382-52744a185434")
-		)
-		(pin "6"
-			(uuid "d1be7837-bc5c-4dc5-8a5a-9d03c7330780")
-		)
-		(pin "7"
-			(uuid "cb73aa29-870f-4e1e-858c-a47d00526a2b")
-		)
-		(pin "15"
-			(uuid "fda56c43-2147-4383-99a1-e96fd8e05c8a")
-		)
-		(pin "14"
-			(uuid "7c6d32dd-a33f-414e-93f7-49a5e379c046")
-		)
-		(pin "11"
-			(uuid "46444ced-6324-4843-b371-54fd4e272c7f")
-		)
-		(pin "9"
-			(uuid "14ef5135-536f-48a8-89b3-1d4d4cd5aa5e")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN2")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 132.08 199.39 90)
+		(at 132.08 168.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13270,9 +13171,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2cc2169b-4e4f-4a27-ad15-e472ca73615d")
-		(property "Reference" "R10"
-			(at 148.59 199.644 90)
+		(uuid "2c723466-d8e3-4f79-a2d8-9280b80f08f9")
+		(property "Reference" "R37"
+			(at 155.575 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13282,7 +13183,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 132.334 199.39 90)
+			(at 132.334 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13292,7 +13193,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 201.168 90)
+			(at 132.08 170.688 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13303,7 +13204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 199.39 0)
+			(at 132.08 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13314,7 +13215,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 199.39 0)
+			(at 132.08 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13325,15 +13226,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d236190f-4d0c-4f34-9678-728f53362f18")
+			(uuid "d2be5907-bdc2-407d-9b17-f0bf08b7f36c")
 		)
 		(pin "1"
-			(uuid "7bf30538-26db-4814-b74b-b0e2786aad46")
+			(uuid "e4e8d19e-539a-4208-9392-990a5fb2fd87")
 		)
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R10")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -13351,7 +13252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31ed6095-94e4-46ef-9cb0-6cf56edab3ca")
-		(property "Reference" "R19"
+		(property "Reference" "R51"
 			(at 182.88 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13415,15 +13316,15 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R19")
+					(reference "R51")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 73.66 181.61 90)
+		(lib_id "Device:R")
+		(at 132.08 146.05 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13431,9 +13332,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "32898bd1-443b-4fea-adc0-331cb2f509f5")
-		(property "Reference" "RN2"
-			(at 56.642 181.5193 90)
+		(uuid "34e6669a-8e58-4520-94cb-839403929884")
+		(property "Reference" "R30"
+			(at 149.225 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13443,128 +13344,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 73.66 181.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 73.66 183.642 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 73.66 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "ae1f94af-6ed5-46bf-b7e5-b72d732fcda4")
-		)
-		(pin "4"
-			(uuid "93d6e45d-668c-47d4-aa42-7f49bfcdcc60")
-		)
-		(pin "16"
-			(uuid "a1788cca-3799-4619-9f27-a195a90ef31a")
-		)
-		(pin "12"
-			(uuid "2d92a492-d4d1-4653-a9a6-30e2dd3485e6")
-		)
-		(pin "8"
-			(uuid "a43080f7-af4a-4eae-a069-b79098952655")
-		)
-		(pin "5"
-			(uuid "5a564968-ec86-44f2-b049-462840b86d2f")
-		)
-		(pin "2"
-			(uuid "c173f603-5c1f-454c-ba5a-79c9b5e8cc9d")
-		)
-		(pin "3"
-			(uuid "fe48122d-2d02-4560-ac89-2f4bd3f6300e")
-		)
-		(pin "1"
-			(uuid "7f3df050-8ceb-4bc0-ae05-d3f320c59592")
-		)
-		(pin "13"
-			(uuid "bf4408ad-0e75-42d5-a682-814924040b89")
-		)
-		(pin "6"
-			(uuid "d1be7837-bc5c-4dc5-8a5a-9d03c7330781")
-		)
-		(pin "7"
-			(uuid "cb73aa29-870f-4e1e-858c-a47d00526a2c")
-		)
-		(pin "15"
-			(uuid "fda56c43-2147-4383-99a1-e96fd8e05c8b")
-		)
-		(pin "14"
-			(uuid "7c6d32dd-a33f-414e-93f7-49a5e379c047")
-		)
-		(pin "11"
-			(uuid "46444ced-6324-4843-b371-54fd4e272c80")
-		)
-		(pin "9"
-			(uuid "14ef5135-536f-48a8-89b3-1d4d4cd5aa5f")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 132.08 201.93 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3567c957-382b-4a0f-9b0b-729df0c6a2d6")
-		(property "Reference" "R11"
-			(at 154.686 201.93 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 132.334 201.93 90)
+			(at 132.334 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13574,7 +13354,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 203.708 90)
+			(at 132.08 147.828 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13585,7 +13365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 201.93 0)
+			(at 132.08 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13596,7 +13376,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 201.93 0)
+			(at 132.08 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13607,33 +13387,33 @@
 			)
 		)
 		(pin "2"
-			(uuid "3e8bc02f-f5ed-4d89-ae4c-de358eb3ff24")
+			(uuid "10956ef0-c493-4a3a-a7af-66584a30becb")
 		)
 		(pin "1"
-			(uuid "ff490d1c-a32b-4d5e-801e-e4c57e569540")
+			(uuid "eb82c1cb-ecaa-460a-95a9-45ac0bfc1781")
 		)
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R11")
+					(reference "R30")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 132.08 156.21 270)
-		(unit 5)
+		(lib_id "Device:R")
+		(at 73.66 179.07 270)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "383d98a9-6eb0-4aa7-a81a-19a48daf0067")
-		(property "Reference" "RN3"
-			(at 146.812 156.21 90)
+		(uuid "3870f4ea-e5f8-41cc-8a28-7e9fe24805c0")
+		(property "Reference" "R24"
+			(at 56.515 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13643,7 +13423,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 132.08 156.21 90)
+			(at 73.406 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13652,8 +13432,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 132.08 154.178 90)
+		(property "Footprint" ""
+			(at 73.66 177.292 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13664,7 +13444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 156.21 0)
+			(at 73.66 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13674,8 +13454,8 @@
 				)
 			)
 		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 132.08 156.21 0)
+		(property "Description" "Resistor"
+			(at 73.66 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13684,82 +13464,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "jlc_pcb/lcsc_ID:" ""
-			(at 132.08 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" ""
-			(at 132.08 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "14"
-			(uuid "99c92c02-0998-4ea7-b5ef-ca6bbe59f12c")
 		)
 		(pin "2"
-			(uuid "4b3f2a6d-641a-4fb0-97eb-e57ab8b34c2a")
-		)
-		(pin "15"
-			(uuid "4f2121b4-8119-4925-b0e5-559bd2b68d1f")
-		)
-		(pin "3"
-			(uuid "b405ce75-64c9-473b-b253-73d83781bfec")
-		)
-		(pin "9"
-			(uuid "39b0dbc7-8f95-40f6-836a-8ce1a0e1449b")
-		)
-		(pin "12"
-			(uuid "e65905c4-9a7b-47dd-8001-3e8eab6915ec")
+			(uuid "884331d9-ac26-4218-8e43-bb511951bf76")
 		)
 		(pin "1"
-			(uuid "8ee3e839-c7e9-410f-b42e-7b7005f536ec")
-		)
-		(pin "6"
-			(uuid "1a69af6d-9324-4b27-9329-0e43968aaa13")
-		)
-		(pin "10"
-			(uuid "bcd97511-d0ab-4c29-993b-9cc9f7ae6a0c")
-		)
-		(pin "7"
-			(uuid "56711566-6942-49ac-9734-dd4dfe342a08")
-		)
-		(pin "11"
-			(uuid "f494f768-f36d-4c35-a4d8-15b3846361f7")
-		)
-		(pin "8"
-			(uuid "19ec3ca6-5cd2-44da-8a9c-aff796b4604d")
-		)
-		(pin "16"
-			(uuid "02e6601d-e7e2-4ee3-9209-ddfb585c1436")
-		)
-		(pin "4"
-			(uuid "79b3457d-1eaf-46ad-8e87-fe100735ebe4")
-		)
-		(pin "13"
-			(uuid "7fd218c6-2562-47f3-aef2-857880da3f57")
-		)
-		(pin "5"
-			(uuid "6f16bf78-252d-4099-b1c1-ffa32ba147ac")
+			(uuid "5ddc769f-fa7b-4994-b1e1-3d9dddaaea89")
 		)
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN3")
-					(unit 5)
+					(reference "R24")
+					(unit 1)
 				)
 			)
 		)
@@ -13775,7 +13491,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38cb1a4e-b3d0-41fd-8f75-38e7e636a806")
-		(property "Reference" "R15"
+		(property "Reference" "R48"
 			(at 134.366 92.964 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13837,7 +13553,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R15")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -13855,7 +13571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "391019c9-0d58-45e6-9c93-7031ad0adc9d")
-		(property "Reference" "R20"
+		(property "Reference" "R53"
 			(at 267.335 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13919,7 +13635,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R20")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -14198,7 +13914,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c0f818f-fb97-4d4e-920b-0aaa89fa3cfb")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 24.13 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -14258,7 +13974,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -14275,7 +13991,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d3e502d-f52e-4887-bc32-640a4b0c2926")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR027"
 			(at 142.24 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -14369,7 +14085,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR039")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -14387,7 +14103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fc7a19a-273a-4f08-863c-3e3bc64e72da")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 107.5533 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14790,7 +14506,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -14808,7 +14524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47206d73-923e-4aad-9fe4-f56f1d18a743")
-		(property "Reference" "R21"
+		(property "Reference" "R54"
 			(at 277.495 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14872,7 +14588,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R21")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -14889,7 +14605,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a9fde23-a1ac-4dfb-a25a-f676de8faf88")
-		(property "Reference" "RN4"
+		(property "Reference" "RN3"
 			(at 151.892 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14969,7 +14685,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN4")
+					(reference "RN3")
 					(unit 4)
 				)
 			)
@@ -14986,8 +14702,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b05ff89-af1e-4ed9-bfb3-e227a474f093")
-		(property "Reference" "RN5"
-			(at 153.67 191.516 90)
+		(property "Reference" "RN4"
+			(at 158.75 191.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15068,7 +14784,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN5")
+					(reference "RN4")
 					(unit 3)
 				)
 			)
@@ -15076,7 +14792,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 133.35 90)
+		(at 132.08 204.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15085,8 +14801,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4eb97446-8056-407f-b869-8c41761dbced")
-		(property "Reference" "R5"
-			(at 145.288 133.35 90)
+		(property "Reference" "R44"
+			(at 145.288 204.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15096,7 +14812,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 132.334 133.35 90)
+			(at 132.334 204.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15106,7 +14822,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 135.128 90)
+			(at 132.08 206.248 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15117,7 +14833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 133.35 0)
+			(at 132.08 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15128,7 +14844,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 133.35 0)
+			(at 132.08 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15147,7 +14863,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R5")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -15165,7 +14881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f185c6f-30e1-44f4-bd3e-4aed8622e651")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR026"
 			(at 134.62 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -15225,7 +14941,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR09")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -15314,6 +15030,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 132.08 148.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "53586130-ba49-4518-bb72-4ae648f468f2")
+		(property "Reference" "R31"
+			(at 149.225 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 132.334 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 150.368 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "79e27ba8-a8ce-409c-88bb-099e38541792")
+		)
+		(pin "1"
+			(uuid "9c7f2226-2b4c-431e-944d-d129b039dc9c")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDDA")
 		(at 113.03 83.185 0)
 		(unit 1)
@@ -15325,7 +15120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55c4d0b0-a12c-47c2-8c4a-9add60f367ce")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR023"
 			(at 113.03 86.995 0)
 			(hide yes)
 			(show_name no)
@@ -15385,7 +15180,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR08")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -15402,7 +15197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58a053e5-0d0f-446b-bfd1-bc460c2b5b14")
-		(property "Reference" "FB2"
+		(property "Reference" "FB1"
 			(at 140.462 80.772 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15464,7 +15259,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "FB2")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -15472,7 +15267,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 138.43 90)
+		(at 73.66 140.97 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15481,8 +15276,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59c1a3ff-655c-43c3-96ef-a8901155223f")
-		(property "Reference" "R6"
-			(at 148.59 138.684 90)
+		(property "Reference" "R10"
+			(at 55.245 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15492,7 +15287,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 132.334 138.43 90)
+			(at 73.406 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15502,7 +15297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 140.208 90)
+			(at 73.66 139.192 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15513,7 +15308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 138.43 0)
+			(at 73.66 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15524,7 +15319,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 138.43 0)
+			(at 73.66 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15543,7 +15338,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -15560,7 +15355,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a09f996-be0f-4f83-b0c5-4d975d00eceb")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR03"
 			(at 21.59 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -15620,7 +15415,86 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR07")
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 173.99 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a20419c-ad04-4448-9ffc-a3027ae7031e")
+		(property "Reference" "R22"
+			(at 57.785 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 73.406 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 172.212 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "980a82a4-eb57-422e-85c9-6da619a5278c")
+		)
+		(pin "1"
+			(uuid "6e13eb07-1b04-410d-a342-0e1fb2b0f3be")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -15637,7 +15511,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a4e4e39-ebaf-4a64-a6fd-0aba70da09f3")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 156.21 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -15731,7 +15605,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -15748,7 +15622,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b903f87-73fa-40da-8b2c-8924e8ba5240")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 24.13 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -15808,25 +15682,25 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 132.08 161.29 270)
-		(unit 7)
+		(lib_id "Device:R")
+		(at 132.08 186.69 90)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5c8f3427-5377-4beb-a48a-ae86fd2f0984")
-		(property "Reference" "RN3"
-			(at 146.812 161.036 90)
+		(uuid "5eab5ee7-66be-4126-ba03-abb550d2f0c7")
+		(property "Reference" "R39"
+			(at 151.765 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15836,7 +15710,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 132.08 161.29 90)
+			(at 132.334 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15845,8 +15719,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 132.08 159.258 90)
+		(property "Footprint" ""
+			(at 132.08 188.468 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15857,7 +15731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 161.29 0)
+			(at 132.08 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15867,8 +15741,8 @@
 				)
 			)
 		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 132.08 161.29 0)
+		(property "Description" "Resistor"
+			(at 132.08 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15877,82 +15751,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "jlc_pcb/lcsc_ID:" ""
-			(at 132.08 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" ""
-			(at 132.08 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "14"
-			(uuid "99c92c02-0998-4ea7-b5ef-ca6bbe59f12d")
 		)
 		(pin "2"
-			(uuid "4b3f2a6d-641a-4fb0-97eb-e57ab8b34c2b")
-		)
-		(pin "15"
-			(uuid "4f2121b4-8119-4925-b0e5-559bd2b68d20")
-		)
-		(pin "3"
-			(uuid "b405ce75-64c9-473b-b253-73d83781bfed")
-		)
-		(pin "9"
-			(uuid "39b0dbc7-8f95-40f6-836a-8ce1a0e1449c")
-		)
-		(pin "12"
-			(uuid "e65905c4-9a7b-47dd-8001-3e8eab6915ed")
+			(uuid "73860197-ada4-4e57-90fe-f07a9f431548")
 		)
 		(pin "1"
-			(uuid "8ee3e839-c7e9-410f-b42e-7b7005f536ed")
-		)
-		(pin "6"
-			(uuid "1a69af6d-9324-4b27-9329-0e43968aaa14")
-		)
-		(pin "10"
-			(uuid "bcd97511-d0ab-4c29-993b-9cc9f7ae6a0d")
-		)
-		(pin "7"
-			(uuid "56711566-6942-49ac-9734-dd4dfe342a09")
-		)
-		(pin "11"
-			(uuid "f494f768-f36d-4c35-a4d8-15b3846361f8")
-		)
-		(pin "8"
-			(uuid "19ec3ca6-5cd2-44da-8a9c-aff796b4604e")
-		)
-		(pin "16"
-			(uuid "02e6601d-e7e2-4ee3-9209-ddfb585c1437")
-		)
-		(pin "4"
-			(uuid "79b3457d-1eaf-46ad-8e87-fe100735ebe5")
-		)
-		(pin "13"
-			(uuid "7fd218c6-2562-47f3-aef2-857880da3f58")
-		)
-		(pin "5"
-			(uuid "6f16bf78-252d-4099-b1c1-ffa32ba147ad")
+			(uuid "1465b61c-b761-4e81-b125-954de68459ac")
 		)
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN3")
-					(unit 7)
+					(reference "R39")
+					(unit 1)
 				)
 			)
 		)
@@ -15969,7 +15779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64eb40af-f705-4fae-a649-2270701c0834")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 232.41 24.1934 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16077,7 +15887,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -16085,7 +15895,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 95.25 90)
+		(at 142.875 95.25 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16094,8 +15904,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65102ae8-8feb-4e00-8a0d-64d90c32c846")
-		(property "Reference" "R16"
-			(at 158.75 95.504 90)
+		(property "Reference" "R49"
+			(at 159.385 95.504 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16105,7 +15915,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 142.494 95.25 90)
+			(at 143.129 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16115,7 +15925,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 97.028 90)
+			(at 142.875 97.028 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16126,7 +15936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 95.25 0)
+			(at 142.875 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16137,7 +15947,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 142.24 95.25 0)
+			(at 142.875 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16156,7 +15966,86 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R16")
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 176.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65dd8f9d-a0e1-4b32-8537-2c76a18e5569")
+		(property "Reference" "R23"
+			(at 57.785 176.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 73.406 176.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 174.752 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "46d6f6ec-0d71-4299-98d4-198dbe1ddfd9")
+		)
+		(pin "1"
+			(uuid "b0d2df15-4ecc-414e-8fba-43d556369562")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -16173,7 +16062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65e01088-8848-4a12-8db8-928f1ec918f3")
-		(property "Reference" "TP16"
+		(property "Reference" "TP2"
 			(at 59.69 61.4679 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16234,7 +16123,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "TP16")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -16251,7 +16140,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "699c2153-8736-4429-a0b5-03835b6be6f9")
-		(property "Reference" "TP12"
+		(property "Reference" "TP1"
 			(at 47.625 61.4679 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16312,7 +16201,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "TP12")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -16330,7 +16219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c4d6e3f-badd-4d7c-9638-f79fd90e4626")
-		(property "Reference" "C17"
+		(property "Reference" "C12"
 			(at 132.08 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16427,7 +16316,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "C17")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -16435,7 +16324,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 138.43 270)
+		(at 73.66 146.05 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16444,8 +16333,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cbf7a0a-1783-4d72-90b1-cb91ef422057")
-		(property "Reference" "R25"
-			(at 55.245 138.43 90)
+		(property "Reference" "R12"
+			(at 55.245 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16455,7 +16344,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 73.406 138.43 90)
+			(at 73.406 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16465,7 +16354,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 136.652 90)
+			(at 73.66 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16476,7 +16365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 138.43 0)
+			(at 73.66 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16487,7 +16376,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 138.43 0)
+			(at 73.66 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16506,7 +16395,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R25")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -16523,7 +16412,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ce0378e-5727-44c5-97a8-186497ff8276")
-		(property "Reference" "C16"
+		(property "Reference" "C10"
 			(at 78.486 211.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16587,131 +16476,8 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "C16")
+					(reference "C10")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 73.66 191.77 90)
-		(unit 5)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6dde3129-cd45-44e5-b254-36bb49a15993")
-		(property "Reference" "RN2"
-			(at 58.166 191.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 75.692 191.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 73.66 193.802 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 73.66 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "ae1f94af-6ed5-46bf-b7e5-b72d732fcda5")
-		)
-		(pin "4"
-			(uuid "93d6e45d-668c-47d4-aa42-7f49bfcdcc61")
-		)
-		(pin "16"
-			(uuid "2dc19751-3258-43f1-8699-66042ae4222b")
-		)
-		(pin "12"
-			(uuid "681cc010-033d-43fe-8f86-736c4fbb47a3")
-		)
-		(pin "8"
-			(uuid "a43080f7-af4a-4eae-a069-b79098952656")
-		)
-		(pin "5"
-			(uuid "faf84152-48ab-4aa3-825e-79f910ec00de")
-		)
-		(pin "2"
-			(uuid "c173f603-5c1f-454c-ba5a-79c9b5e8cc9e")
-		)
-		(pin "3"
-			(uuid "fe48122d-2d02-4560-ac89-2f4bd3f6300f")
-		)
-		(pin "1"
-			(uuid "79ed1ac7-bd46-4f93-b9ac-31f48a5031fc")
-		)
-		(pin "13"
-			(uuid "bf4408ad-0e75-42d5-a682-814924040b8a")
-		)
-		(pin "6"
-			(uuid "d1be7837-bc5c-4dc5-8a5a-9d03c7330782")
-		)
-		(pin "7"
-			(uuid "cb73aa29-870f-4e1e-858c-a47d00526a2d")
-		)
-		(pin "15"
-			(uuid "fda56c43-2147-4383-99a1-e96fd8e05c8c")
-		)
-		(pin "14"
-			(uuid "7c6d32dd-a33f-414e-93f7-49a5e379c048")
-		)
-		(pin "11"
-			(uuid "46444ced-6324-4843-b371-54fd4e272c81")
-		)
-		(pin "9"
-			(uuid "14ef5135-536f-48a8-89b3-1d4d4cd5aa60")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN2")
-					(unit 5)
 				)
 			)
 		)
@@ -16727,7 +16493,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e5c5d66-e8bc-4818-9c06-a7436e86e84b")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 26.416 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16824,7 +16590,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -16954,7 +16720,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71ff60c2-5bb9-4212-809e-37f67b52208d")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 247.65 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -17014,7 +16780,86 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR034")
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "741ba125-ba11-42e2-a5c6-b8c10e554620")
+		(property "Reference" "R3"
+			(at 55.245 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 73.406 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 118.872 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e2f4216d-e6c3-406e-ada2-99eb6d1836b5")
+		)
+		(pin "1"
+			(uuid "3d60a4dd-c50c-4b33-831f-ddccfabbdb39")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -17032,7 +16877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76748d11-fd07-4056-b756-25f3a2b9768a")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 209.55 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17139,7 +16984,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -17286,7 +17131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "792dc884-9d46-4667-9d5c-a675ff44b125")
-		(property "Reference" "C67"
+		(property "Reference" "C6"
 			(at 40.005 201.2949 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17350,7 +17195,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "C67")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -17367,7 +17212,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7cc0c3ed-7060-486e-ad91-ae954a2e729f")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR09"
 			(at 33.02 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -17427,7 +17272,86 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR014")
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 153.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d1588d4-d72a-422d-b063-2a34f02cb644")
+		(property "Reference" "R15"
+			(at 57.15 153.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 73.406 153.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 151.892 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "047c6c33-b4cc-4db3-8b51-2b320ffcc7d4")
+		)
+		(pin "1"
+			(uuid "a1735b1d-28c2-4c64-bd74-46be502988ee")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -17445,7 +17369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e7210af-b044-43ca-8955-531495d92873")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR08"
 			(at 26.67 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -17506,7 +17430,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR011")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -17514,7 +17438,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 120.65 270)
+		(at 73.66 166.37 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17522,9 +17446,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7fddf8a5-90ff-49fc-957e-1bbe7232edf5")
-		(property "Reference" "R3"
-			(at 58.42 120.904 90)
+		(uuid "7fb5ead4-f9d2-45a7-86b1-8fb694ee993c")
+		(property "Reference" "R19"
+			(at 57.785 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17534,7 +17458,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 73.406 120.65 90)
+			(at 73.406 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17544,7 +17468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 118.872 90)
+			(at 73.66 164.592 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17555,7 +17479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 120.65 0)
+			(at 73.66 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17566,7 +17490,86 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 120.65 0)
+			(at 73.66 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "044c8fb5-3378-410d-814b-383d0201720c")
+		)
+		(pin "1"
+			(uuid "68314e8a-a135-4cd2-8be1-a45c3bb22255")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 125.73 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7fddf8a5-90ff-49fc-957e-1bbe7232edf5")
+		(property "Reference" "R4"
+			(at 57.15 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 73.406 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 123.952 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17585,7 +17588,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -17593,7 +17596,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 196.85 90)
+		(at 73.66 196.85 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17601,9 +17604,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "80f4f459-b899-499f-8f61-475ba74e75aa")
-		(property "Reference" "R9"
-			(at 148.59 197.104 90)
+		(uuid "82761fa9-b1b0-4047-9e5e-f3fb45cbab69")
+		(property "Reference" "R25"
+			(at 55.245 196.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17613,7 +17616,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 132.334 196.85 90)
+			(at 73.406 196.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17623,7 +17626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 198.628 90)
+			(at 73.66 195.072 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17634,7 +17637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 196.85 0)
+			(at 73.66 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17645,7 +17648,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 196.85 0)
+			(at 73.66 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17656,15 +17659,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "883c82d0-a646-4ba9-9b6f-cdfdbd9b4111")
+			(uuid "88c0ea1b-e34b-4afe-a127-41cad00ecc06")
 		)
 		(pin "1"
-			(uuid "c3d6bec8-dc8f-4dad-9d22-9e1170063751")
+			(uuid "d35a9035-957f-416e-aa01-e89442556ccd")
 		)
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R9")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -17672,7 +17675,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 140.97 90)
+		(at 73.66 130.81 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17680,9 +17683,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8302ce9d-6ebb-4534-a899-1b45b4e95dbf")
-		(property "Reference" "R7"
-			(at 147.574 141.224 90)
+		(uuid "82db843f-958c-4c3e-93f7-8215581ea0d0")
+		(property "Reference" "R6"
+			(at 56.515 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17692,7 +17695,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 132.334 140.97 90)
+			(at 73.406 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17702,7 +17705,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 142.748 90)
+			(at 73.66 129.032 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17713,7 +17716,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 140.97 0)
+			(at 73.66 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17724,7 +17727,86 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 140.97 0)
+			(at 73.66 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4cd7e289-47c1-46bb-83e5-6a5fe51add42")
+		)
+		(pin "1"
+			(uuid "4361343b-f389-40bb-862c-8c68b38e0064")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 138.43 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8302ce9d-6ebb-4534-a899-1b45b4e95dbf")
+		(property "Reference" "R9"
+			(at 55.88 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 73.406 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 136.652 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17743,7 +17825,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -17761,7 +17843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84a19534-067c-44f2-b36b-c44b15165c95")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR014"
 			(at 55.245 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -17821,7 +17903,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR02")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -17838,7 +17920,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "861a15aa-3fa0-429f-869d-ea066a73f6ce")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR010"
 			(at 33.02 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -17898,7 +17980,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR015")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -17915,7 +17997,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8804416d-cbed-463e-b0bc-e56f4e09f1e5")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR017"
 			(at 69.215 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -17975,7 +18057,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR038")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -17992,7 +18074,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8acd2c9b-92d8-4f09-9cec-b4ee4260d918")
-		(property "Reference" "RN4"
+		(property "Reference" "RN3"
 			(at 150.876 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18072,7 +18154,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN4")
+					(reference "RN3")
 					(unit 1)
 				)
 			)
@@ -18089,7 +18171,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d0ba7f5-cc9c-4b6b-953a-1d9b730bc88b")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 152.4 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -18149,7 +18231,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -18166,7 +18248,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90b144bb-2ba6-4081-9b55-8239e15f98de")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR038"
 			(at 274.955 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -18226,7 +18308,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR036")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -18243,7 +18325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91e3c6c4-f62e-4d7b-aa96-ae3b7342b977")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR016"
 			(at 60.96 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -18303,7 +18385,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR020")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -18320,7 +18402,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "925dfc62-da65-4768-9bb9-017b8e358c3a")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR07"
 			(at 29.21 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -18380,7 +18462,86 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR013")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 156.21 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "94c48ab8-c2c7-4a7d-8795-193b3caa76e2")
+		(property "Reference" "R16"
+			(at 58.42 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 73.406 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 154.432 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "513bc56a-ed15-4829-aeb0-b2a5b1183b4b")
+		)
+		(pin "1"
+			(uuid "f586931c-ffce-4254-bb66-5d459688d742")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -18397,7 +18558,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95107b9e-8516-4331-bbbd-6868811c69cd")
-		(property "Reference" "R23"
+		(property "Reference" "R28"
 			(at 151.13 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18459,25 +18620,25 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R23")
+					(reference "R28")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 73.66 118.11 90)
-		(unit 8)
+		(lib_id "Device:R")
+		(at 73.66 133.35 270)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9a3cafe2-c862-4fad-8807-cee4663d0fed")
-		(property "Reference" "RN1"
-			(at 57.15 118.618 90)
+		(uuid "959b3051-eaf9-41bb-8efc-2bc1e8618b74")
+		(property "Reference" "R7"
+			(at 57.15 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18487,7 +18648,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 73.66 117.856 90)
+			(at 73.406 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18496,8 +18657,87 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 73.66 120.142 90)
+		(property "Footprint" ""
+			(at 73.66 131.572 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dadeab4d-3673-4332-960f-8f7765257f99")
+		)
+		(pin "1"
+			(uuid "3fb5d66e-ca32-414f-a196-2c94dfebfa66")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 118.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "980c80c0-99e4-446a-8006-26fe8910a737")
+		(property "Reference" "R2"
+			(at 55.245 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 73.406 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 116.332 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18518,8 +18758,166 @@
 				)
 			)
 		)
-		(property "Description" "8 resistor network, parallel topology, split"
+		(property "Description" "Resistor"
 			(at 73.66 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8cd616fd-1d04-4bc5-8e5b-ba781d75eee3")
+		)
+		(pin "1"
+			(uuid "bbb80fa8-acef-4893-98ce-f941669d86d2")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 212.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9914171b-7a09-4efe-97fe-c7c30104cd2b")
+		(property "Reference" "R47"
+			(at 147.955 212.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 132.334 212.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 213.868 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7ca6e8a7-cb65-4148-a0a6-2e5d860e8dfc")
+		)
+		(pin "1"
+			(uuid "cf25a6a4-fd85-43b0-9ab1-dce9126ac590")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack08_Split")
+		(at 73.66 123.19 90)
+		(unit 8)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a3cafe2-c862-4fad-8807-cee4663d0fed")
+		(property "Reference" "RN2"
+			(at 58.42 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 73.66 122.936 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
+			(at 73.66 125.222 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8 resistor network, parallel topology, split"
+			(at 73.66 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18530,7 +18928,7 @@
 			)
 		)
 		(property "jlc_pcb/lcsc_ID:" ""
-			(at 73.66 118.11 0)
+			(at 73.66 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18541,7 +18939,7 @@
 			)
 		)
 		(property "mpn" ""
-			(at 73.66 118.11 0)
+			(at 73.66 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18602,7 +19000,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN1")
+					(reference "RN2")
 					(unit 8)
 				)
 			)
@@ -18620,7 +19018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cb35a10-c555-47b6-a96d-cc1e947f4b63")
-		(property "Reference" "C14"
+		(property "Reference" "C11"
 			(at 105.41 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18684,7 +19082,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "C14")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -18701,8 +19099,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d7fa06f-526f-4ac8-90f1-8e836accb618")
-		(property "Reference" "RN5"
-			(at 154.686 194.31 90)
+		(property "Reference" "RN4"
+			(at 158.75 194.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18783,7 +19181,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN5")
+					(reference "RN4")
 					(unit 4)
 				)
 			)
@@ -18801,7 +19199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9db8c37e-f59c-4fe2-a057-c991aad38f69")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR036"
 			(at 257.81 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -18883,7 +19281,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR091")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -18970,7 +19368,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack08_Split")
-		(at 73.66 199.39 90)
+		(at 34.29 234.95 90)
 		(unit 8)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18979,8 +19377,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ed9f3a5-bcd0-4341-854e-e96b36a64a31")
-		(property "Reference" "RN3"
-			(at 54.356 199.39 90)
+		(property "Reference" "RN1"
+			(at 14.986 234.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18990,7 +19388,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 73.66 199.39 90)
+			(at 34.29 234.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19000,7 +19398,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 73.66 201.422 90)
+			(at 34.29 236.982 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19011,7 +19409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 199.39 0)
+			(at 34.29 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19022,7 +19420,7 @@
 			)
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
-			(at 73.66 199.39 0)
+			(at 34.29 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19083,8 +19481,87 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN3")
+					(reference "RN1")
 					(unit 8)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 158.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1b58092-baef-4535-b5d1-357d97bdb6d1")
+		(property "Reference" "R35"
+			(at 149.225 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 132.334 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 160.528 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c73e0ee4-03cd-4c63-ab9f-b6b573e44c0d")
+		)
+		(pin "1"
+			(uuid "53ad46b1-e1d3-463b-9747-b8e90265f75b")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R35")
+					(unit 1)
 				)
 			)
 		)
@@ -19100,7 +19577,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a26542b8-5f8a-4d20-96db-05a702e9af64")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 101.6 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -19160,47 +19637,45 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 73.66 166.37 90)
-		(unit 3)
+		(lib_id "Device:R")
+		(at 73.66 168.91 270)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a2a44fe5-16eb-4f8a-85fd-b6911d67a3bc")
-		(property "Reference" "RN1"
-			(at 59.182 166.0048 90)
+		(uuid "a51fc6b5-73d6-43a8-a96a-0425b5642206")
+		(property "Reference" "R20"
+			(at 57.785 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "33Ω"
-			(at 75.692 166.37 90)
+			(at 73.406 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 73.66 168.402 90)
+		(property "Footprint" ""
+			(at 73.66 167.132 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19211,7 +19686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 166.37 0)
+			(at 73.66 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19221,8 +19696,8 @@
 				)
 			)
 		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 73.66 166.37 0)
+		(property "Description" "Resistor"
+			(at 73.66 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19231,71 +19706,97 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "ID:" "C713459"
-			(at 73.66 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "ae1f94af-6ed5-46bf-b7e5-b72d732fcda6")
-		)
-		(pin "4"
-			(uuid "93d6e45d-668c-47d4-aa42-7f49bfcdcc62")
-		)
-		(pin "16"
-			(uuid "2dc19751-3258-43f1-8699-66042ae4222c")
-		)
-		(pin "12"
-			(uuid "2d92a492-d4d1-4653-a9a6-30e2dd3485e7")
-		)
-		(pin "8"
-			(uuid "a43080f7-af4a-4eae-a069-b79098952657")
-		)
-		(pin "5"
-			(uuid "5a564968-ec86-44f2-b049-462840b86d30")
 		)
 		(pin "2"
-			(uuid "c173f603-5c1f-454c-ba5a-79c9b5e8cc9f")
-		)
-		(pin "3"
-			(uuid "fe48122d-2d02-4560-ac89-2f4bd3f63010")
+			(uuid "1b3f3a28-9630-4c9d-963f-847a2c944542")
 		)
 		(pin "1"
-			(uuid "79ed1ac7-bd46-4f93-b9ac-31f48a5031fd")
-		)
-		(pin "13"
-			(uuid "bf4408ad-0e75-42d5-a682-814924040b8b")
-		)
-		(pin "6"
-			(uuid "d1be7837-bc5c-4dc5-8a5a-9d03c7330783")
-		)
-		(pin "7"
-			(uuid "cb73aa29-870f-4e1e-858c-a47d00526a2e")
-		)
-		(pin "15"
-			(uuid "fda56c43-2147-4383-99a1-e96fd8e05c8d")
-		)
-		(pin "14"
-			(uuid "7c6d32dd-a33f-414e-93f7-49a5e379c049")
-		)
-		(pin "11"
-			(uuid "46444ced-6324-4843-b371-54fd4e272c82")
-		)
-		(pin "9"
-			(uuid "14ef5135-536f-48a8-89b3-1d4d4cd5aa61")
+			(uuid "2a6b435a-e50d-4693-8958-9868b56c19bd")
 		)
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN1")
-					(unit 3)
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 199.39 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a5928b2d-8677-41dc-a872-76bec33b4988")
+		(property "Reference" "R26"
+			(at 55.245 199.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 73.406 199.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 197.612 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "264ceb3e-574c-403e-8757-76068144f035")
+		)
+		(pin "1"
+			(uuid "8d57c5d7-170f-425d-9dd1-18bdbbc063ae")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R26")
+					(unit 1)
 				)
 			)
 		)
@@ -19311,7 +19812,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a616ebc0-5776-4e59-b564-06b02d2bf133")
-		(property "Reference" "C5"
+		(property "Reference" "C9"
 			(at 71.501 211.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19408,7 +19909,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "C5")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -19425,7 +19926,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9ae0cd6-9ff9-43a1-8190-3f84242fe516")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR02"
 			(at 21.59 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -19485,47 +19986,45 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR06")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 73.66 171.45 90)
-		(unit 5)
+		(lib_id "Device:R")
+		(at 132.08 151.13 90)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a9c1715c-ca69-4214-aec3-be98bb3afb28")
-		(property "Reference" "RN1"
-			(at 59.182 171.3388 90)
+		(uuid "ad515ca2-07ac-4db5-9cdf-633f4463c9e2")
+		(property "Reference" "R32"
+			(at 149.225 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "33Ω"
-			(at 75.692 171.45 90)
+			(at 132.334 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 73.66 173.482 90)
+		(property "Footprint" ""
+			(at 132.08 152.908 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19536,7 +20035,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 171.45 0)
+			(at 132.08 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19546,8 +20045,8 @@
 				)
 			)
 		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 73.66 171.45 0)
+		(property "Description" "Resistor"
+			(at 132.08 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19556,335 +20055,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "ID:" "C713459"
-			(at 73.66 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "ae1f94af-6ed5-46bf-b7e5-b72d732fcda8")
-		)
-		(pin "4"
-			(uuid "93d6e45d-668c-47d4-aa42-7f49bfcdcc63")
-		)
-		(pin "16"
-			(uuid "2dc19751-3258-43f1-8699-66042ae4222d")
-		)
-		(pin "12"
-			(uuid "2d92a492-d4d1-4653-a9a6-30e2dd3485e8")
-		)
-		(pin "8"
-			(uuid "a43080f7-af4a-4eae-a069-b79098952658")
-		)
-		(pin "5"
-			(uuid "5a564968-ec86-44f2-b049-462840b86d31")
 		)
 		(pin "2"
-			(uuid "c173f603-5c1f-454c-ba5a-79c9b5e8cca1")
-		)
-		(pin "3"
-			(uuid "fe48122d-2d02-4560-ac89-2f4bd3f63012")
+			(uuid "bf42226c-7d32-4427-ab88-e193c1c78731")
 		)
 		(pin "1"
-			(uuid "79ed1ac7-bd46-4f93-b9ac-31f48a5031fe")
-		)
-		(pin "13"
-			(uuid "bf4408ad-0e75-42d5-a682-814924040b8c")
-		)
-		(pin "6"
-			(uuid "d1be7837-bc5c-4dc5-8a5a-9d03c7330785")
-		)
-		(pin "7"
-			(uuid "cb73aa29-870f-4e1e-858c-a47d00526a30")
-		)
-		(pin "15"
-			(uuid "fda56c43-2147-4383-99a1-e96fd8e05c8f")
-		)
-		(pin "14"
-			(uuid "7c6d32dd-a33f-414e-93f7-49a5e379c04b")
-		)
-		(pin "11"
-			(uuid "46444ced-6324-4843-b371-54fd4e272c84")
-		)
-		(pin "9"
-			(uuid "14ef5135-536f-48a8-89b3-1d4d4cd5aa62")
+			(uuid "c1eac6af-4945-4f56-819d-22fc91681bcf")
 		)
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN1")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 73.66 194.31 90)
-		(unit 6)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ac7b436b-4caa-4d19-bb61-691a19147700")
-		(property "Reference" "RN2"
-			(at 55.626 194.056 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 73.66 194.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 73.66 196.342 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 73.66 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "ae1f94af-6ed5-46bf-b7e5-b72d732fcda9")
-		)
-		(pin "4"
-			(uuid "93d6e45d-668c-47d4-aa42-7f49bfcdcc65")
-		)
-		(pin "16"
-			(uuid "2dc19751-3258-43f1-8699-66042ae4222f")
-		)
-		(pin "12"
-			(uuid "2d92a492-d4d1-4653-a9a6-30e2dd3485ea")
-		)
-		(pin "8"
-			(uuid "a43080f7-af4a-4eae-a069-b79098952659")
-		)
-		(pin "5"
-			(uuid "5a564968-ec86-44f2-b049-462840b86d33")
-		)
-		(pin "2"
-			(uuid "c173f603-5c1f-454c-ba5a-79c9b5e8cca2")
-		)
-		(pin "3"
-			(uuid "fe48122d-2d02-4560-ac89-2f4bd3f63013")
-		)
-		(pin "1"
-			(uuid "79ed1ac7-bd46-4f93-b9ac-31f48a503200")
-		)
-		(pin "13"
-			(uuid "bf4408ad-0e75-42d5-a682-814924040b8e")
-		)
-		(pin "6"
-			(uuid "842f4664-9a91-460e-9ed5-12e19155f617")
-		)
-		(pin "7"
-			(uuid "cb73aa29-870f-4e1e-858c-a47d00526a31")
-		)
-		(pin "15"
-			(uuid "fda56c43-2147-4383-99a1-e96fd8e05c90")
-		)
-		(pin "14"
-			(uuid "7c6d32dd-a33f-414e-93f7-49a5e379c04c")
-		)
-		(pin "11"
-			(uuid "9443dd1f-348b-45bd-8328-b80d92e1296a")
-		)
-		(pin "9"
-			(uuid "14ef5135-536f-48a8-89b3-1d4d4cd5aa63")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN2")
-					(unit 6)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 132.08 158.75 270)
-		(unit 6)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b3d8551b-396c-40d2-9b95-0280ad89d3a9")
-		(property "Reference" "RN3"
-			(at 146.812 158.75 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 132.08 158.75 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 132.08 156.718 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 132.08 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "jlc_pcb/lcsc_ID:" ""
-			(at 132.08 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" ""
-			(at 132.08 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "14"
-			(uuid "99c92c02-0998-4ea7-b5ef-ca6bbe59f12f")
-		)
-		(pin "2"
-			(uuid "4b3f2a6d-641a-4fb0-97eb-e57ab8b34c2d")
-		)
-		(pin "15"
-			(uuid "4f2121b4-8119-4925-b0e5-559bd2b68d22")
-		)
-		(pin "3"
-			(uuid "b405ce75-64c9-473b-b253-73d83781bfef")
-		)
-		(pin "9"
-			(uuid "39b0dbc7-8f95-40f6-836a-8ce1a0e1449e")
-		)
-		(pin "12"
-			(uuid "e65905c4-9a7b-47dd-8001-3e8eab6915ef")
-		)
-		(pin "1"
-			(uuid "8ee3e839-c7e9-410f-b42e-7b7005f536ef")
-		)
-		(pin "6"
-			(uuid "1a69af6d-9324-4b27-9329-0e43968aaa16")
-		)
-		(pin "10"
-			(uuid "bcd97511-d0ab-4c29-993b-9cc9f7ae6a0f")
-		)
-		(pin "7"
-			(uuid "56711566-6942-49ac-9734-dd4dfe342a0b")
-		)
-		(pin "11"
-			(uuid "f494f768-f36d-4c35-a4d8-15b3846361fa")
-		)
-		(pin "8"
-			(uuid "19ec3ca6-5cd2-44da-8a9c-aff796b46050")
-		)
-		(pin "16"
-			(uuid "02e6601d-e7e2-4ee3-9209-ddfb585c1439")
-		)
-		(pin "4"
-			(uuid "79b3457d-1eaf-46ad-8e87-fe100735ebe7")
-		)
-		(pin "13"
-			(uuid "7fd218c6-2562-47f3-aef2-857880da3f5a")
-		)
-		(pin "5"
-			(uuid "6f16bf78-252d-4099-b1c1-ffa32ba147af")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN3")
-					(unit 6)
+					(reference "R32")
+					(unit 1)
 				)
 			)
 		)
@@ -19900,7 +20082,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5abd94d-fc7d-4cba-b500-60e8cd424947")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR012"
 			(at 36.195 212.725 0)
 			(hide yes)
 			(show_name no)
@@ -19960,7 +20142,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR023")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -19977,7 +20159,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b61068d4-e61c-458b-911b-ec95fe726d25")
-		(property "Reference" "C4"
+		(property "Reference" "C7"
 			(at 54.356 208.534 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20074,7 +20256,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "C4")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -20091,8 +20273,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b80e718b-35cd-4428-9cd7-878de9d750b6")
-		(property "Reference" "RN5"
-			(at 154.432 113.03 90)
+		(property "Reference" "RN4"
+			(at 160.655 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20173,7 +20355,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN5")
+					(reference "RN4")
 					(unit 2)
 				)
 			)
@@ -20181,7 +20363,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack08_Split")
-		(at 73.66 196.85 90)
+		(at 34.29 232.41 90)
 		(unit 7)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20190,8 +20372,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b968d3a0-2ec1-463c-8f54-372244eb4b3e")
-		(property "Reference" "RN2"
-			(at 54.356 196.596 90)
+		(property "Reference" "RN1"
+			(at 14.986 232.156 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20201,7 +20383,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 73.66 196.85 90)
+			(at 34.29 232.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20211,7 +20393,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 73.66 198.882 90)
+			(at 34.29 234.442 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20222,7 +20404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 196.85 0)
+			(at 34.29 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20233,7 +20415,7 @@
 			)
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
-			(at 73.66 196.85 0)
+			(at 34.29 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20294,7 +20476,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN2")
+					(reference "RN1")
 					(unit 7)
 				)
 			)
@@ -20377,6 +20559,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 132.08 156.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc1debe2-6c6d-491c-8b6d-ca96719c7a13")
+		(property "Reference" "R34"
+			(at 149.225 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 132.334 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 157.988 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f4698018-2760-4787-8821-ea31ba31697d")
+		)
+		(pin "1"
+			(uuid "701f9221-6578-4b0f-88c5-43db7a2d1080")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SMF33A")
 		(at 138.43 26.67 270)
 		(unit 1)
@@ -20388,7 +20649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc5d2f90-31c4-4105-b913-d1f1471ebe27")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 140.97 25.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20452,7 +20713,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -20644,6 +20905,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 73.66 163.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "befa1853-cc47-4886-9d5e-8e039b326a2d")
+		(property "Reference" "R18"
+			(at 57.785 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 73.406 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 162.052 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c45f0254-df34-49c3-80a6-ea6557389945")
+		)
+		(pin "1"
+			(uuid "3bbd0dad-280e-4c83-aa9b-4fa5960a74cf")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 229.87 17.78 180)
 		(unit 1)
@@ -20654,7 +20994,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c034ffaf-8eb1-4854-9b74-9174e56a1de8")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR034"
 			(at 229.87 11.43 0)
 			(hide yes)
 			(show_name no)
@@ -20714,7 +21054,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR0152")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -20731,7 +21071,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0b5516b-5e70-4040-a27d-32133cc47945")
-		(property "Reference" "RN5"
+		(property "Reference" "RN4"
 			(at 153.416 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20813,7 +21153,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN5")
+					(reference "RN4")
 					(unit 1)
 				)
 			)
@@ -20821,7 +21161,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 207.01 90)
+		(at 132.08 196.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20830,8 +21170,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0fe7125-693b-4746-a217-96f55ce0a566")
-		(property "Reference" "R12"
-			(at 148.082 207.01 90)
+		(property "Reference" "R41"
+			(at 147.32 196.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20841,7 +21181,7 @@
 			)
 		)
 		(property "Value" "33r"
-			(at 132.08 207.01 90)
+			(at 132.08 196.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20851,7 +21191,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 208.788 90)
+			(at 132.08 198.628 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20862,7 +21202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 207.01 0)
+			(at 132.08 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20873,7 +21213,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 207.01 0)
+			(at 132.08 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20892,7 +21232,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R12")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -20910,7 +21250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1374cbe-4a90-41fe-99af-5b7561cde366")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR019"
 			(at 81.28 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -21015,7 +21355,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR010")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -21032,7 +21372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1cd2ff7-08c9-446b-b9b6-6bb25ed55e03")
-		(property "Reference" "C11"
+		(property "Reference" "C5"
 			(at 31.496 133.604 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21118,7 +21458,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "C11")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -21136,7 +21476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c703d8db-c007-4b2d-9541-63d6ea119265")
-		(property "Reference" "R1"
+		(property "Reference" "R52"
 			(at 232.41 19.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21200,7 +21540,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R1")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -21217,7 +21557,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9e21b9a-83dc-4e52-b54a-c21fee51bd2c")
-		(property "Reference" "R42"
+		(property "Reference" "R27"
 			(at 79.756 92.202 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21281,7 +21621,86 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R42")
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 153.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca7ccea8-438d-47c1-9eb8-9c0e2061ee48")
+		(property "Reference" "R33"
+			(at 149.225 153.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 132.334 153.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 155.448 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "389425f6-6cae-4b37-9c13-b55d2484aef6")
+		)
+		(pin "1"
+			(uuid "d0fb43d0-662d-4455-8eb6-fb5c35843dd4")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -21374,7 +21793,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce7734c6-f55f-41c4-9fd4-d93a30110c7f")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR04"
 			(at 21.59 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -21434,7 +21853,86 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR017")
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 151.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d28ebf78-143c-4faa-9756-ed4eddaea26b")
+		(property "Reference" "R14"
+			(at 55.88 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 73.406 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 149.352 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "28a953c4-3561-4560-a35b-48163ad50440")
+		)
+		(pin "1"
+			(uuid "6ae74d6e-7b51-4377-8b1c-38147ec9e9ee")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -21452,7 +21950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2a2a525-4247-4ed2-822a-b44222e35949")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR011"
 			(at 36.195 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -21512,261 +22010,8 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR016")
+					(reference "#PWR011")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 73.66 176.53 90)
-		(unit 7)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d2c621fa-010c-4621-b1e7-710b79ab0ad1")
-		(property "Reference" "RN1"
-			(at 56.642 176.1648 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 73.66 176.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 73.66 178.562 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 73.66 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ID:" "C713459"
-			(at 73.66 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "ae1f94af-6ed5-46bf-b7e5-b72d732fcdaa")
-		)
-		(pin "4"
-			(uuid "93d6e45d-668c-47d4-aa42-7f49bfcdcc67")
-		)
-		(pin "16"
-			(uuid "2dc19751-3258-43f1-8699-66042ae42231")
-		)
-		(pin "12"
-			(uuid "2d92a492-d4d1-4653-a9a6-30e2dd3485ec")
-		)
-		(pin "8"
-			(uuid "a43080f7-af4a-4eae-a069-b7909895265b")
-		)
-		(pin "5"
-			(uuid "5a564968-ec86-44f2-b049-462840b86d35")
-		)
-		(pin "2"
-			(uuid "c173f603-5c1f-454c-ba5a-79c9b5e8cca4")
-		)
-		(pin "3"
-			(uuid "fe48122d-2d02-4560-ac89-2f4bd3f63015")
-		)
-		(pin "1"
-			(uuid "79ed1ac7-bd46-4f93-b9ac-31f48a503202")
-		)
-		(pin "13"
-			(uuid "bf4408ad-0e75-42d5-a682-814924040b90")
-		)
-		(pin "6"
-			(uuid "d1be7837-bc5c-4dc5-8a5a-9d03c7330787")
-		)
-		(pin "7"
-			(uuid "cb73aa29-870f-4e1e-858c-a47d00526a32")
-		)
-		(pin "15"
-			(uuid "fda56c43-2147-4383-99a1-e96fd8e05c92")
-		)
-		(pin "14"
-			(uuid "7c6d32dd-a33f-414e-93f7-49a5e379c04e")
-		)
-		(pin "11"
-			(uuid "46444ced-6324-4843-b371-54fd4e272c86")
-		)
-		(pin "9"
-			(uuid "14ef5135-536f-48a8-89b3-1d4d4cd5aa65")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN1")
-					(unit 7)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 73.66 184.15 90)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d3c62e0a-5aa3-4b26-850d-2de56d54687a")
-		(property "Reference" "RN2"
-			(at 56.642 184.15 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 73.66 184.15 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 73.66 186.182 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 73.66 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "ae1f94af-6ed5-46bf-b7e5-b72d732fcdab")
-		)
-		(pin "4"
-			(uuid "93d6e45d-668c-47d4-aa42-7f49bfcdcc68")
-		)
-		(pin "16"
-			(uuid "2dc19751-3258-43f1-8699-66042ae42232")
-		)
-		(pin "12"
-			(uuid "2d92a492-d4d1-4653-a9a6-30e2dd3485ed")
-		)
-		(pin "8"
-			(uuid "a43080f7-af4a-4eae-a069-b7909895265c")
-		)
-		(pin "5"
-			(uuid "5a564968-ec86-44f2-b049-462840b86d36")
-		)
-		(pin "2"
-			(uuid "0f46e89a-cec3-43ab-91eb-104b751d3a7b")
-		)
-		(pin "3"
-			(uuid "fe48122d-2d02-4560-ac89-2f4bd3f63016")
-		)
-		(pin "1"
-			(uuid "79ed1ac7-bd46-4f93-b9ac-31f48a503203")
-		)
-		(pin "13"
-			(uuid "bf4408ad-0e75-42d5-a682-814924040b91")
-		)
-		(pin "6"
-			(uuid "d1be7837-bc5c-4dc5-8a5a-9d03c7330788")
-		)
-		(pin "7"
-			(uuid "cb73aa29-870f-4e1e-858c-a47d00526a33")
-		)
-		(pin "15"
-			(uuid "6bd2a594-9dfc-46ae-991e-e819e09a5614")
-		)
-		(pin "14"
-			(uuid "7c6d32dd-a33f-414e-93f7-49a5e379c04f")
-		)
-		(pin "11"
-			(uuid "46444ced-6324-4843-b371-54fd4e272c87")
-		)
-		(pin "9"
-			(uuid "14ef5135-536f-48a8-89b3-1d4d4cd5aa66")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN2")
-					(unit 2)
 				)
 			)
 		)
@@ -21783,7 +22028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6652953-e92f-4c32-8248-84f327a57b70")
-		(property "Reference" "#PWR0291"
+		(property "Reference" "#PWR031"
 			(at 180.34 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -21865,7 +22110,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR0291")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -21882,7 +22127,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7b9184b-de2e-4a56-b982-cea23709d76c")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 264.795 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -21942,7 +22187,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR035")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -21959,7 +22204,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d837a6ed-1c1f-419a-8c73-019536be3485")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR015"
 			(at 60.325 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -22053,274 +22298,8 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR092")
+					(reference "#PWR015")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 132.08 163.83 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dc40ac39-dc91-4323-aca3-9ba5ddf989a1")
-		(property "Reference" "RN3"
-			(at 149.606 164.084 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 132.08 163.83 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 132.08 161.798 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 132.08 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "jlc_pcb/lcsc_ID:" ""
-			(at 132.08 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" ""
-			(at 132.08 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "14"
-			(uuid "99c92c02-0998-4ea7-b5ef-ca6bbe59f130")
-		)
-		(pin "2"
-			(uuid "4b3f2a6d-641a-4fb0-97eb-e57ab8b34c2e")
-		)
-		(pin "15"
-			(uuid "4f2121b4-8119-4925-b0e5-559bd2b68d23")
-		)
-		(pin "3"
-			(uuid "b405ce75-64c9-473b-b253-73d83781bff0")
-		)
-		(pin "9"
-			(uuid "39b0dbc7-8f95-40f6-836a-8ce1a0e1449f")
-		)
-		(pin "12"
-			(uuid "e65905c4-9a7b-47dd-8001-3e8eab6915f0")
-		)
-		(pin "1"
-			(uuid "8ee3e839-c7e9-410f-b42e-7b7005f536f0")
-		)
-		(pin "6"
-			(uuid "1a69af6d-9324-4b27-9329-0e43968aaa17")
-		)
-		(pin "10"
-			(uuid "bcd97511-d0ab-4c29-993b-9cc9f7ae6a10")
-		)
-		(pin "7"
-			(uuid "56711566-6942-49ac-9734-dd4dfe342a0c")
-		)
-		(pin "11"
-			(uuid "f494f768-f36d-4c35-a4d8-15b3846361fb")
-		)
-		(pin "8"
-			(uuid "19ec3ca6-5cd2-44da-8a9c-aff796b46051")
-		)
-		(pin "16"
-			(uuid "02e6601d-e7e2-4ee3-9209-ddfb585c143a")
-		)
-		(pin "4"
-			(uuid "79b3457d-1eaf-46ad-8e87-fe100735ebe8")
-		)
-		(pin "13"
-			(uuid "7fd218c6-2562-47f3-aef2-857880da3f5b")
-		)
-		(pin "5"
-			(uuid "6f16bf78-252d-4099-b1c1-ffa32ba147b0")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 73.66 186.69 90)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "df0a0ddd-43e3-435a-8efe-d910ae4f5d4f")
-		(property "Reference" "RN2"
-			(at 58.166 186.436 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 75.692 186.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 73.66 188.722 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 73.66 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "ae1f94af-6ed5-46bf-b7e5-b72d732fcdac")
-		)
-		(pin "4"
-			(uuid "93d6e45d-668c-47d4-aa42-7f49bfcdcc69")
-		)
-		(pin "16"
-			(uuid "2dc19751-3258-43f1-8699-66042ae42233")
-		)
-		(pin "12"
-			(uuid "2d92a492-d4d1-4653-a9a6-30e2dd3485ee")
-		)
-		(pin "8"
-			(uuid "a43080f7-af4a-4eae-a069-b7909895265d")
-		)
-		(pin "5"
-			(uuid "5a564968-ec86-44f2-b049-462840b86d37")
-		)
-		(pin "2"
-			(uuid "c173f603-5c1f-454c-ba5a-79c9b5e8cca5")
-		)
-		(pin "3"
-			(uuid "19e43bc5-f9eb-4a00-97d7-81a12befa986")
-		)
-		(pin "1"
-			(uuid "79ed1ac7-bd46-4f93-b9ac-31f48a503204")
-		)
-		(pin "13"
-			(uuid "bf4408ad-0e75-42d5-a682-814924040b92")
-		)
-		(pin "6"
-			(uuid "d1be7837-bc5c-4dc5-8a5a-9d03c7330789")
-		)
-		(pin "7"
-			(uuid "cb73aa29-870f-4e1e-858c-a47d00526a34")
-		)
-		(pin "15"
-			(uuid "fda56c43-2147-4383-99a1-e96fd8e05c93")
-		)
-		(pin "14"
-			(uuid "9809ba31-bc7b-4ad5-aee3-a3bd3ceefeea")
-		)
-		(pin "11"
-			(uuid "46444ced-6324-4843-b371-54fd4e272c88")
-		)
-		(pin "9"
-			(uuid "14ef5135-536f-48a8-89b3-1d4d4cd5aa67")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN2")
-					(unit 3)
 				)
 			)
 		)
@@ -22336,7 +22315,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e170a0fe-d913-44d4-96e6-003a9d057728")
-		(property "Reference" "R22"
+		(property "Reference" "R29"
 			(at 151.765 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22398,7 +22377,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R22")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -22415,7 +22394,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4e96e71-a46d-4765-b2e9-72890c6d4d22")
-		(property "Reference" "RN4"
+		(property "Reference" "RN3"
 			(at 150.876 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22495,7 +22474,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN4")
+					(reference "RN3")
 					(unit 3)
 				)
 			)
@@ -22618,7 +22597,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 209.55 90)
+		(at 132.08 199.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22627,8 +22606,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e597d5b4-4251-4d9f-a569-ed535059e2f7")
-		(property "Reference" "R13"
-			(at 148.082 209.296 90)
+		(property "Reference" "R42"
+			(at 148.082 199.136 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22638,7 +22617,7 @@
 			)
 		)
 		(property "Value" "33r"
-			(at 132.08 209.55 90)
+			(at 132.08 199.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22648,7 +22627,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 211.328 90)
+			(at 132.08 201.168 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22659,7 +22638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 209.55 0)
+			(at 132.08 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22670,7 +22649,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 209.55 0)
+			(at 132.08 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22689,7 +22668,86 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R13")
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 161.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e6e49617-99f2-4f1c-87d1-9b254de47fd7")
+		(property "Reference" "R36"
+			(at 149.225 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 132.334 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 163.068 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3b29abe3-f939-44da-adab-4de66dc8314c")
+		)
+		(pin "1"
+			(uuid "c246209c-a8c2-4454-bedb-0db4713ef1b5")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -22707,7 +22765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaa5cd24-3126-4ab9-b9ff-12335a1c16d4")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 101.6 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -22789,7 +22847,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -22873,6 +22931,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 73.66 161.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed3c7001-6225-43c6-9013-e81c70eb128c")
+		(property "Reference" "R17"
+			(at 57.785 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 73.406 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 159.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c2049b02-0d92-4934-af29-c58250b2c1d5")
+		)
+		(pin "1"
+			(uuid "a86f3e37-e315-4fa1-8e1d-e04ce77af1f0")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 128.27 30.48 0)
 		(unit 1)
@@ -22883,7 +23020,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed8c6a84-8e97-4772-b622-bc42d091cc13")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 128.27 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -22943,7 +23080,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -22960,7 +23097,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eebf3234-2b08-4f7b-b728-705f683816a5")
-		(property "Reference" "TP1"
+		(property "Reference" "TP3"
 			(at 120.142 79.502 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23021,7 +23158,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "TP1")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -23039,7 +23176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0525bd1-e313-4c9f-bb0f-f42f5513a3f4")
-		(property "Reference" "R18"
+		(property "Reference" "R50"
 			(at 182.88 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23103,7 +23240,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R18")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -23120,7 +23257,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f17e01ed-9342-4da2-a540-90a7ddf5a648")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 21.59 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -23180,7 +23317,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -23188,7 +23325,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 135.89 270)
+		(at 73.66 143.51 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23197,8 +23334,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4928422-4d22-4707-882c-fd97d24d1a7f")
-		(property "Reference" "R24"
-			(at 54.61 135.89 90)
+		(property "Reference" "R11"
+			(at 54.61 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23208,7 +23345,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 73.406 135.89 90)
+			(at 73.406 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23218,7 +23355,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 134.112 90)
+			(at 73.66 141.732 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23229,7 +23366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 135.89 0)
+			(at 73.66 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23240,7 +23377,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 135.89 0)
+			(at 73.66 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23259,283 +23396,8 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "R24")
+					(reference "R11")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 73.66 179.07 90)
-		(unit 8)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f50c370a-cb6e-4063-b239-68b943a91cd5")
-		(property "Reference" "RN2"
-			(at 56.642 178.7048 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 73.66 179.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 73.66 181.102 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 73.66 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ID:" "C713459"
-			(at 73.66 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "ae1f94af-6ed5-46bf-b7e5-b72d732fcdad")
-		)
-		(pin "4"
-			(uuid "93d6e45d-668c-47d4-aa42-7f49bfcdcc6a")
-		)
-		(pin "16"
-			(uuid "2dc19751-3258-43f1-8699-66042ae42234")
-		)
-		(pin "12"
-			(uuid "2d92a492-d4d1-4653-a9a6-30e2dd3485ef")
-		)
-		(pin "8"
-			(uuid "a43080f7-af4a-4eae-a069-b7909895265e")
-		)
-		(pin "5"
-			(uuid "5a564968-ec86-44f2-b049-462840b86d38")
-		)
-		(pin "2"
-			(uuid "c173f603-5c1f-454c-ba5a-79c9b5e8cca6")
-		)
-		(pin "3"
-			(uuid "fe48122d-2d02-4560-ac89-2f4bd3f63017")
-		)
-		(pin "1"
-			(uuid "79ed1ac7-bd46-4f93-b9ac-31f48a503205")
-		)
-		(pin "13"
-			(uuid "bf4408ad-0e75-42d5-a682-814924040b93")
-		)
-		(pin "6"
-			(uuid "d1be7837-bc5c-4dc5-8a5a-9d03c733078a")
-		)
-		(pin "7"
-			(uuid "cb73aa29-870f-4e1e-858c-a47d00526a35")
-		)
-		(pin "15"
-			(uuid "fda56c43-2147-4383-99a1-e96fd8e05c94")
-		)
-		(pin "14"
-			(uuid "7c6d32dd-a33f-414e-93f7-49a5e379c050")
-		)
-		(pin "11"
-			(uuid "46444ced-6324-4843-b371-54fd4e272c89")
-		)
-		(pin "9"
-			(uuid "14ef5135-536f-48a8-89b3-1d4d4cd5aa68")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN2")
-					(unit 8)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 132.08 153.67 270)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f60b4545-dbcf-4859-a7ba-31b481085872")
-		(property "Reference" "RN3"
-			(at 146.812 153.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 132.08 153.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 132.08 151.638 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 132.08 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "jlc_pcb/lcsc_ID:" ""
-			(at 132.08 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" ""
-			(at 132.08 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "14"
-			(uuid "99c92c02-0998-4ea7-b5ef-ca6bbe59f131")
-		)
-		(pin "2"
-			(uuid "4b3f2a6d-641a-4fb0-97eb-e57ab8b34c2f")
-		)
-		(pin "15"
-			(uuid "4f2121b4-8119-4925-b0e5-559bd2b68d24")
-		)
-		(pin "3"
-			(uuid "b405ce75-64c9-473b-b253-73d83781bff1")
-		)
-		(pin "9"
-			(uuid "39b0dbc7-8f95-40f6-836a-8ce1a0e144a0")
-		)
-		(pin "12"
-			(uuid "e65905c4-9a7b-47dd-8001-3e8eab6915f1")
-		)
-		(pin "1"
-			(uuid "8ee3e839-c7e9-410f-b42e-7b7005f536f1")
-		)
-		(pin "6"
-			(uuid "1a69af6d-9324-4b27-9329-0e43968aaa18")
-		)
-		(pin "10"
-			(uuid "bcd97511-d0ab-4c29-993b-9cc9f7ae6a11")
-		)
-		(pin "7"
-			(uuid "56711566-6942-49ac-9734-dd4dfe342a0d")
-		)
-		(pin "11"
-			(uuid "f494f768-f36d-4c35-a4d8-15b3846361fc")
-		)
-		(pin "8"
-			(uuid "19ec3ca6-5cd2-44da-8a9c-aff796b46052")
-		)
-		(pin "16"
-			(uuid "02e6601d-e7e2-4ee3-9209-ddfb585c143b")
-		)
-		(pin "4"
-			(uuid "79b3457d-1eaf-46ad-8e87-fe100735ebe9")
-		)
-		(pin "13"
-			(uuid "7fd218c6-2562-47f3-aef2-857880da3f5c")
-		)
-		(pin "5"
-			(uuid "6f16bf78-252d-4099-b1c1-ffa32ba147b1")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN3")
-					(unit 4)
 				)
 			)
 		)
@@ -23551,7 +23413,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f60f7e47-770c-4bfd-b369-836827379364")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR022"
 			(at 104.14 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -23611,7 +23473,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR025")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -23628,7 +23490,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f639d571-e4bc-478e-86f3-1e4ec8bc9947")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR024"
 			(at 115.57 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -23688,7 +23550,7 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR021")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -23705,7 +23567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f67d4935-1c8b-4262-9ce6-3a140c8632cc")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 209.55 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -23766,25 +23628,25 @@
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 73.66 168.91 90)
-		(unit 4)
+		(lib_id "Device:R")
+		(at 132.08 207.01 90)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fa70c290-1df3-4c97-b823-85ae5ca38fc2")
-		(property "Reference" "RN1"
-			(at 56.642 168.656 90)
+		(uuid "fd15e0c4-94a2-47a9-807f-bf75b55fa2d1")
+		(property "Reference" "R45"
+			(at 147.955 207.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23794,7 +23656,7 @@
 			)
 		)
 		(property "Value" "33Ω"
-			(at 73.66 168.91 90)
+			(at 132.334 207.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23803,8 +23665,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_8x0602"
-			(at 73.66 170.942 90)
+		(property "Footprint" ""
+			(at 132.08 208.788 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23815,7 +23677,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 168.91 0)
+			(at 132.08 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23825,8 +23687,8 @@
 				)
 			)
 		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 73.66 168.91 0)
+		(property "Description" "Resistor"
+			(at 132.08 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23835,71 +23697,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "ID:" "C713459"
-			(at 73.66 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "ae1f94af-6ed5-46bf-b7e5-b72d732fcdae")
-		)
-		(pin "4"
-			(uuid "93d6e45d-668c-47d4-aa42-7f49bfcdcc6b")
-		)
-		(pin "16"
-			(uuid "2dc19751-3258-43f1-8699-66042ae42235")
-		)
-		(pin "12"
-			(uuid "2d92a492-d4d1-4653-a9a6-30e2dd3485f0")
-		)
-		(pin "8"
-			(uuid "a43080f7-af4a-4eae-a069-b7909895265f")
-		)
-		(pin "5"
-			(uuid "5a564968-ec86-44f2-b049-462840b86d39")
 		)
 		(pin "2"
-			(uuid "c173f603-5c1f-454c-ba5a-79c9b5e8cca7")
-		)
-		(pin "3"
-			(uuid "fe48122d-2d02-4560-ac89-2f4bd3f63018")
+			(uuid "1a7a8730-4395-4256-b5f9-13dcce47042e")
 		)
 		(pin "1"
-			(uuid "79ed1ac7-bd46-4f93-b9ac-31f48a503206")
-		)
-		(pin "13"
-			(uuid "bf4408ad-0e75-42d5-a682-814924040b94")
-		)
-		(pin "6"
-			(uuid "d1be7837-bc5c-4dc5-8a5a-9d03c733078b")
-		)
-		(pin "7"
-			(uuid "cb73aa29-870f-4e1e-858c-a47d00526a36")
-		)
-		(pin "15"
-			(uuid "fda56c43-2147-4383-99a1-e96fd8e05c95")
-		)
-		(pin "14"
-			(uuid "7c6d32dd-a33f-414e-93f7-49a5e379c051")
-		)
-		(pin "11"
-			(uuid "46444ced-6324-4843-b371-54fd4e272c8a")
-		)
-		(pin "9"
-			(uuid "14ef5135-536f-48a8-89b3-1d4d4cd5aa69")
+			(uuid "0dbce95d-7941-468e-8cae-0bfe47816430")
 		)
 		(instances
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN1")
-					(unit 4)
+					(reference "R45")
+					(unit 1)
 				)
 			)
 		)
