@@ -8468,10 +8468,6 @@
 		(uuid "aeab596c-5290-479d-a3f9-a7625f006e0d")
 	)
 	(no_connect
-		(at 128.27 163.83)
-		(uuid "b2c75f16-ffbd-4359-ae9c-0e0e2a87c1f6")
-	)
-	(no_connect
 		(at 128.27 173.99)
 		(uuid "d271fce6-a919-4523-80d3-d03ac5a989ef")
 	)
@@ -9174,6 +9170,30 @@
 		(uuid "0908f12b-1bff-4db9-944e-2c8672ed0f3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 24.13 53.4997 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ATX_PWR_o"
+		(shape input)
+		(at 128.27 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0eca3629-05bc-4e83-8813-ea4ef7165928")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.5965 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
