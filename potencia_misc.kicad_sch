@@ -5,12 +5,12 @@
 	(uuid "9a9950cb-82fa-46ff-91b0-561e62479604")
 	(paper "A3")
 	(title_block
-		(date "2026-08-10")
+		(date "2026-08-29")
 		(rev "C")
 		(company "---")
 		(comment 1 "powered by STM32F407VET6")
 		(comment 2 "BY todio")
-		(comment 3 "na pagina \"hapia\" leia os aviosos e pergunta ")
+		(comment 3 "na pagina \"hapia\" leia os avisos")
 	)
 	(lib_symbols
 		(symbol "Connector:ATX-24"
@@ -5131,12 +5131,6 @@
 		(uuid "31f1c9c7-a19e-49f1-82d6-774a0c0efb1b")
 	)
 	(junction
-		(at 264.795 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3392f4d3-5bde-4d81-bee7-7ab2204b24ca")
-	)
-	(junction
 		(at 278.13 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5209,12 +5203,6 @@
 		(uuid "9d306cc5-64fa-4037-8772-f8ff3c739b4d")
 	)
 	(junction
-		(at 263.525 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4ff67e0-4e74-49b8-9fdc-f344499bcd2c")
-	)
-	(junction
 		(at 283.21 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5257,7 +5245,7 @@
 		(uuid "df0bb515-1fa2-4820-8baa-a6b9cb2e8589")
 	)
 	(junction
-		(at 56.515 205.105)
+		(at 43.18 213.995)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e423912a-e86a-477d-bd7a-db7dd1012bff")
@@ -5290,7 +5278,7 @@
 	)
 	(wire
 		(pts
-			(xy 263.525 81.28) (xy 267.97 81.28)
+			(xy 256.54 81.28) (xy 267.97 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5377,6 +5365,16 @@
 			(type default)
 		)
 		(uuid "1739ebdc-7423-4600-8224-d8123369e883")
+	)
+	(wire
+		(pts
+			(xy 43.18 205.74) (xy 43.18 206.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "184f2a75-431d-4efa-a66d-6f4a6712f07f")
 	)
 	(wire
 		(pts
@@ -5610,7 +5608,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.795 48.26) (xy 267.97 48.26)
+			(xy 257.81 48.26) (xy 267.97 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5640,16 +5638,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 81.28) (xy 263.525 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93de1d4b-fc6f-4fe2-9302-8364e132c0c8")
-	)
-	(wire
-		(pts
 			(xy 275.59 165.1) (xy 275.59 163.83)
 		)
 		(stroke
@@ -5660,7 +5648,7 @@
 	)
 	(wire
 		(pts
-			(xy 56.515 205.105) (xy 66.04 205.105)
+			(xy 43.18 213.995) (xy 52.705 213.995)
 		)
 		(stroke
 			(width 0)
@@ -5870,16 +5858,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 48.26) (xy 264.795 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e689292f-a3df-44dc-be9e-2edfd8bfb6c3")
-	)
-	(wire
-		(pts
 			(xy 55.88 24.13) (xy 72.39 24.13)
 		)
 		(stroke
@@ -5980,7 +5958,7 @@
 	)
 	(global_label "ATX_PWR_o"
 		(shape input)
-		(at 66.04 205.105 0)
+		(at 52.705 213.995 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5990,7 +5968,7 @@
 		)
 		(uuid "10bc347d-64db-4165-9871-464cefa3e517")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.3665 205.105 0)
+			(at 66.0315 213.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6028,7 +6006,7 @@
 	)
 	(global_label "ATX_PWR"
 		(shape input)
-		(at 56.515 197.485 180)
+		(at 43.18 205.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6038,7 +6016,7 @@
 		)
 		(uuid "2f115db1-b334-4b52-aa58-45583b1e60be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.3051 197.485 0)
+			(at 31.9701 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7311,7 +7289,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMF5V0A")
-		(at 66.04 208.915 270)
+		(at 52.705 217.805 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7321,7 +7299,7 @@
 		(dnp no)
 		(uuid "1d785d57-9227-4734-be4c-1cd003c4bf39")
 		(property "Reference" "D9"
-			(at 67.31 208.915 90)
+			(at 53.975 217.805 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7332,7 +7310,7 @@
 			)
 		)
 		(property "Value" "SMF5V0A"
-			(at 66.04 211.455 90)
+			(at 52.705 220.345 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7343,7 +7321,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 60.96 208.915 0)
+			(at 47.625 217.805 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7354,7 +7332,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?85881"
-			(at 66.04 207.645 0)
+			(at 52.705 216.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7365,7 +7343,7 @@
 			)
 		)
 		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
-			(at 66.04 208.915 0)
+			(at 52.705 217.805 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7800,7 +7778,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C307348.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FfU1VRT1VYVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
 			(at 91.44 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -7822,7 +7800,29 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" "C346191"
+		(property "jlc_pcb:" "C307348"
+			(at 91.44 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL10B104KB8WPNC"
+			(at 91.44 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL10B104KB8WPNC"
 			(at 91.44 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -8427,7 +8427,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "595-UCC27524DR"
 			(at 240.03 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -8677,88 +8677,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SMF15A")
-		(at 264.795 52.07 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39ac52f8-6a67-46cc-92ab-fdd455b8b5fa")
-		(property "Reference" "D12"
-			(at 267.97 50.7999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMF15A"
-			(at 267.97 53.3399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 259.715 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?85881"
-			(at 264.795 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 15Vrwm, SMF"
-			(at 264.795 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8b7a7379-3cdc-4cd6-90d6-f51e66ce21d6")
-		)
-		(pin "1"
-			(uuid "452bb523-a735-49e7-82aa-439b27d19abf")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MOS_S:IRFS7530TRL7PP")
 		(at 275.59 44.45 0)
 		(unit 1)
@@ -8768,10 +8686,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "441f804a-c2f4-41b6-9ac5-055ff662edb4")
 		(property "Reference" "U13"
-			(at 286.385 46.9899 0)
+			(at 287.02 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8782,7 +8699,7 @@
 			)
 		)
 		(property "Value" "IRFS7530TRL7PP"
-			(at 286.385 49.5299 0)
+			(at 287.02 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9144,6 +9061,50 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 77.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" ""
+			(at 72.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 72.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 72.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
+			(at 72.39 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9684,7 +9645,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C307348.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FfU1VRT1VYVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
 			(at 72.39 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -9706,7 +9667,29 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" "C346191"
+		(property "jlc_pcb:" "C307348"
+			(at 72.39 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL10B104KB8WPNC"
+			(at 72.39 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL10B104KB8WPNC"
 			(at 72.39 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -9865,7 +9848,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UCC27524D"
+		(property "Value" "UCC27524DR"
 			(at 240.9033 69.215 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9899,6 +9882,39 @@
 			)
 		)
 		(property "Description" "Dual 5A MOSFET driver, 4.5V..18V supply, non-inverting, SOIC-8"
+			(at 238.76 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C465729"
+			(at 238.76 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "595-UCC27524DR"
+			(at 238.76 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "UCC27524DR"
 			(at 238.76 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10218,7 +10234,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 56.515 208.915 180)
+		(at 43.18 217.805 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10229,7 +10245,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d366432-260d-44d3-80ba-6168b8e65792")
 		(property "Reference" "R73"
-			(at 58.42 207.6449 0)
+			(at 45.085 216.5349 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10240,7 +10256,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 58.42 210.1849 0)
+			(at 45.085 219.0749 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10251,7 +10267,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.293 208.915 90)
+			(at 44.958 217.805 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10262,7 +10278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 56.515 208.915 0)
+			(at 43.18 217.805 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10273,7 +10289,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 56.515 208.915 0)
+			(at 43.18 217.805 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10575,7 +10591,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C307348.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FfU1VRT1VYVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
 			(at 43.18 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -10608,7 +10624,7 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" "C346191"
+		(property "jlc_pcb:" "C307348"
 			(at 43.18 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -10619,8 +10635,19 @@
 				)
 			)
 		)
-		(property "mpn" "CL10B104KB8NFNC"
+		(property "mpn" "CL10B104KB8WPNC"
 			(at 43.18 20.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL10B104KB8WPNC"
+			(at 43.18 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10647,7 +10674,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 56.515 201.295 180)
+		(at 43.18 210.185 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10658,7 +10685,7 @@
 		(fields_autoplaced yes)
 		(uuid "7800b74f-22e3-467f-9d73-4779539d31dd")
 		(property "Reference" "R74"
-			(at 58.42 200.0249 0)
+			(at 45.085 208.9149 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10669,7 +10696,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 58.42 202.5649 0)
+			(at 45.085 211.4549 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10680,7 +10707,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.293 201.295 90)
+			(at 44.958 210.185 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10691,7 +10718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 56.515 201.295 0)
+			(at 43.18 210.185 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10702,7 +10729,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 56.515 201.295 0)
+			(at 43.18 210.185 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10819,10 +10846,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7b24ff73-c19a-4497-8d28-05bef06f0f80")
 		(property "Reference" "U14"
-			(at 286.385 80.0099 0)
+			(at 287.02 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10833,7 +10859,7 @@
 			)
 		)
 		(property "Value" "IRFS7530TRL7PP"
-			(at 286.385 82.5499 0)
+			(at 287.02 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11469,7 +11495,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C307348.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FfU1VRT1VYVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
 			(at 119.38 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -11502,7 +11528,7 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" "C346191"
+		(property "jlc_pcb:" "C307348"
 			(at 119.38 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -11513,8 +11539,19 @@
 				)
 			)
 		)
-		(property "mpn" "CL10B104KB8NFNC"
+		(property "mpn" "CL10B104KB8WPNC"
 			(at 119.38 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL10B104KB8WPNC"
+			(at 119.38 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11612,83 +11649,6 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "#PWR0178")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 263.525 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "90b78c5e-ea98-4a78-af16-7ec1298e2c24")
-		(property "Reference" "#PWR0309"
-			(at 263.525 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 263.525 94.234 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 263.525 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 263.525 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 263.525 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c294314e-1dbe-4a60-bb59-41916bb80741")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -11816,7 +11776,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C307348.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FfU1VRT1VYVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
 			(at 114.935 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -11849,7 +11809,7 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" "C346191"
+		(property "jlc_pcb:" "C307348"
 			(at 114.935 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -11860,7 +11820,18 @@
 				)
 			)
 		)
-		(property "mpn" "CL10B104KB8NFNC"
+		(property "mpn" "CL10B104KB8WPNC"
+			(at 114.935 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL10B104KB8WPNC"
 			(at 114.935 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -12268,7 +12239,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMF5V0A"
+		(property "Value" "SMF3.3"
 			(at 142.24 34.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12302,6 +12273,50 @@
 			)
 		)
 		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
+			(at 139.7 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" ""
+			(at 139.7 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 139.7 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 139.7 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 139.7 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12410,7 +12425,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 56.515 212.725 0)
+		(at 43.18 221.615 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12421,7 +12436,7 @@
 		(fields_autoplaced yes)
 		(uuid "9de7de0c-5e01-4e72-883a-67ef64e4904f")
 		(property "Reference" "#PWR0311"
-			(at 56.515 219.075 0)
+			(at 43.18 227.965 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12432,7 +12447,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 56.515 217.17 0)
+			(at 43.18 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12442,7 +12457,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 56.515 212.725 0)
+			(at 43.18 221.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12453,7 +12468,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 56.515 212.725 0)
+			(at 43.18 221.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12464,7 +12479,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 56.515 212.725 0)
+			(at 43.18 221.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12726,7 +12741,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 212.725 0)
+		(at 52.705 221.615 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12737,7 +12752,7 @@
 		(fields_autoplaced yes)
 		(uuid "a24a7ce6-8daf-48a4-b890-e842735557a9")
 		(property "Reference" "#PWR0312"
-			(at 66.04 219.075 0)
+			(at 52.705 227.965 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12748,7 +12763,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 217.17 0)
+			(at 52.705 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12758,7 +12773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 212.725 0)
+			(at 52.705 221.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12769,7 +12784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 212.725 0)
+			(at 52.705 221.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12780,7 +12795,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 212.725 0)
+			(at 52.705 221.615 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13002,7 +13017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C307348.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FfU1VRT1VYVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
 			(at 265.43 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -13035,7 +13050,7 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" "C346191"
+		(property "jlc_pcb:" "C307348"
 			(at 265.43 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -13046,7 +13061,18 @@
 				)
 			)
 		)
-		(property "mpn" "CL10B104KB8NFNC"
+		(property "mpn" "CL10B104KB8WPNC"
+			(at 265.43 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL10B104KB8WPNC"
 			(at 265.43 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -13195,7 +13221,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C307348.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FfU1VRT1VYVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
 			(at 141.605 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -13228,7 +13254,7 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" "C346191"
+		(property "jlc_pcb:" "C307348"
 			(at 141.605 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -13239,7 +13265,18 @@
 				)
 			)
 		)
-		(property "mpn" "CL10B104KB8NFNC"
+		(property "mpn" "CL10B104KB8WPNC"
+			(at 141.605 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL10B104KB8WPNC"
 			(at 141.605 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -14105,7 +14142,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C307348.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FfU1VRT1VYVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
 			(at 269.24 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -14138,7 +14175,7 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" "C346191"
+		(property "jlc_pcb:" "C307348"
 			(at 269.24 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -14149,7 +14186,18 @@
 				)
 			)
 		)
-		(property "mpn" "CL10B104KB8NFNC"
+		(property "mpn" "CL10B104KB8WPNC"
+			(at 269.24 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL10B104KB8WPNC"
 			(at 269.24 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -14810,88 +14858,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SMF15A")
-		(at 263.525 85.09 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8489a5f-4c8b-4991-9a95-a6f5019a192b")
-		(property "Reference" "D11"
-			(at 266.7 83.8199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMF15A"
-			(at 266.7 86.3599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 258.445 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?85881"
-			(at 263.525 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 15Vrwm, SMF"
-			(at 263.525 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dbf6d923-032e-409d-b05a-8159b9035558")
-		)
-		(pin "1"
-			(uuid "8d89ff8d-fa10-4ed8-bc02-4f4781d67087")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 228.6 81.28 90)
 		(unit 1)
@@ -15246,83 +15212,6 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "#PWR0173")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 264.795 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dfeafd87-db6b-4c77-8838-a7469f2254a7")
-		(property "Reference" "#PWR0310"
-			(at 264.795 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 264.795 61.214 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.795 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.795 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.795 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8dfc3d3d-4900-45eb-a713-0d30698a88f5")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -16019,7 +15908,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "538-39-30-1240"
 			(at 41.91 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -16243,7 +16132,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C307348.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FfU1VRT1VYVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
 			(at 269.24 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -16276,7 +16165,7 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" "C346191"
+		(property "jlc_pcb:" "C307348"
 			(at 269.24 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -16287,7 +16176,18 @@
 				)
 			)
 		)
-		(property "mpn" "CL10B104KB8NFNC"
+		(property "mpn" "CL10B104KB8WPNC"
+			(at 269.24 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL10B104KB8WPNC"
 			(at 269.24 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -16972,7 +16872,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR6020S"
 			(at 104.14 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -16983,7 +16883,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C307880.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.5.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeQFhbU1VUQFRWUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktRR1NADxALGw%3D%3D"
 			(at 104.14 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -16995,6 +16895,50 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 104.14 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C307880"
+			(at 104.14 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "VLS6045EX-4R7M"
+			(at 104.14 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "810-VLS6045EX-4R7M"
+			(at 104.14 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 104.14 29.21 0)
 			(hide yes)
 			(show_name no)

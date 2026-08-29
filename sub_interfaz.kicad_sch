@@ -6,12 +6,12 @@
 	(paper "A5")
 	(title_block
 		(title "ihm i2sx3")
-		(date "2026-08-10")
+		(date "2026-08-29")
 		(rev "C")
 		(company "---")
 		(comment 1 "powered by STM32F407VET6")
 		(comment 2 "BY todio")
-		(comment 3 "na pagina \"hapia\" leia os aviosos e pergunta ")
+		(comment 3 "na pagina \"hapia\" leia os avisos")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
@@ -3702,7 +3702,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C307348.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FfU1VRT1VYVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
 			(at 77.47 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -3735,7 +3735,7 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" "C346191"
+		(property "jlc_pcb:" "C307348"
 			(at 77.47 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -3746,7 +3746,18 @@
 				)
 			)
 		)
-		(property "mpn" "CL10B104KB8NFNC"
+		(property "mpn" "CL10B104KB8WPNC"
+			(at 77.47 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL10B104KB8WPNC"
 			(at 77.47 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -3815,7 +3826,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C307348.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FfU1VRT1VYVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
 			(at 53.34 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -3848,7 +3859,7 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" "C346191"
+		(property "jlc_pcb:" "C307348"
 			(at 53.34 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -3859,7 +3870,18 @@
 				)
 			)
 		)
-		(property "mpn" "CL10B104KB8NFNC"
+		(property "mpn" "CL10B104KB8WPNC"
+			(at 53.34 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL10B104KB8WPNC"
 			(at 53.34 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -4404,7 +4426,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C307348.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FfU1VRT1VYVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
 			(at 67.31 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4437,7 +4459,7 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" "C346191"
+		(property "jlc_pcb:" "C307348"
 			(at 67.31 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4448,7 +4470,18 @@
 				)
 			)
 		)
-		(property "mpn" "CL10B104KB8NFNC"
+		(property "mpn" "CL10B104KB8WPNC"
+			(at 67.31 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL10B104KB8WPNC"
 			(at 67.31 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4675,7 +4708,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C307348.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FfU1VRT1VYVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
 			(at 77.47 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4708,7 +4741,7 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" "C346191"
+		(property "jlc_pcb:" "C307348"
 			(at 77.47 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -4719,7 +4752,18 @@
 				)
 			)
 		)
-		(property "mpn" "CL10B104KB8NFNC"
+		(property "mpn" "CL10B104KB8WPNC"
+			(at 77.47 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL10B104KB8WPNC"
 			(at 77.47 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -7184,7 +7228,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C307348.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FfU1VRT1VYVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
 			(at 31.75 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7217,7 +7261,7 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" "C346191"
+		(property "jlc_pcb:" "C307348"
 			(at 31.75 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -7228,7 +7272,18 @@
 				)
 			)
 		)
-		(property "mpn" "CL10B104KB8NFNC"
+		(property "mpn" "CL10B104KB8WPNC"
+			(at 31.75 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL10B104KB8WPNC"
 			(at 31.75 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -7297,7 +7352,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C307348.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FfU1VRT1VYVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
 			(at 31.75 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7330,7 +7385,7 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" "C346191"
+		(property "jlc_pcb:" "C307348"
 			(at 31.75 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -7341,7 +7396,18 @@
 				)
 			)
 		)
-		(property "mpn" "CL10B104KB8NFNC"
+		(property "mpn" "CL10B104KB8WPNC"
+			(at 31.75 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL10B104KB8WPNC"
 			(at 31.75 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -7827,7 +7893,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C307348.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FfU1VRT1VYVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
 			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7860,7 +7926,7 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" "C346191"
+		(property "jlc_pcb:" "C307348"
 			(at 53.34 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -7871,7 +7937,18 @@
 				)
 			)
 		)
-		(property "mpn" "CL10B104KB8NFNC"
+		(property "mpn" "CL10B104KB8WPNC"
+			(at 53.34 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL10B104KB8WPNC"
 			(at 53.34 88.9 90)
 			(hide yes)
 			(show_name no)
