@@ -6004,7 +6004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 235.9152 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6015,7 +6015,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C15195.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFdXUFMDFlheUAYAQ1QKAVdVFVQMX1JRQwJaBlxeEgIxVlNeT1NcX1JfQlhcXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
 			(at 234.95 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6027,6 +6027,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 234.95 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C15195"
+			(at 234.95 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL05B103KB5NNNC"
+			(at 234.95 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL05B103KB5NNNC"
 			(at 234.95 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6873,7 +6906,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uf"
+		(property "Value" "10µf"
 			(at 95.25 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6884,7 +6917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 92.4052 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6895,7 +6928,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13585.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeQFhbU1VUQFRWUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktRR1NADxALGw%3D%3D"
 			(at 91.44 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6907,6 +6940,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 91.44 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C13585"
+			(at 91.44 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL31B106KLK6PNE"
+			(at 91.44 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL31A106KBHNNNE"
 			(at 91.44 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7373,7 +7439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 262.255 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -8404,7 +8470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 25.0952 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -8415,7 +8481,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13585.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeQFhbU1VUQFRWUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktRR1NADxALGw%3D%3D"
 			(at 24.13 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -8427,6 +8493,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 24.13 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C13585"
+			(at 24.13 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL31B106KLK6PNE"
+			(at 24.13 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL31A106KBHNNNE"
 			(at 24.13 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -8486,7 +8585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 256.8702 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8497,7 +8596,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C15195.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFdXUFMDFlheUAYAQ1QKAVdVFVQMX1JRQwJaBlxeEgIxVlNeT1NcX1JfQlhcXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
 			(at 255.905 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8509,6 +8608,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 255.905 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C15195"
+			(at 255.905 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL05B103KB5NNNC"
+			(at 255.905 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL05B103KB5NNNC"
 			(at 255.905 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8726,7 +8858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 197.8152 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -8737,7 +8869,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13585.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeQFhbU1VUQFRWUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktRR1NADxALGw%3D%3D"
 			(at 196.85 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -8749,6 +8881,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 196.85 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C13585"
+			(at 196.85 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL31B106KLK6PNE"
+			(at 196.85 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL31A106KBHNNNE"
 			(at 196.85 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -8953,7 +9118,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SRV05-4"
+		(property "Value" "SRV05-4HTG-D"
 			(at 97.0981 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8997,7 +9162,7 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" "ssss"
+		(property "jlc_pcb:" "C1975211"
 			(at 93.98 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9008,7 +9173,18 @@
 				)
 			)
 		)
-		(property "mpn" "ssss"
+		(property "mpn" "SRV05-4HTG-D"
+			(at 93.98 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "576-SRV05-4HTG-D"
 			(at 93.98 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10042,7 +10218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 379.4252 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -10053,7 +10229,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C15195.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFdXUFMDFlheUAYAQ1QKAVdVFVQMX1JRQwJaBlxeEgIxVlNeT1NcX1JfQlhcXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
 			(at 378.46 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10065,6 +10241,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 378.46 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C15195"
+			(at 378.46 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL05B103KB5NNNC"
+			(at 378.46 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL05B103KB5NNNC"
 			(at 378.46 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10973,7 +11182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 25.0952 182.245 0)
 			(hide yes)
 			(show_name no)
@@ -10984,7 +11193,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13585.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeQFhbU1VUQFRWUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktRR1NADxALGw%3D%3D"
 			(at 24.13 178.435 0)
 			(hide yes)
 			(show_name no)
@@ -10996,6 +11205,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 24.13 178.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C13585"
+			(at 24.13 178.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL31B106KLK6PNE"
+			(at 24.13 178.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL31A106KBHNNNE"
 			(at 24.13 178.435 0)
 			(hide yes)
 			(show_name no)
@@ -11966,7 +12208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 318.4652 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11977,7 +12219,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C15195.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFdXUFMDFlheUAYAQ1QKAVdVFVQMX1JRQwJaBlxeEgIxVlNeT1NcX1JfQlhcXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
 			(at 317.5 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11989,6 +12231,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 317.5 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C15195"
+			(at 317.5 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL05B103KB5NNNC"
+			(at 317.5 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL05B103KB5NNNC"
 			(at 317.5 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12048,7 +12323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 253.0602 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12059,7 +12334,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C15195.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFdXUFMDFlheUAYAQ1QKAVdVFVQMX1JRQwJaBlxeEgIxVlNeT1NcX1JfQlhcXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
 			(at 252.095 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12071,6 +12346,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 252.095 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C15195"
+			(at 252.095 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL05B103KB5NNNC"
+			(at 252.095 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL05B103KB5NNNC"
 			(at 252.095 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12764,7 +13072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 359.1052 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -12775,7 +13083,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C15195.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFdXUFMDFlheUAYAQ1QKAVdVFVQMX1JRQwJaBlxeEgIxVlNeT1NcX1JfQlhcXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
 			(at 358.14 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12787,6 +13095,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 358.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C15195"
+			(at 358.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL05B103KB5NNNC"
+			(at 358.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL05B103KB5NNNC"
 			(at 358.14 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -13753,7 +14094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 25.0952 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -13764,7 +14105,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13585.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeQFhbU1VUQFRWUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktRR1NADxALGw%3D%3D"
 			(at 24.13 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -13776,6 +14117,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 24.13 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C13585"
+			(at 24.13 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL31B106KLK6PNE"
+			(at 24.13 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL31A106KBHNNNE"
 			(at 24.13 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -15051,7 +15425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 298.1452 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -15062,7 +15436,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C15195.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFdXUFMDFlheUAYAQ1QKAVdVFVQMX1JRQwJaBlxeEgIxVlNeT1NcX1JfQlhcXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
 			(at 297.18 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15074,6 +15448,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 297.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C15195"
+			(at 297.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL05B103KB5NNNC"
+			(at 297.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL05B103KB5NNNC"
 			(at 297.18 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15211,7 +15618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 277.8252 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -15222,7 +15629,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C15195.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFdXUFMDFlheUAYAQ1QKAVdVFVQMX1JRQwJaBlxeEgIxVlNeT1NcX1JfQlhcXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
 			(at 276.86 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15234,6 +15641,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 276.86 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C15195"
+			(at 276.86 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL05B103KB5NNNC"
+			(at 276.86 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL05B103KB5NNNC"
 			(at 276.86 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15293,7 +15733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 338.7852 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -15304,7 +15744,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C15195.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFdXUFMDFlheUAYAQ1QKAVdVFVQMX1JRQwJaBlxeEgIxVlNeT1NcX1JfQlhcXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
 			(at 337.82 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15316,6 +15756,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 337.82 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C15195"
+			(at 337.82 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL05B103KB5NNNC"
+			(at 337.82 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL05B103KB5NNNC"
 			(at 337.82 68.58 0)
 			(hide yes)
 			(show_name no)

@@ -2453,7 +2453,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SMF15A"
+		(symbol "Diode:SMF12A"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2476,7 +2476,7 @@
 					)
 				)
 			)
-			(property "Value" "SMF15A"
+			(property "Value" "SMF12A"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2508,7 +2508,7 @@
 					)
 				)
 			)
-			(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 15Vrwm, SMF"
+			(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 12Vrwm, SMF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2541,7 +2541,7 @@
 					)
 				)
 			)
-			(symbol "SMF15A_0_1"
+			(symbol "SMF12A_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
@@ -2567,7 +2567,7 @@
 					)
 				)
 			)
-			(symbol "SMF15A_1_1"
+			(symbol "SMF12A_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -5528,6 +5528,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 184.15) (xy 41.91 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "762f6208-5bea-4331-b0b5-27dd4699296b")
+	)
+	(wire
+		(pts
 			(xy 63.5 167.64) (xy 62.23 167.64)
 		)
 		(stroke
@@ -6006,17 +6016,17 @@
 	)
 	(global_label "ATX_PWR"
 		(shape input)
-		(at 43.18 205.74 180)
+		(at 43.18 205.74 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "2f115db1-b334-4b52-aa58-45583b1e60be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.9701 205.74 0)
+			(at 43.18 194.5301 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6024,7 +6034,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -6054,7 +6064,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 41.91 196.215 90)
+		(at 41.91 183.515 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6064,7 +6074,7 @@
 		)
 		(uuid "45110597-d7c8-4d03-b2e9-93ee601fa8bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.91 189.3593 90)
+			(at 48.7657 183.515 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6333,7 +6343,7 @@
 				)
 			)
 		)
-		(property "Value" "12"
+		(property "Value" "12Ω"
 			(at 252.73 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6343,7 +6353,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_MELF_MMB-0207"
 			(at 252.73 83.058 90)
 			(hide yes)
 			(show_name no)
@@ -6354,7 +6364,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2078923.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.6.xh&lcsc_vid=TldeXwACFQUPBVZQEVhcUAZRRFgIXgADEQdaA1MEEVIxVlNeT1NcUFBVQlZeUTtW"
 			(at 252.73 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6366,6 +6376,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 252.73 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C2078923"
+			(at 252.73 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "MMB02070C1209FB200"
+			(at 252.73 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "594-MMB02070C1209FB2"
+			(at 252.73 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 252.73 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6735,7 +6789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 54.102 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -6746,7 +6800,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C445587.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbU1NVQVRfXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slT1lZU1dIHxUDCw%3D%3D"
 			(at 55.88 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6758,6 +6812,39 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 55.88 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C445587"
+			(at 55.88 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "667-ERA-2AEB331X"
+			(at 55.88 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "ERA2AEB331X"
 			(at 55.88 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6971,7 +7058,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 44.45 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6982,7 +7069,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22284020?display=pdf&utm_source=M2X&utm_medium=api&utm_campaign=api&utm_id=M2X_API?utm_source=M2X&utm_medium=api&utm_campaign=api&utm_id=M2X_API"
 			(at 44.45 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6994,6 +7081,39 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 44.45 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C234182"
+			(at 44.45 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "538-22-28-4020"
+			(at 44.45 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "22284020"
 			(at 44.45 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7217,7 +7337,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://br.mouser.com/datasheet/3/76/4/GCM155R71E333KA55_01A.pdf"
 			(at 64.77 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7261,7 +7381,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "81-GCM155R71E333KA5D"
 			(at 64.77 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7282,87 +7402,6 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "C56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMF5V0A")
-		(at 52.705 217.805 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1d785d57-9227-4734-be4c-1cd003c4bf39")
-		(property "Reference" "D9"
-			(at 53.975 217.805 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMF5V0A"
-			(at 52.705 220.345 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 47.625 217.805 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?85881"
-			(at 52.705 216.535 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
-			(at 52.705 217.805 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6a5a6ef1-3fdb-4fea-a2d1-33ce2746326a")
-		)
-		(pin "1"
-			(uuid "b3bc638f-4967-485b-8e3d-54d92b9daec2")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -7581,7 +7620,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "12"
+		(property "Value" "12Ω"
 			(at 257.81 70.4849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7592,7 +7631,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_MELF_MMB-0207"
 			(at 257.048 69.215 90)
 			(hide yes)
 			(show_name no)
@@ -7603,7 +7642,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2078923.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.6.xh&lcsc_vid=TldeXwACFQUPBVZQEVhcUAZRRFgIXgADEQdaA1MEEVIxVlNeT1NcUFBVQlZeUTtW"
 			(at 255.27 69.215 0)
 			(hide yes)
 			(show_name no)
@@ -7615,6 +7654,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 255.27 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C2078923"
+			(at 255.27 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "MMB02070C1209FB200"
+			(at 255.27 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "594-MMB02070C1209FB2"
+			(at 255.27 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 255.27 69.215 0)
 			(hide yes)
 			(show_name no)
@@ -7685,7 +7768,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C28323.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbU1dRQ1NYUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVldVVdIHxUDCw%3D%3D"
 			(at 127.635 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -7708,6 +7791,28 @@
 			)
 		)
 		(property "jlc_pcb:" "C28323"
+			(at 127.635 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL21B105KBFNNNE"
+			(at 127.635 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL21B105KBFNNNE"
 			(at 127.635 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -7849,6 +7954,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMF12A")
+		(at 172.085 161.925 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2877b433-2f5f-4bd4-b87a-36dfdcf1db72")
+		(property "Reference" "D10"
+			(at 174.625 160.6549 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF12A"
+			(at 174.625 163.1949 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMF"
+			(at 167.005 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?85881"
+			(at 172.085 160.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 12Vrwm, SMF"
+			(at 172.085 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac93fa62-b175-41ea-b413-0e3944b0c4e3")
+		)
+		(pin "2"
+			(uuid "df842bb5-3696-4df8-b0f4-4baa9756b5b7")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SMF5V0A")
 		(at 62.23 171.45 270)
 		(unit 1)
@@ -7951,7 +8138,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 259.588 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7985,6 +8172,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 257.81 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" ""
+			(at 257.81 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 257.81 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 257.81 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 257.81 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8290,7 +8521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 54.102 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -8301,7 +8532,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C122538.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=TgUMVVJTT1APU1ICElJZUAAEEgNaVFJfFlJeUQADFVYxVlNeT1NZUFdQTlVeVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
 			(at 55.88 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8313,6 +8544,39 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 55.88 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C122538"
+			(at 55.88 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "603-RT0603BRD07100KL"
+			(at 55.88 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "RT0603BRD07100KL"
 			(at 55.88 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8732,6 +8996,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 275.59 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C445669"
+			(at 275.59 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "942-IRFS7530TRL7PP"
+			(at 275.59 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "IRFS7530TRL7PP"
 			(at 275.59 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9319,7 +9616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 107.95 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9330,7 +9627,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C861313.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=TgUMVVJTT1APU1ICElJZUAAEEgNaVFJfFlJeUQADFVYxVlNeT1NZUFFeQ1ZYVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slT1ZeUVBSWQkaCgg%3D"
 			(at 107.95 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9342,6 +9639,39 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 107.95 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C861313"
+			(at 107.95 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "RT0603BRD0730K9L"
+			(at 107.95 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "603-RT0603BRD0730K9L"
 			(at 107.95 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10077,6 +10407,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMF5V0A")
+		(at 52.705 217.805 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "654e8cc4-6ae8-4176-8486-86a3fdc4c64d")
+		(property "Reference" "D8"
+			(at 55.245 216.5349 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF3.3"
+			(at 55.245 219.0749 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMF"
+			(at 47.625 217.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?85881"
+			(at 52.705 216.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
+			(at 52.705 217.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" ""
+			(at 52.705 217.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 52.705 217.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 52.705 217.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
+			(at 52.705 217.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cd760fb6-b3be-4173-ad31-e744170af6fc")
+		)
+		(pin "1"
+			(uuid "a5a2502b-e357-4877-a25a-9e82cb9d1ab9")
+		)
+		(instances
+			(project "hapia"
+				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 74.93 140.97 180)
 		(unit 1)
@@ -10398,7 +10854,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10448,6 +10904,50 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 22.86 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" ""
+			(at 22.86 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 22.86 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 22.86 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 22.86 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -10902,6 +11402,39 @@
 				)
 			)
 		)
+		(property "jlc_pcb:" "C445669"
+			(at 275.59 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "942-IRFS7530TRL7PP"
+			(at 275.59 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "IRFS7530TRL7PP"
+			(at 275.59 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "419904b0-9045-4bc7-bd17-60bf91f734c0")
 		)
@@ -10965,7 +11498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 37.7952 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -10976,7 +11509,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C86816.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.4.xh&lcsc_vid=RFdXUFMDFlheUAYAQ1QKAVdVFVQMX1JRQwJaBlxeEgIxVlNeT1NcX1JfQlhcXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
 			(at 36.83 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10988,6 +11521,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 36.83 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C86816"
+			(at 36.83 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "81-GRM21BR61E226ME4L"
+			(at 36.83 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "GRM21BR61E226ME44L"
 			(at 36.83 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11019,7 +11585,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11070,6 +11636,50 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 74.93 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" ""
+			(at 74.93 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 74.93 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 74.93 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 74.93 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -11370,7 +11980,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://br.mouser.com/datasheet/3/3655/1/YXJ.pdf"
 			(at 105.41 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -11414,7 +12024,7 @@
 				)
 			)
 		)
-		(property "mpn" ""
+		(property "mpn" "35YXJ1000M12.5X20"
 			(at 105.41 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -11425,7 +12035,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "232-35YXJ1000M125X20"
 			(at 105.41 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -12375,7 +12985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 47.9552 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12386,7 +12996,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C86816.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.4.xh&lcsc_vid=RFdXUFMDFlheUAYAQ1QKAVdVFVQMX1JRQwJaBlxeEgIxVlNeT1NcX1JfQlhcXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
 			(at 46.99 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -12398,6 +13008,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 46.99 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C86816"
+			(at 46.99 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "81-GRM21BR61E226ME4L"
+			(at 46.99 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "GRM21BR61E226ME44L"
 			(at 46.99 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -12601,7 +13244,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 258.318 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12635,6 +13278,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 256.54 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" ""
+			(at 256.54 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 256.54 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 256.54 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 256.54 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13627,7 +14314,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13688,6 +14375,50 @@
 				)
 			)
 		)
+		(property "jlc_pcb:" ""
+			(at 157.48 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 157.48 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 157.48 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
+			(at 157.48 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "02d88446-6019-44f8-90af-9568991b4fe6")
 		)
@@ -13695,166 +14426,6 @@
 			(project "hapia"
 				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
 					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 41.91 196.215 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b62e1a86-bd52-428c-9596-4104e2eec4f4")
-		(property "Reference" "#PWR0147"
-			(at 41.91 202.565 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 201.295 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 196.215 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 196.215 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 196.215 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "948a1ef7-fe24-4d13-8e11-209920ba1e73")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "#PWR0147")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMF15A")
-		(at 172.085 161.925 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7276d57-59b3-4e8b-9d28-91a232dad88f")
-		(property "Reference" "D8"
-			(at 175.26 160.6549 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMF15A"
-			(at 175.26 163.1949 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 167.005 161.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?85881"
-			(at 172.085 160.655 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 15Vrwm, SMF"
-			(at 172.085 161.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "29a21dd1-fb8f-46a4-bf58-75ed846d8976")
-		)
-		(pin "1"
-			(uuid "91294240-bb29-4cb3-9b0f-75f8747279ee")
-		)
-		(instances
-			(project "hapia"
-				(path "/a3449e8f-77d7-48cf-b22a-69e9391d97ed"
-					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -14256,7 +14827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 120.3452 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -14267,7 +14838,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C86816.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.4.xh&lcsc_vid=RFdXUFMDFlheUAYAQ1QKAVdVFVQMX1JRQwJaBlxeEgIxVlNeT1NcX1JfQlhcXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
 			(at 119.38 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -14279,6 +14850,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 119.38 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C86816"
+			(at 119.38 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "81-GRM21BR61E226ME4L"
+			(at 119.38 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "GRM21BR61E226ME44L"
 			(at 119.38 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -14404,7 +15008,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "330Ω"
 			(at 110.49 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14415,7 +15019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 107.95 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -14426,7 +15030,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
 			(at 107.95 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -14438,6 +15042,39 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 107.95 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C445587"
+			(at 107.95 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "667-ERA-2AEB331X"
+			(at 107.95 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "ERA2AEB331X"
 			(at 107.95 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -14798,7 +15435,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 262.128 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14832,6 +15469,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 260.35 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" ""
+			(at 260.35 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 260.35 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 260.35 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 260.35 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14981,7 +15662,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://br.mouser.com/datasheet/3/3655/1/YXJ.pdf"
 			(at 155.575 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -15025,7 +15706,7 @@
 				)
 			)
 		)
-		(property "mpn" ""
+		(property "mpn" "35YXJ1000M12.5X20"
 			(at 155.575 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -15036,7 +15717,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "232-35YXJ1000M125X20"
 			(at 155.575 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -15250,7 +15931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 130.5052 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -15261,7 +15942,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C86816.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.4.xh&lcsc_vid=RFdXUFMDFlheUAYAQ1QKAVdVFVQMX1JRQwJaBlxeEgIxVlNeT1NcX1JfQlhcXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
 			(at 129.54 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -15273,6 +15954,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 129.54 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C86816"
+			(at 129.54 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "81-GRM21BR61E226ME4L"
+			(at 129.54 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "GRM21BR61E226ME44L"
 			(at 129.54 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -15460,7 +16174,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -15511,6 +16225,50 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 88.9 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" ""
+			(at 88.9 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 88.9 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 88.9 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 88.9 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -15700,7 +16458,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "595-TPS62933FDRLR"
 			(at 80.01 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -16292,7 +17050,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 182.88 0)
+		(at 41.91 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16302,7 +17060,7 @@
 		(dnp no)
 		(uuid "f32c8c19-af4e-4d6d-b9f4-3fe116a74b20")
 		(property "Reference" "#PWR0146"
-			(at 41.91 189.23 0)
+			(at 41.91 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16313,7 +17071,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 188.214 0)
+			(at 41.91 189.484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16323,7 +17081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 182.88 0)
+			(at 41.91 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16334,7 +17092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 182.88 0)
+			(at 41.91 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16345,7 +17103,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 182.88 0)
+			(at 41.91 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16781,7 +17539,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 253.238 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16815,6 +17573,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 251.46 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" ""
+			(at 251.46 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 251.46 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 251.46 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 251.46 162.56 0)
 			(hide yes)
 			(show_name no)

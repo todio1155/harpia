@@ -3497,7 +3497,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SMF33A"
+		(symbol "Diode:SMF5V0A"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3520,7 +3520,7 @@
 					)
 				)
 			)
-			(property "Value" "SMF33A"
+			(property "Value" "SMF5V0A"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3552,7 +3552,7 @@
 					)
 				)
 			)
-			(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 33Vrwm, SMF"
+			(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3585,7 +3585,7 @@
 					)
 				)
 			)
-			(symbol "SMF33A_0_1"
+			(symbol "SMF5V0A_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
@@ -3611,7 +3611,7 @@
 					)
 				)
 			)
-			(symbol "SMF33A_1_1"
+			(symbol "SMF5V0A_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -8232,6 +8232,12 @@
 		(uuid "1ca5c57c-e06a-4b23-894f-3211a1de28ff")
 	)
 	(junction
+		(at 77.47 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "228b1f99-5538-4430-826d-93b50d08f383")
+	)
+	(junction
 		(at 21.59 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8262,6 +8268,12 @@
 		(uuid "32261b9d-02fa-49ef-9022-593ee889c8a0")
 	)
 	(junction
+		(at 138.43 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "383e666c-8d82-479f-be98-417f744be244")
+	)
+	(junction
 		(at 229.87 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8290,12 +8302,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5951f4e5-a0ae-49be-9f95-4b579f8bf269")
-	)
-	(junction
-		(at 77.47 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6017b143-48aa-4cf7-b07b-7034c2e9969e")
 	)
 	(junction
 		(at 107.95 85.09)
@@ -8332,12 +8338,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b8db671-e8a7-4076-9c95-edf894e2ce7d")
-	)
-	(junction
-		(at 138.43 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9eb19aca-41fc-4f03-93a7-ac0f1ef5fa5a")
 	)
 	(junction
 		(at 224.79 48.26)
@@ -8388,6 +8388,12 @@
 		(uuid "f68733d0-b3c2-4645-9254-0d8db26ce185")
 	)
 	(junction
+		(at 74.295 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9971025-8164-4343-ad2a-0edd70664f76")
+	)
+	(junction
 		(at 110.49 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8398,6 +8404,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc4555b7-d90d-411c-a37d-d8d9293be1a0")
+	)
+	(no_connect
+		(at 128.27 161.29)
+		(uuid "15037aa2-1089-4631-9bb0-f554925e6e6d")
 	)
 	(no_connect
 		(at 224.79 58.42)
@@ -8424,10 +8434,6 @@
 		(uuid "71596bc5-7c4b-48ef-bc79-9feed7001713")
 	)
 	(no_connect
-		(at 77.47 194.31)
-		(uuid "75876a39-8650-4a53-b74c-746162798540")
-	)
-	(no_connect
 		(at 128.27 118.11)
 		(uuid "76d0735f-b6d1-49f2-b12a-7c6411cfe665")
 	)
@@ -8448,12 +8454,12 @@
 		(uuid "973b1120-9394-466b-b162-2451bfedd1e3")
 	)
 	(no_connect
-		(at 201.93 66.04)
-		(uuid "a1abcc6f-be91-4b91-950d-f713fa578fb3")
+		(at 128.27 158.75)
+		(uuid "981cc02f-fb0a-42e5-8289-430bae89a2e2")
 	)
 	(no_connect
-		(at 77.47 191.77)
-		(uuid "a8d5f9cc-781e-4432-b964-ffacdbf36e0e")
+		(at 201.93 66.04)
+		(uuid "a1abcc6f-be91-4b91-950d-f713fa578fb3")
 	)
 	(no_connect
 		(at 128.27 133.35)
@@ -8468,10 +8474,6 @@
 		(uuid "d271fce6-a919-4523-80d3-d03ac5a989ef")
 	)
 	(no_connect
-		(at 77.47 189.23)
-		(uuid "d5a66858-cf96-41bc-801d-4b1a005ce96f")
-	)
-	(no_connect
 		(at 260.35 43.18)
 		(uuid "e9eb25aa-c45c-41ce-932c-9757b82f7f4c")
 	)
@@ -8482,6 +8484,16 @@
 	(no_connect
 		(at 128.27 115.57)
 		(uuid "f7b84f34-c1f1-463e-9479-bc9098e3ab6b")
+	)
+	(wire
+		(pts
+			(xy 73.025 100.33) (xy 74.295 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "017f20fa-3b02-4331-a366-8ee50d884976")
 	)
 	(wire
 		(pts
@@ -8545,7 +8557,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 92.71) (xy 73.66 100.33)
+			(xy 74.295 92.71) (xy 74.295 100.33)
 		)
 		(stroke
 			(width 0)
@@ -8586,7 +8598,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 95.25) (xy 77.47 95.25)
+			(xy 73.025 95.25) (xy 77.47 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8826,16 +8838,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 189.23) (xy 136.525 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84d49438-94d4-427e-a97d-a733d2f01fe1")
-	)
-	(wire
-		(pts
 			(xy 24.13 96.52) (xy 24.13 95.25)
 		)
 		(stroke
@@ -8896,7 +8898,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 100.33) (xy 77.47 100.33)
+			(xy 74.295 100.33) (xy 77.47 100.33)
 		)
 		(stroke
 			(width 0)
@@ -9149,7 +9151,7 @@
 	)
 	(global_label "ATX_PWR_o"
 		(shape input)
-		(at 69.85 118.11 180)
+		(at 77.47 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9159,7 +9161,7 @@
 		)
 		(uuid "0eca3629-05bc-4e83-8813-ea4ef7165928")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.5235 118.11 0)
+			(at 64.1435 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9437,17 +9439,17 @@
 	)
 	(global_label "SUB_3"
 		(shape input)
-		(at 135.89 156.21 0)
+		(at 77.47 189.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "2ec611d8-5e96-4d65-aa09-adf59e66e65e")
+		(uuid "308d93c4-7080-4b74-8771-24f6221bc0f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.8623 156.21 0)
+			(at 68.4977 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9455,7 +9457,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -9520,30 +9522,6 @@
 		(uuid "377e1c7c-f92c-4b67-88b0-3b8e45390158")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 153.5104 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SUB_2"
-		(shape input)
-		(at 135.89 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "384eb0c8-12bd-4207-9821-1de4123f05cd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.8623 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9629,17 +9607,17 @@
 	)
 	(global_label "SUB_SCL"
 		(shape input)
-		(at 77.47 125.73 180)
+		(at 128.27 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "489f7c05-da52-4ae4-94e5-e42c6a407171")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.1996 125.73 0)
+			(at 139.5404 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9647,7 +9625,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -9749,7 +9727,7 @@
 	)
 	(global_label "NTC_MUX_1"
 		(shape input)
-		(at 77.47 184.15 180)
+		(at 77.47 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9759,7 +9737,7 @@
 		)
 		(uuid "562f2e70-d5b8-4da9-9dfb-7ab7971862a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.7806 184.15 0)
+			(at 63.7806 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10061,7 +10039,7 @@
 	)
 	(global_label "STM_boot"
 		(shape input)
-		(at 73.66 100.33 180)
+		(at 73.025 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10071,7 +10049,7 @@
 		)
 		(uuid "77f0d6ff-171e-49cd-8bcd-7182fb417735")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.906 100.33 0)
+			(at 61.271 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10251,6 +10229,30 @@
 			)
 		)
 	)
+	(global_label "SUB_5"
+		(shape input)
+		(at 77.47 184.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "820149e7-cbc7-4722-90cd-e6ae9765ec73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.4977 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "gpi_PD6"
 		(shape input)
 		(at 69.85 168.91 180)
@@ -10301,7 +10303,7 @@
 	)
 	(global_label "NTC_MUX_0"
 		(shape input)
-		(at 77.47 181.61 180)
+		(at 77.47 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10311,31 +10313,7 @@
 		)
 		(uuid "89606861-c501-43d0-8ced-b125d38e0bcb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.7806 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "cont_sd"
-		(shape input)
-		(at 77.47 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8bd6a98f-b801-4b02-b11d-98fd98209e75")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.2278 133.35 0)
+			(at 63.7806 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10368,6 +10346,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SUB_6"
+		(shape input)
+		(at 77.47 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9903df5c-40ea-48c7-a01f-7af1dbc96ac5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.4977 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -10445,7 +10447,7 @@
 	)
 	(global_label "SUB_led"
 		(shape input)
-		(at 77.47 130.81 180)
+		(at 77.47 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10455,7 +10457,7 @@
 		)
 		(uuid "a81d9e24-b461-44fb-ba57-80b3fa852ee0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.8044 130.81 0)
+			(at 66.8044 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10541,17 +10543,17 @@
 	)
 	(global_label "SUB_SDA"
 		(shape input)
-		(at 77.47 128.27 180)
+		(at 128.27 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "af397e06-6d08-407b-97f8-f25b6c9eec92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.1391 128.27 0)
+			(at 139.6009 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10559,13 +10561,13 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
 	(global_label "3.3v{slash}1"
 		(shape input)
-		(at 73.66 85.09 90)
+		(at 74.295 85.09 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10575,7 +10577,7 @@
 		)
 		(uuid "af8986af-4f14-4f1a-b1e9-c5dae7e032b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.66 75.5734 90)
+			(at 74.295 75.5734 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10685,7 +10687,7 @@
 	)
 	(global_label "Fan_1"
 		(shape input)
-		(at 69.85 156.21 180)
+		(at 77.47 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10695,7 +10697,7 @@
 		)
 		(uuid "b8acce59-9607-4cfe-82ee-d9e5b76262da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.3011 156.21 0)
+			(at 68.9211 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10709,7 +10711,7 @@
 	)
 	(global_label "NTC_MUX_2"
 		(shape input)
-		(at 77.47 186.69 180)
+		(at 77.47 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10719,7 +10721,7 @@
 		)
 		(uuid "b9d06b8d-83f7-46d7-97e6-149162587bcf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.7806 186.69 0)
+			(at 63.7806 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10733,7 +10735,7 @@
 	)
 	(global_label "SUB_GPIO_2"
 		(shape input)
-		(at 136.525 189.23 0)
+		(at 135.89 189.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10743,7 +10745,7 @@
 		)
 		(uuid "bae355a2-ad2e-484f-9200-3b1a3c45009f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.9402 189.23 0)
+			(at 150.3052 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10779,30 +10781,6 @@
 			)
 		)
 	)
-	(global_label "SUB_5"
-		(shape input)
-		(at 135.89 161.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bd4ad370-f2db-4dbc-9aea-e41d01801f03")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.8623 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "gpi_PD10"
 		(shape input)
 		(at 69.85 179.07 180)
@@ -10827,33 +10805,9 @@
 			)
 		)
 	)
-	(global_label "SUB_4"
-		(shape input)
-		(at 135.89 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c226f98c-653d-4baf-9659-4bec3d0875b2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.8623 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "exrtusora"
 		(shape input)
-		(at 69.85 151.13 180)
+		(at 77.47 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10863,7 +10817,7 @@
 		)
 		(uuid "c4e518f6-5a57-4f08-8878-16763da73a58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.9749 151.13 0)
+			(at 65.5949 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11021,7 +10975,7 @@
 	)
 	(global_label "Fan_2"
 		(shape input)
-		(at 69.85 148.59 180)
+		(at 77.47 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11031,7 +10985,7 @@
 		)
 		(uuid "d54d9529-ea25-4343-a4cc-e8617a776f6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.3011 148.59 0)
+			(at 68.9211 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11056,6 +11010,30 @@
 		(uuid "da38cade-4e1f-4498-b18e-f4e4406c60ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 56.0397 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SUB_1"
+		(shape input)
+		(at 77.47 194.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df9de4d4-e92f-4153-b463-7a8f87a02f30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.4977 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11117,7 +11095,7 @@
 	)
 	(global_label "STM_nrst"
 		(shape input)
-		(at 74.93 95.25 180)
+		(at 73.025 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11127,7 +11105,7 @@
 		)
 		(uuid "e34e295f-1bb9-42d7-95a5-60cd09079e77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.6597 95.25 0)
+			(at 61.7547 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11163,6 +11141,30 @@
 			)
 		)
 	)
+	(global_label "SUB_2"
+		(shape input)
+		(at 77.47 191.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ead3c601-a7a9-4b52-8a04-75b8e355591e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.4977 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "gpi_PD13"
 		(shape input)
 		(at 135.89 151.13 0)
@@ -11184,6 +11186,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SUB_4"
+		(shape input)
+		(at 77.47 186.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f034a59d-efbe-4bf6-b0fa-add00ef1a73b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.4977 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -11213,7 +11239,7 @@
 	)
 	(global_label "hot_bed"
 		(shape input)
-		(at 69.85 153.67 180)
+		(at 77.47 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11223,7 +11249,7 @@
 		)
 		(uuid "f40a8f94-b197-4f90-ada3-b2bf179c8f7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4869 153.67 0)
+			(at 67.1069 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11452,7 +11478,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 132.08 168.148 90)
 			(hide yes)
 			(show_name no)
@@ -11463,7 +11489,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C844927.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFVVT1FaUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVFeSQwSGg0%3D"
 			(at 132.08 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -11476,6 +11502,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 132.08 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C844927"
+			(at 132.08 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "71-CRCW0603-33-E3"
+			(at 132.08 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CRCW060333R0FKEA"
+			(at 132.08 166.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11502,7 +11561,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 88.9 180)
+		(at 74.295 88.9 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11512,7 +11571,7 @@
 		(dnp no)
 		(uuid "031fc61b-1737-4fd9-80b4-e4e9f31b3b48")
 		(property "Reference" "R1"
-			(at 71.12 90.17 90)
+			(at 71.755 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11523,7 +11582,7 @@
 			)
 		)
 		(property "Value" "10KΩ"
-			(at 73.66 91.44 90)
+			(at 74.295 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11534,7 +11593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 75.438 88.9 90)
+			(at 76.073 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11545,7 +11604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 88.9 0)
+			(at 74.295 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11556,7 +11615,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 88.9 0)
+			(at 74.295 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11577,147 +11636,6 @@
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
 					(reference "R1")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 73.66 153.67 90)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "061a38e5-539c-4dfd-a6a7-9c136de3c574")
-		(property "Reference" "RN6"
-			(at 56.515 153.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 73.66 153.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
-			(at 73.66 155.702 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 73.66 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "jlc_pcb:" "C148513"
-			(at 73.66 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" "CAT10-330J4LF"
-			(at 73.66 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser:" ""
-			(at 73.66 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Descrição" ""
-			(at 73.66 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "9964e6ef-b739-408b-98e4-0fae0a2ed9f7")
-		)
-		(pin "3"
-			(uuid "35183869-5a47-4a27-bdf7-27bc97414218")
-		)
-		(pin "8"
-			(uuid "4da89113-42e8-4260-a989-30c3b3921075")
-		)
-		(pin "1"
-			(uuid "c7b5fa5b-995b-4ce5-a04f-72efe1589ac9")
-		)
-		(pin "2"
-			(uuid "8c65d5a0-1c9f-40d0-8185-fd46ffba819b")
-		)
-		(pin "7"
-			(uuid "48f0594b-8d26-4456-9022-c418ce26e3aa")
-		)
-		(pin "4"
-			(uuid "8fc1f0d7-1c1b-4282-8cab-ab5035b92a5b")
-		)
-		(pin "6"
-			(uuid "e35d988e-b703-48b3-8f83-1d06300ef03d")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN6")
-					(unit 3)
 				)
 			)
 		)
@@ -11859,7 +11777,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 132.08 132.588 90)
 			(hide yes)
 			(show_name no)
@@ -11870,7 +11788,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C844927.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFVVT1FaUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVFeSQwSGg0%3D"
 			(at 132.08 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -11883,6 +11801,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 132.08 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C844927"
+			(at 132.08 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "71-CRCW0603-33-E3"
+			(at 132.08 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CRCW060333R0FKEA"
+			(at 132.08 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11949,7 +11900,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C148513.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFRUQ1NaVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR08GEwkK"
 			(at 73.66 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -11993,7 +11944,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "652-CAT10-330J4LF"
 			(at 73.66 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -12043,127 +11994,6 @@
 			(project "hapia"
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
 					(reference "RN5")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 132.08 158.75 90)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0f57ebfb-95c4-4010-a6b7-86b79bf10644")
-		(property "Reference" "RN1"
-			(at 147.32 158.75 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 132.08 158.75 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 160.782 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 132.08 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "b95f59fd-0b28-40b6-b0f0-7c003c3df14e")
-		)
-		(pin "7"
-			(uuid "4c56286a-1a41-40e2-945d-fc2c32823e2f")
-		)
-		(pin "14"
-			(uuid "04d8178d-7232-4f5b-bc41-05784c543f4b")
-		)
-		(pin "6"
-			(uuid "e0c92b80-b429-4004-a8dd-b9310cead9a0")
-		)
-		(pin "16"
-			(uuid "9bf58e18-cc2c-4b43-91db-ff67dc93c101")
-		)
-		(pin "9"
-			(uuid "44f02276-034b-4abe-9ca7-51ca3545654c")
-		)
-		(pin "2"
-			(uuid "385b9552-6195-4ee7-bc2c-a5f053b52277")
-		)
-		(pin "4"
-			(uuid "448e1936-111e-4d07-8bb6-19cbfbf3997b")
-		)
-		(pin "11"
-			(uuid "456c61be-10fc-4913-b992-f54d67a83372")
-		)
-		(pin "12"
-			(uuid "6a88ff29-f00e-4485-a33c-01981694fa26")
-		)
-		(pin "1"
-			(uuid "cc327da9-f4ff-448c-bf70-02a35a385891")
-		)
-		(pin "13"
-			(uuid "79e5e663-913d-4e52-b4ba-19af6d1b5cd1")
-		)
-		(pin "3"
-			(uuid "6e828d5f-1987-4d84-a6cb-b76901d3ad2f")
-		)
-		(pin "8"
-			(uuid "cfce4902-ac19-442e-b4f6-55812c9fc926")
-		)
-		(pin "5"
-			(uuid "0fe4c88c-133b-4dd6-90e1-46b44f6a2910")
-		)
-		(pin "15"
-			(uuid "112563d3-d03f-44ea-b73f-68fef312be9c")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN1")
 					(unit 4)
 				)
 			)
@@ -12354,7 +12184,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 73.66 164.338 90)
 			(hide yes)
 			(show_name no)
@@ -12365,7 +12195,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C148513.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFRUQ1NaVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR08GEwkK"
 			(at 73.66 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -12378,6 +12208,39 @@
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
 			(at 73.66 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C148513"
+			(at 73.66 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "652-CAT10-330J4LF"
+			(at 73.66 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CAT10-330J4LF"
+			(at 73.66 166.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12638,127 +12501,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 73.66 118.11 270)
-		(unit 8)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1d78c7c3-cb8c-450d-a04b-ca5332f01a7f")
-		(property "Reference" "RN1"
-			(at 53.975 118.11 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 73.66 118.11 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 116.078 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 73.66 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "b95f59fd-0b28-40b6-b0f0-7c003c3df14f")
-		)
-		(pin "7"
-			(uuid "4c56286a-1a41-40e2-945d-fc2c32823e30")
-		)
-		(pin "14"
-			(uuid "04d8178d-7232-4f5b-bc41-05784c543f4c")
-		)
-		(pin "6"
-			(uuid "e0c92b80-b429-4004-a8dd-b9310cead9a1")
-		)
-		(pin "16"
-			(uuid "9bf58e18-cc2c-4b43-91db-ff67dc93c102")
-		)
-		(pin "9"
-			(uuid "44f02276-034b-4abe-9ca7-51ca3545654d")
-		)
-		(pin "2"
-			(uuid "385b9552-6195-4ee7-bc2c-a5f053b52278")
-		)
-		(pin "4"
-			(uuid "448e1936-111e-4d07-8bb6-19cbfbf3997c")
-		)
-		(pin "11"
-			(uuid "456c61be-10fc-4913-b992-f54d67a83373")
-		)
-		(pin "12"
-			(uuid "6a88ff29-f00e-4485-a33c-01981694fa27")
-		)
-		(pin "1"
-			(uuid "cc327da9-f4ff-448c-bf70-02a35a385892")
-		)
-		(pin "13"
-			(uuid "79e5e663-913d-4e52-b4ba-19af6d1b5cd2")
-		)
-		(pin "3"
-			(uuid "6e828d5f-1987-4d84-a6cb-b76901d3ad30")
-		)
-		(pin "8"
-			(uuid "cfce4902-ac19-442e-b4f6-55812c9fc927")
-		)
-		(pin "5"
-			(uuid "0fe4c88c-133b-4dd6-90e1-46b44f6a2911")
-		)
-		(pin "15"
-			(uuid "112563d3-d03f-44ea-b73f-68fef312be9d")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN1")
-					(unit 8)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 132.08 168.91 90)
 		(unit 1)
@@ -12789,7 +12531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 132.08 170.688 90)
 			(hide yes)
 			(show_name no)
@@ -12800,7 +12542,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C844927.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFVVT1FaUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVFeSQwSGg0%3D"
 			(at 132.08 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -12813,6 +12555,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 132.08 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C844927"
+			(at 132.08 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "71-CRCW0603-33-E3"
+			(at 132.08 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CRCW060333R0FKEA"
+			(at 132.08 168.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12958,7 +12733,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13018,6 +12793,50 @@
 				)
 			)
 		)
+		(property "jlc_pcb:" ""
+			(at 240.03 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 240.03 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 240.03 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
+			(at 240.03 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9a6c4a93-d005-4ddb-9da6-e6287258dc5f")
 		)
@@ -13061,7 +12880,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 73.66 177.292 90)
 			(hide yes)
 			(show_name no)
@@ -13072,7 +12891,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C844927.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFVVT1FaUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVFeSQwSGg0%3D"
 			(at 73.66 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -13085,6 +12904,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 73.66 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C844927"
+			(at 73.66 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "71-CRCW0603-33-E3"
+			(at 73.66 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CRCW060333R0FKEA"
+			(at 73.66 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13142,7 +12994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 61.9252 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -13235,127 +13087,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 132.08 153.67 90)
-		(unit 6)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "28b27204-2152-45e8-96fd-6747db06f1f4")
-		(property "Reference" "RN1"
-			(at 147.32 153.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 132.08 153.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 155.702 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 132.08 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "b95f59fd-0b28-40b6-b0f0-7c003c3df150")
-		)
-		(pin "7"
-			(uuid "4c56286a-1a41-40e2-945d-fc2c32823e31")
-		)
-		(pin "14"
-			(uuid "04d8178d-7232-4f5b-bc41-05784c543f4d")
-		)
-		(pin "6"
-			(uuid "e0c92b80-b429-4004-a8dd-b9310cead9a2")
-		)
-		(pin "16"
-			(uuid "9bf58e18-cc2c-4b43-91db-ff67dc93c103")
-		)
-		(pin "9"
-			(uuid "44f02276-034b-4abe-9ca7-51ca3545654e")
-		)
-		(pin "2"
-			(uuid "385b9552-6195-4ee7-bc2c-a5f053b52279")
-		)
-		(pin "4"
-			(uuid "448e1936-111e-4d07-8bb6-19cbfbf3997d")
-		)
-		(pin "11"
-			(uuid "456c61be-10fc-4913-b992-f54d67a83374")
-		)
-		(pin "12"
-			(uuid "6a88ff29-f00e-4485-a33c-01981694fa28")
-		)
-		(pin "1"
-			(uuid "cc327da9-f4ff-448c-bf70-02a35a385893")
-		)
-		(pin "13"
-			(uuid "79e5e663-913d-4e52-b4ba-19af6d1b5cd3")
-		)
-		(pin "3"
-			(uuid "6e828d5f-1987-4d84-a6cb-b76901d3ad31")
-		)
-		(pin "8"
-			(uuid "cfce4902-ac19-442e-b4f6-55812c9fc928")
-		)
-		(pin "5"
-			(uuid "0fe4c88c-133b-4dd6-90e1-46b44f6a2912")
-		)
-		(pin "15"
-			(uuid "112563d3-d03f-44ea-b73f-68fef312be9e")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN1")
-					(unit 6)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 132.08 107.95 90)
 		(unit 1)
@@ -13386,7 +13117,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 132.08 109.728 90)
 			(hide yes)
 			(show_name no)
@@ -13397,7 +13128,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C844927.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFVVT1FaUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVFeSQwSGg0%3D"
 			(at 132.08 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -13410,6 +13141,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 132.08 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C844927"
+			(at 132.08 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "71-CRCW0603-33-E3"
+			(at 132.08 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CRCW060333R0FKEA"
+			(at 132.08 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13561,127 +13325,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack08_Split")
-		(at 132.08 161.29 90)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2a37a67f-4951-4271-bef1-06153e4d1a4c")
-		(property "Reference" "RN1"
-			(at 147.32 161.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 132.08 161.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 163.322 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 132.08 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "b95f59fd-0b28-40b6-b0f0-7c003c3df151")
-		)
-		(pin "7"
-			(uuid "4c56286a-1a41-40e2-945d-fc2c32823e32")
-		)
-		(pin "14"
-			(uuid "04d8178d-7232-4f5b-bc41-05784c543f4e")
-		)
-		(pin "6"
-			(uuid "e0c92b80-b429-4004-a8dd-b9310cead9a3")
-		)
-		(pin "16"
-			(uuid "9bf58e18-cc2c-4b43-91db-ff67dc93c104")
-		)
-		(pin "9"
-			(uuid "44f02276-034b-4abe-9ca7-51ca3545654f")
-		)
-		(pin "2"
-			(uuid "385b9552-6195-4ee7-bc2c-a5f053b5227a")
-		)
-		(pin "4"
-			(uuid "448e1936-111e-4d07-8bb6-19cbfbf3997e")
-		)
-		(pin "11"
-			(uuid "456c61be-10fc-4913-b992-f54d67a83375")
-		)
-		(pin "12"
-			(uuid "6a88ff29-f00e-4485-a33c-01981694fa29")
-		)
-		(pin "1"
-			(uuid "cc327da9-f4ff-448c-bf70-02a35a385894")
-		)
-		(pin "13"
-			(uuid "79e5e663-913d-4e52-b4ba-19af6d1b5cd4")
-		)
-		(pin "3"
-			(uuid "6e828d5f-1987-4d84-a6cb-b76901d3ad32")
-		)
-		(pin "8"
-			(uuid "cfce4902-ac19-442e-b4f6-55812c9fc929")
-		)
-		(pin "5"
-			(uuid "0fe4c88c-133b-4dd6-90e1-46b44f6a2913")
-		)
-		(pin "15"
-			(uuid "112563d3-d03f-44ea-b73f-68fef312be9f")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN1")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
 		(at 73.66 176.53 270)
 		(unit 8)
 		(body_style 1)
@@ -13711,7 +13354,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 73.66 174.498 90)
 			(hide yes)
 			(show_name no)
@@ -13722,7 +13365,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C148513.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFRUQ1NaVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR08GEwkK"
 			(at 73.66 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -13735,6 +13378,39 @@
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
 			(at 73.66 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C148513"
+			(at 73.66 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "652-CAT10-330J4LF"
+			(at 73.66 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CAT10-330J4LF"
+			(at 73.66 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13914,7 +13590,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 132.08 206.502 90)
 			(hide yes)
 			(show_name no)
@@ -13925,7 +13601,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C148513.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFRUQ1NaVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR08GEwkK"
 			(at 132.08 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -13938,6 +13614,39 @@
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
 			(at 132.08 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C148513"
+			(at 132.08 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "652-CAT10-330J4LF"
+			(at 132.08 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CAT10-330J4LF"
+			(at 132.08 204.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14535,7 +14244,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 132.08 102.108 90)
 			(hide yes)
 			(show_name no)
@@ -14546,7 +14255,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C844927.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFVVT1FaUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVFeSQwSGg0%3D"
 			(at 132.08 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14559,6 +14268,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 132.08 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C844927"
+			(at 132.08 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "71-CRCW0603-33-E3"
+			(at 132.08 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CRCW060333R0FKEA"
+			(at 132.08 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15126,147 +14868,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 73.66 148.59 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4397cba6-7622-426a-9f2f-cf675083ba30")
-		(property "Reference" "RN6"
-			(at 58.42 148.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 73.66 148.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
-			(at 73.66 150.622 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 73.66 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "jlc_pcb:" "C148513"
-			(at 73.66 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" "CAT10-330J4LF"
-			(at 73.66 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser:" ""
-			(at 73.66 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Descrição" ""
-			(at 73.66 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "9964e6ef-b739-408b-98e4-0fae0a2ed9f9")
-		)
-		(pin "3"
-			(uuid "a8445126-2db4-4c51-9c49-05511c0d5eac")
-		)
-		(pin "8"
-			(uuid "a6d99ae5-013d-4eba-ad6c-acfd9199f637")
-		)
-		(pin "1"
-			(uuid "a205db93-4f42-4f5f-ad98-e22e92e31026")
-		)
-		(pin "2"
-			(uuid "8c65d5a0-1c9f-40d0-8185-fd46ffba819d")
-		)
-		(pin "7"
-			(uuid "48f0594b-8d26-4456-9022-c418ce26e3ac")
-		)
-		(pin "4"
-			(uuid "8fc1f0d7-1c1b-4282-8cab-ab5035b92a5d")
-		)
-		(pin "6"
-			(uuid "4028c229-547c-4980-94ef-152963e96c25")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 274.955 24.13 0)
 		(unit 1)
@@ -15460,7 +15061,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 27.94 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -15471,7 +15072,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22284020?display=pdf&utm_source=M2X&utm_medium=api&utm_campaign=api&utm_id=M2X_API?utm_source=M2X&utm_medium=api&utm_campaign=api&utm_id=M2X_API"
 			(at 27.94 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -15484,6 +15085,39 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 33.02 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C234182"
+			(at 33.02 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "538-22-28-4020"
+			(at 33.02 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "22284020"
+			(at 33.02 69.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15961,7 +15595,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 73.66 169.418 90)
 			(hide yes)
 			(show_name no)
@@ -15972,7 +15606,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C148513.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFRUQ1NaVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR08GEwkK"
 			(at 73.66 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -15985,6 +15619,39 @@
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
 			(at 73.66 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C148513"
+			(at 73.66 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "652-CAT10-330J4LF"
+			(at 73.66 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CAT10-330J4LF"
+			(at 73.66 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16208,7 +15875,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 142.875 97.028 90)
 			(hide yes)
 			(show_name no)
@@ -16219,7 +15886,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C844927.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFVVT1FaUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVFeSQwSGg0%3D"
 			(at 142.875 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -16232,6 +15899,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 142.875 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C844927"
+			(at 142.875 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "71-CRCW0603-33-E3"
+			(at 142.875 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CRCW060333R0FKEA"
+			(at 142.875 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16262,7 +15962,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16322,6 +16022,50 @@
 				)
 			)
 		)
+		(property "jlc_pcb:" ""
+			(at 57.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 57.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 57.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
+			(at 57.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fdf35189-dc6e-4df1-bbc9-ca13d8fb5bcb")
 		)
@@ -16340,7 +16084,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16400,6 +16144,50 @@
 				)
 			)
 		)
+		(property "jlc_pcb:" ""
+			(at 45.085 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 45.085 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 45.085 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
+			(at 45.085 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bce40d81-9698-4dc9-a465-195a034b826e")
 		)
@@ -16443,7 +16231,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 132.08 107.188 90)
 			(hide yes)
 			(show_name no)
@@ -16454,7 +16242,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C844927.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFVVT1FaUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVFeSQwSGg0%3D"
 			(at 132.08 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -16467,6 +16255,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 132.08 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C844927"
+			(at 132.08 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "71-CRCW0603-33-E3"
+			(at 132.08 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CRCW060333R0FKEA"
+			(at 132.08 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16533,7 +16354,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C148513.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFRUQ1NaVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR08GEwkK"
 			(at 73.66 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -16577,7 +16398,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "652-CAT10-330J4LF"
 			(at 73.66 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -16677,7 +16498,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C28323.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbU1dRQ1NYUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVldVVdIHxUDCw%3D%3D"
 			(at 128.27 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -16710,7 +16531,7 @@
 				)
 			)
 		)
-		(property "mpn" ""
+		(property "mpn" "CL21B105KBFNNNE"
 			(at 128.27 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -16722,6 +16543,17 @@
 			)
 		)
 		(property "jlc_pcb:" "C28323"
+			(at 128.27 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL21B105KBFNNNE"
 			(at 128.27 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -16780,7 +16612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 77.1652 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -17218,7 +17050,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 132.08 112.268 90)
 			(hide yes)
 			(show_name no)
@@ -17229,7 +17061,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C844927.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFVVT1FaUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVFeSQwSGg0%3D"
 			(at 132.08 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -17242,6 +17074,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 132.08 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C844927"
+			(at 132.08 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "71-CRCW0603-33-E3"
+			(at 132.08 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CRCW060333R0FKEA"
+			(at 132.08 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17297,7 +17162,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 132.08 191.262 90)
 			(hide yes)
 			(show_name no)
@@ -17308,7 +17173,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C148513.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFRUQ1NaVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR08GEwkK"
 			(at 132.08 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -17321,6 +17186,39 @@
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
 			(at 132.08 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C148513"
+			(at 132.08 189.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "652-CAT10-330J4LF"
+			(at 132.08 189.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CAT10-330J4LF"
+			(at 132.08 189.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17552,127 +17450,6 @@
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
 					(reference "J2")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 132.08 156.21 90)
-		(unit 5)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "76f0ab7c-bea8-4988-817c-b517ba1bb9d6")
-		(property "Reference" "RN1"
-			(at 147.32 156.21 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 132.08 156.21 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 158.242 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 132.08 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "b95f59fd-0b28-40b6-b0f0-7c003c3df152")
-		)
-		(pin "7"
-			(uuid "4c56286a-1a41-40e2-945d-fc2c32823e33")
-		)
-		(pin "14"
-			(uuid "04d8178d-7232-4f5b-bc41-05784c543f4f")
-		)
-		(pin "6"
-			(uuid "e0c92b80-b429-4004-a8dd-b9310cead9a4")
-		)
-		(pin "16"
-			(uuid "9bf58e18-cc2c-4b43-91db-ff67dc93c105")
-		)
-		(pin "9"
-			(uuid "44f02276-034b-4abe-9ca7-51ca35456550")
-		)
-		(pin "2"
-			(uuid "385b9552-6195-4ee7-bc2c-a5f053b5227b")
-		)
-		(pin "4"
-			(uuid "448e1936-111e-4d07-8bb6-19cbfbf3997f")
-		)
-		(pin "11"
-			(uuid "456c61be-10fc-4913-b992-f54d67a83376")
-		)
-		(pin "12"
-			(uuid "6a88ff29-f00e-4485-a33c-01981694fa2a")
-		)
-		(pin "1"
-			(uuid "cc327da9-f4ff-448c-bf70-02a35a385895")
-		)
-		(pin "13"
-			(uuid "79e5e663-913d-4e52-b4ba-19af6d1b5cd5")
-		)
-		(pin "3"
-			(uuid "6e828d5f-1987-4d84-a6cb-b76901d3ad33")
-		)
-		(pin "8"
-			(uuid "cfce4902-ac19-442e-b4f6-55812c9fc92a")
-		)
-		(pin "5"
-			(uuid "0fe4c88c-133b-4dd6-90e1-46b44f6a2914")
-		)
-		(pin "15"
-			(uuid "112563d3-d03f-44ea-b73f-68fef312bea0")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN1")
-					(unit 5)
 				)
 			)
 		)
@@ -18119,7 +17896,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 73.66 144.272 90)
 			(hide yes)
 			(show_name no)
@@ -18130,7 +17907,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C844927.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFVVT1FaUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVFeSQwSGg0%3D"
 			(at 73.66 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -18143,6 +17920,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 73.66 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C844927"
+			(at 73.66 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "71-CRCW0603-33-E3"
+			(at 73.66 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CRCW060333R0FKEA"
+			(at 73.66 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18198,7 +18008,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 73.66 195.072 90)
 			(hide yes)
 			(show_name no)
@@ -18209,7 +18019,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C71618.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFVVT1FaUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVFeSQwSGg0%3D"
 			(at 73.66 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -18231,7 +18041,7 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" ""
+		(property "jlc_pcb:" "C71618"
 			(at 73.66 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -18242,7 +18052,7 @@
 				)
 			)
 		)
-		(property "mpn" ""
+		(property "mpn" "CRCW060322R0FKEA"
 			(at 73.66 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -18253,7 +18063,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "71-CRCW0603-22-E3"
 			(at 73.66 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -18523,127 +18333,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 132.08 151.13 90)
-		(unit 7)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8a40f5ca-e363-430a-88fa-890ab7cd7039")
-		(property "Reference" "RN1"
-			(at 150.495 151.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 132.08 151.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 153.162 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 132.08 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "b95f59fd-0b28-40b6-b0f0-7c003c3df153")
-		)
-		(pin "7"
-			(uuid "4c56286a-1a41-40e2-945d-fc2c32823e34")
-		)
-		(pin "14"
-			(uuid "04d8178d-7232-4f5b-bc41-05784c543f50")
-		)
-		(pin "6"
-			(uuid "e0c92b80-b429-4004-a8dd-b9310cead9a5")
-		)
-		(pin "16"
-			(uuid "9bf58e18-cc2c-4b43-91db-ff67dc93c106")
-		)
-		(pin "9"
-			(uuid "44f02276-034b-4abe-9ca7-51ca35456551")
-		)
-		(pin "2"
-			(uuid "385b9552-6195-4ee7-bc2c-a5f053b5227c")
-		)
-		(pin "4"
-			(uuid "448e1936-111e-4d07-8bb6-19cbfbf39980")
-		)
-		(pin "11"
-			(uuid "456c61be-10fc-4913-b992-f54d67a83377")
-		)
-		(pin "12"
-			(uuid "6a88ff29-f00e-4485-a33c-01981694fa2b")
-		)
-		(pin "1"
-			(uuid "cc327da9-f4ff-448c-bf70-02a35a385896")
-		)
-		(pin "13"
-			(uuid "79e5e663-913d-4e52-b4ba-19af6d1b5cd6")
-		)
-		(pin "3"
-			(uuid "6e828d5f-1987-4d84-a6cb-b76901d3ad34")
-		)
-		(pin "8"
-			(uuid "cfce4902-ac19-442e-b4f6-55812c9fc92b")
-		)
-		(pin "5"
-			(uuid "0fe4c88c-133b-4dd6-90e1-46b44f6a2915")
-		)
-		(pin "15"
-			(uuid "112563d3-d03f-44ea-b73f-68fef312bea1")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN1")
-					(unit 7)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 152.4 88.9 180)
 		(unit 1)
@@ -18762,7 +18451,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C148513.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFRUQ1NaVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR08GEwkK"
 			(at 73.66 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -18806,7 +18495,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "652-CAT10-330J4LF"
 			(at 73.66 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -18892,7 +18581,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 132.08 211.328 90)
 			(hide yes)
 			(show_name no)
@@ -18903,7 +18592,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C844927.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFVVT1FaUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVFeSQwSGg0%3D"
 			(at 132.08 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -18916,6 +18605,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 132.08 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C844927"
+			(at 132.08 209.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "71-CRCW0603-33-E3"
+			(at 132.08 209.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CRCW060333R0FKEA"
+			(at 132.08 209.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18971,7 +18693,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 132.08 203.962 90)
 			(hide yes)
 			(show_name no)
@@ -18982,7 +18704,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C148513.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFRUQ1NaVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR08GEwkK"
 			(at 132.08 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -18995,6 +18717,39 @@
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
 			(at 132.08 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C148513"
+			(at 132.08 201.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "652-CAT10-330J4LF"
+			(at 132.08 201.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CAT10-330J4LF"
+			(at 132.08 201.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19057,147 +18812,6 @@
 				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
 					(reference "RN4")
 					(unit 7)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 73.66 156.21 90)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8fecbe14-77f4-4fda-b771-127ab15c0813")
-		(property "Reference" "RN6"
-			(at 58.42 156.21 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 73.66 156.21 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
-			(at 73.66 158.242 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 73.66 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "jlc_pcb:" "C148513"
-			(at 73.66 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" "CAT10-330J4LF"
-			(at 73.66 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser:" ""
-			(at 73.66 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Descrição" ""
-			(at 73.66 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "b16fbad6-9002-4e0c-9501-b3b24cd537d5")
-		)
-		(pin "3"
-			(uuid "a8445126-2db4-4c51-9c49-05511c0d5eaf")
-		)
-		(pin "8"
-			(uuid "4da89113-42e8-4260-a989-30c3b3921079")
-		)
-		(pin "1"
-			(uuid "c7b5fa5b-995b-4ce5-a04f-72efe1589acd")
-		)
-		(pin "2"
-			(uuid "8c65d5a0-1c9f-40d0-8185-fd46ffba81a0")
-		)
-		(pin "7"
-			(uuid "48f0594b-8d26-4456-9022-c418ce26e3af")
-		)
-		(pin "4"
-			(uuid "3660460d-7834-4475-a96e-de40c741b31c")
-		)
-		(pin "6"
-			(uuid "4028c229-547c-4980-94ef-152963e96c28")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN6")
-					(unit 4)
 				)
 			)
 		)
@@ -19464,7 +19078,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 132.08 201.422 90)
 			(hide yes)
 			(show_name no)
@@ -19475,7 +19089,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C148513.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFRUQ1NaVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR08GEwkK"
 			(at 132.08 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -19488,6 +19102,39 @@
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
 			(at 132.08 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C148513"
+			(at 132.08 199.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "652-CAT10-330J4LF"
+			(at 132.08 199.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CAT10-330J4LF"
+			(at 132.08 199.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19585,7 +19232,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 132.08 214.122 90)
 			(hide yes)
 			(show_name no)
@@ -19596,7 +19243,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C148513.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFRUQ1NaVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR08GEwkK"
 			(at 132.08 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -19609,6 +19256,39 @@
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
 			(at 132.08 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C148513"
+			(at 132.08 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "652-CAT10-330J4LF"
+			(at 132.08 212.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CAT10-330J4LF"
+			(at 132.08 212.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19706,7 +19386,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 132.08 188.722 90)
 			(hide yes)
 			(show_name no)
@@ -19717,7 +19397,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C148513.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFRUQ1NaVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR08GEwkK"
 			(at 132.08 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -19730,6 +19410,39 @@
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
 			(at 132.08 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C148513"
+			(at 132.08 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "652-CAT10-330J4LF"
+			(at 132.08 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CAT10-330J4LF"
+			(at 132.08 186.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19942,7 +19655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 132.08 193.802 90)
 			(hide yes)
 			(show_name no)
@@ -19953,7 +19666,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C148513.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFRUQ1NaVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR08GEwkK"
 			(at 132.08 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -19966,6 +19679,39 @@
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
 			(at 132.08 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C148513"
+			(at 132.08 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "652-CAT10-330J4LF"
+			(at 132.08 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CAT10-330J4LF"
+			(at 132.08 191.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20063,7 +19809,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 132.08 130.048 90)
 			(hide yes)
 			(show_name no)
@@ -20074,7 +19820,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C844927.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFVVT1FaUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVFeSQwSGg0%3D"
 			(at 132.08 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -20087,6 +19833,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 132.08 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C844927"
+			(at 132.08 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "71-CRCW0603-33-E3"
+			(at 132.08 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CRCW060333R0FKEA"
+			(at 132.08 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20212,6 +19991,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMF5V0A")
+		(at 138.43 26.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dd83470-caa2-452e-92c0-2b8e26fa7fbc")
+		(property "Reference" "D9"
+			(at 140.97 25.3999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF3.3"
+			(at 140.97 27.9399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMF"
+			(at 133.35 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?85881"
+			(at 138.43 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
+			(at 138.43 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" ""
+			(at 138.43 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 138.43 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 138.43 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
+			(at 138.43 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "743d6948-4254-43dc-a530-cb26613f9fe4")
+		)
+		(pin "1"
+			(uuid "9c8adaec-cbba-404e-a401-734ce79d100c")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
 		(at 253.365 27.94 90)
 		(unit 1)
@@ -20291,6 +20196,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 132.08 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e127476-6f58-4a0a-9bee-91142ab73757")
+		(property "Reference" "R36"
+			(at 149.86 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 132.334 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 132.08 152.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C844927.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFVVT1FaUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVFeSQwSGg0%3D"
+			(at 132.08 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C844927"
+			(at 132.08 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "71-CRCW0603-33-E3"
+			(at 132.08 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CRCW060333R0FKEA"
+			(at 132.08 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "918b0411-ebd9-4533-8773-facd27c5e69a")
+		)
+		(pin "1"
+			(uuid "b23cb9de-3757-41e6-b560-7d56a3aa9afc")
+		)
+		(instances
+			(project "hapia"
+				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Pack08_Split")
 		(at 73.66 161.29 270)
 		(unit 2)
@@ -20321,7 +20338,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 73.66 159.258 90)
 			(hide yes)
 			(show_name no)
@@ -20332,7 +20349,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C148513.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFRUQ1NaVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR08GEwkK"
 			(at 73.66 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -20345,6 +20362,39 @@
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
 			(at 73.66 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C148513"
+			(at 73.66 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "652-CAT10-330J4LF"
+			(at 73.66 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CAT10-330J4LF"
+			(at 73.66 161.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20442,7 +20492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 73.66 161.798 90)
 			(hide yes)
 			(show_name no)
@@ -20453,7 +20503,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C148513.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFRUQ1NaVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR08GEwkK"
 			(at 73.66 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -20466,6 +20516,39 @@
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
 			(at 73.66 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C148513"
+			(at 73.66 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "652-CAT10-330J4LF"
+			(at 73.66 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CAT10-330J4LF"
+			(at 73.66 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20574,7 +20657,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C148513.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFRUQ1NaVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR08GEwkK"
 			(at 73.66 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -20618,7 +20701,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "652-CAT10-330J4LF"
 			(at 73.66 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -20781,7 +20864,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 73.66 197.612 90)
 			(hide yes)
 			(show_name no)
@@ -20792,7 +20875,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C71618.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFVVT1FaUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVFeSQwSGg0%3D"
 			(at 73.66 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -20814,7 +20897,7 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" ""
+		(property "jlc_pcb:" "C71618"
 			(at 73.66 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -20825,7 +20908,7 @@
 				)
 			)
 		)
-		(property "mpn" ""
+		(property "mpn" "CRCW060322R0FKEA"
 			(at 73.66 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -20836,7 +20919,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "71-CRCW0603-22-E3"
 			(at 73.66 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -21106,7 +21189,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 132.08 173.228 90)
 			(hide yes)
 			(show_name no)
@@ -21117,7 +21200,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C844927.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFVVT1FaUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVFeSQwSGg0%3D"
 			(at 132.08 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -21130,6 +21213,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 132.08 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C844927"
+			(at 132.08 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "71-CRCW0603-33-E3"
+			(at 132.08 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CRCW060333R0FKEA"
+			(at 132.08 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21433,88 +21549,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SMF33A")
-		(at 138.43 26.67 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc5d2f90-31c4-4105-b913-d1f1471ebe27")
-		(property "Reference" "D1"
-			(at 140.97 25.3999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMF33A"
-			(at 140.97 27.9399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 133.35 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?85881"
-			(at 138.43 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 33Vrwm, SMF"
-			(at 138.43 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1888690b-fed1-4297-9dd8-45b053ce61aa")
-		)
-		(pin "2"
-			(uuid "80bb3a15-e1b4-4127-9d95-cce2a1f1e7fe")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 33.02 100.33 90)
 		(unit 1)
@@ -21548,7 +21582,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 27.94 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -21559,7 +21593,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22284020?display=pdf&utm_source=M2X&utm_medium=api&utm_campaign=api&utm_id=M2X_API?utm_source=M2X&utm_medium=api&utm_campaign=api&utm_id=M2X_API"
 			(at 27.94 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -21572,6 +21606,39 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 33.02 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C234182"
+			(at 33.02 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "538-22-28-4020"
+			(at 33.02 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "22284020"
+			(at 33.02 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21640,7 +21707,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://br.mouser.com/datasheet/3/72/1/C0603C220J4GACTU.pdf"
 			(at 21.59 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -21674,6 +21741,17 @@
 			)
 		)
 		(property "mpn" "C0603C220J4GAC7867"
+			(at 21.59 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "80-C0603C220J4G"
 			(at 21.59 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -21943,7 +22021,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://br.mouser.com/datasheet/3/72/1/C0603C220J4GACTU.pdf"
 			(at 29.21 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -21977,6 +22055,17 @@
 			)
 		)
 		(property "mpn" "C0603C220J4GAC7867"
+			(at 29.21 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "80-C0603C220J4G"
 			(at 29.21 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -22033,7 +22122,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 132.08 104.648 90)
 			(hide yes)
 			(show_name no)
@@ -22044,7 +22133,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C844927.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFVVT1FaUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVFeSQwSGg0%3D"
 			(at 132.08 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -22057,6 +22146,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 132.08 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C844927"
+			(at 132.08 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "71-CRCW0603-33-E3"
+			(at 132.08 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CRCW060333R0FKEA"
+			(at 132.08 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22794,7 +22916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 73.66 171.958 90)
 			(hide yes)
 			(show_name no)
@@ -22805,7 +22927,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C148513.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFRUQ1NaVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR08GEwkK"
 			(at 73.66 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -22818,6 +22940,39 @@
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
 			(at 73.66 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C148513"
+			(at 73.66 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "652-CAT10-330J4LF"
+			(at 73.66 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CAT10-330J4LF"
+			(at 73.66 173.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22915,7 +23070,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 132.08 208.788 90)
 			(hide yes)
 			(show_name no)
@@ -22926,7 +23081,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C844927.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFVVT1FaUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVFeSQwSGg0%3D"
 			(at 132.08 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -22939,6 +23094,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 132.08 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C844927"
+			(at 132.08 207.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "71-CRCW0603-33-E3"
+			(at 132.08 207.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CRCW060333R0FKEA"
+			(at 132.08 207.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22994,7 +23182,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 132.08 196.342 90)
 			(hide yes)
 			(show_name no)
@@ -23005,7 +23193,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C148513.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFRUQ1NaVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR08GEwkK"
 			(at 132.08 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -23018,6 +23206,39 @@
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
 			(at 132.08 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C148513"
+			(at 132.08 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "652-CAT10-330J4LF"
+			(at 132.08 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CAT10-330J4LF"
+			(at 132.08 194.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23106,7 +23327,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SRV05-4"
+		(property "Value" "SRV05-4HTG-D"
 			(at 249.936 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23150,7 +23371,7 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" "ssss"
+		(property "jlc_pcb:" "C1975211"
 			(at 247.65 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -23161,7 +23382,29 @@
 				)
 			)
 		)
-		(property "mpn" "ssss"
+		(property "mpn" "SRV05-4HTG-D"
+			(at 247.65 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "576-SRV05-4HTG-D"
+			(at 247.65 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 247.65 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -23330,7 +23573,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 132.08 198.882 90)
 			(hide yes)
 			(show_name no)
@@ -23341,7 +23584,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C148513.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFRUQ1NaVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR08GEwkK"
 			(at 132.08 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -23354,6 +23597,39 @@
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
 			(at 132.08 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C148513"
+			(at 132.08 196.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "652-CAT10-330J4LF"
+			(at 132.08 196.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CAT10-330J4LF"
+			(at 132.08 196.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23580,7 +23856,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -23630,6 +23906,50 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 125.73 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" ""
+			(at 125.73 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 125.73 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 125.73 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 125.73 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -23842,7 +24162,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 132.08 150.368 90)
 			(hide yes)
 			(show_name no)
@@ -23853,7 +24173,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C844927.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFVVT1FaUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVFeSQwSGg0%3D"
 			(at 132.08 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -23866,6 +24186,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 132.08 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C844927"
+			(at 132.08 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "71-CRCW0603-33-E3"
+			(at 132.08 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CRCW060333R0FKEA"
+			(at 132.08 148.59 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24075,7 +24428,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 132.08 147.828 90)
 			(hide yes)
 			(show_name no)
@@ -24086,7 +24439,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C844927.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFVVT1FaUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVFeSQwSGg0%3D"
 			(at 132.08 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -24099,6 +24452,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 132.08 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C844927"
+			(at 132.08 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "71-CRCW0603-33-E3"
+			(at 132.08 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CRCW060333R0FKEA"
+			(at 132.08 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24202,147 +24588,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04_Split")
-		(at 73.66 151.13 90)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "faa392e6-ea38-463a-a7b4-5e3a59547211")
-		(property "Reference" "RN6"
-			(at 55.245 151.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33Ω"
-			(at 73.66 151.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
-			(at 73.66 153.162 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 73.66 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "jlc_pcb:" "C148513"
-			(at 73.66 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mpn" "CAT10-330J4LF"
-			(at 73.66 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mouser:" ""
-			(at 73.66 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Descrição" ""
-			(at 73.66 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "9964e6ef-b739-408b-98e4-0fae0a2ed9fd")
-		)
-		(pin "3"
-			(uuid "a8445126-2db4-4c51-9c49-05511c0d5eb1")
-		)
-		(pin "8"
-			(uuid "4da89113-42e8-4260-a989-30c3b392107b")
-		)
-		(pin "1"
-			(uuid "c7b5fa5b-995b-4ce5-a04f-72efe1589acf")
-		)
-		(pin "2"
-			(uuid "6d49a11a-8234-40ee-ae1e-f6f961034792")
-		)
-		(pin "7"
-			(uuid "03f43240-42fc-4812-a254-05d069102b94")
-		)
-		(pin "4"
-			(uuid "8fc1f0d7-1c1b-4282-8cab-ab5035b92a61")
-		)
-		(pin "6"
-			(uuid "4028c229-547c-4980-94ef-152963e96c2a")
-		)
-		(instances
-			(project "hapia"
-				(path "/1e26a861-6ab4-4d0b-b06f-15f66855a971"
-					(reference "RN6")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Pack08_Split")
 		(at 73.66 168.91 270)
 		(unit 5)
@@ -24373,7 +24618,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 73.66 166.878 90)
 			(hide yes)
 			(show_name no)
@@ -24384,7 +24629,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C148513.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbVFRUQ1NaVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXR08GEwkK"
 			(at 73.66 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -24397,6 +24642,39 @@
 		)
 		(property "Description" "8 resistor network, parallel topology, split"
 			(at 73.66 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C148513"
+			(at 73.66 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "652-CAT10-330J4LF"
+			(at 73.66 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CAT10-330J4LF"
+			(at 73.66 168.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

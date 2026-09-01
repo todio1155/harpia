@@ -5016,7 +5016,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5067,6 +5067,50 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 250.19 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" ""
+			(at 250.19 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 250.19 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 250.19 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 250.19 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5843,7 +5887,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "232-35TZV100M6.3X8"
 			(at 173.99 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -6124,7 +6168,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "232-35TZV100M6.3X8"
 			(at 345.44 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -6281,7 +6325,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B223KB8NNN"
 			(at 106.68 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -6304,6 +6348,28 @@
 			)
 		)
 		(property "jlc_pcb:" "C21122"
+			(at 106.68 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL10B223KB8NNNC"
+			(at 106.68 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL10B223KB8NNNC"
 			(at 106.68 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -6900,7 +6966,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6951,6 +7017,50 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 250.19 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" ""
+			(at 250.19 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 250.19 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 250.19 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 250.19 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -7162,7 +7272,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 143.8148 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -7541,7 +7651,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7592,6 +7702,50 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 269.24 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" ""
+			(at 269.24 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 269.24 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 269.24 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 269.24 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7863,7 +8017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C28323.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbU1dRQ1NYUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVldVVdIHxUDCw%3D%3D"
 			(at 303.53 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -7897,6 +8051,28 @@
 			)
 		)
 		(property "jlc_pcb:" "C28323"
+			(at 303.53 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL21B105KBFNNNE"
+			(at 303.53 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL21B105KBFNNNE"
 			(at 303.53 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -7956,7 +8132,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 143.8148 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8168,7 +8344,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B223KB8NNN"
 			(at 278.13 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -8191,6 +8367,28 @@
 			)
 		)
 		(property "jlc_pcb:" "C21122"
+			(at 278.13 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL10B223KB8NNNC"
+			(at 278.13 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL10B223KB8NNNC"
 			(at 278.13 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -8261,7 +8459,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C445587.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbU1NVQVRfXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slT1lZU1dIHxUDCw%3D%3D"
 			(at 270.51 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9380,6 +9578,17 @@
 				)
 			)
 		)
+		(property "mouser:" "00-TMC2209-LA-T"
+			(at 81.28 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "26"
 			(uuid "95756b94-8d35-41af-9bcd-76811a325924")
 		)
@@ -9951,7 +10160,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10002,6 +10211,50 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 97.79 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" ""
+			(at 97.79 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 97.79 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 97.79 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 97.79 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11087,7 +11340,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B223KB8NNN"
 			(at 278.13 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11110,6 +11363,28 @@
 			)
 		)
 		(property "jlc_pcb:" "C21122"
+			(at 278.13 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL10B223KB8NNNC"
+			(at 278.13 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL10B223KB8NNNC"
 			(at 278.13 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -11224,7 +11499,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "232-35TZV100M6.3X8"
 			(at 345.44 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12652,7 +12927,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12703,6 +12978,50 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 78.74 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" ""
+			(at 78.74 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 78.74 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 78.74 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 78.74 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13157,7 +13476,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13208,6 +13527,50 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 78.74 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" ""
+			(at 78.74 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 78.74 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 78.74 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 78.74 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -13353,7 +13716,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C28323.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbU1dRQ1NYUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVldVVdIHxUDCw%3D%3D"
 			(at 132.08 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -13387,6 +13750,28 @@
 			)
 		)
 		(property "jlc_pcb:" "C28323"
+			(at 132.08 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL21B105KBFNNNE"
+			(at 132.08 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL21B105KBFNNNE"
 			(at 132.08 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -13579,7 +13964,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "00-TMC2209-LA-T"
 			(at 81.28 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -13731,7 +14116,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://br.mouser.com/datasheet/3/3655/1/YXJ.pdf"
 			(at 231.14 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -13775,7 +14160,7 @@
 				)
 			)
 		)
-		(property "mpn" ""
+		(property "mpn" "35YXJ1000M12.5X20"
 			(at 231.14 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -13786,7 +14171,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "232-35YXJ1000M125X20"
 			(at 231.14 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -14684,7 +15069,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10B223KB8NNN"
 			(at 106.68 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -14707,6 +15092,28 @@
 			)
 		)
 		(property "jlc_pcb:" "C21122"
+			(at 106.68 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL10B223KB8NNNC"
+			(at 106.68 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL10B223KB8NNNC"
 			(at 106.68 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -15055,7 +15462,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "232-35TZV100M6.3X8"
 			(at 173.99 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -15368,7 +15775,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -15419,6 +15826,50 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 97.79 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" ""
+			(at 97.79 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 97.79 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 97.79 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 97.79 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -16066,7 +16517,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 315.2648 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -16513,7 +16964,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://br.mouser.com/datasheet/3/3655/1/YXJ.pdf"
 			(at 152.4 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -16557,7 +17008,7 @@
 				)
 			)
 		)
-		(property "mpn" ""
+		(property "mpn" "35YXJ1000M12.5X20"
 			(at 152.4 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -16568,7 +17019,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "232-35YXJ1000M125X20"
 			(at 152.4 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -17219,7 +17670,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C445587.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbU1NVQVRfXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slT1lZU1dIHxUDCw%3D%3D"
 			(at 270.51 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -17412,6 +17863,17 @@
 			)
 		)
 		(property "mpn" "TMC2209-LA-T"
+			(at 252.73 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "00-TMC2209-LA-T"
 			(at 252.73 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -17718,7 +18180,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C445587.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbU1NVQVRfXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slT1lZU1dIHxUDCw%3D%3D"
 			(at 97.79 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -18324,7 +18786,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C445587.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbU1NVQVRfXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slT1lZU1dIHxUDCw%3D%3D"
 			(at 99.06 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -18521,7 +18983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 53.0352 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -18725,7 +19187,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C28323.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbU1dRQ1NYUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVldVVdIHxUDCw%3D%3D"
 			(at 303.53 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -18759,6 +19221,28 @@
 			)
 		)
 		(property "jlc_pcb:" "C28323"
+			(at 303.53 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL21B105KBFNNNE"
+			(at 303.53 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL21B105KBFNNNE"
 			(at 303.53 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -19627,6 +20111,17 @@
 				)
 			)
 		)
+		(property "mouser:" "00-TMC2209-LA-T"
+			(at 252.73 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "26"
 			(uuid "782ec6dd-b92f-469d-8efe-5321405d2d9d")
 		)
@@ -20273,7 +20768,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C28323.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FbU1dRQ1NYUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVldVVdIHxUDCw%3D%3D"
 			(at 132.08 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -20307,6 +20802,28 @@
 			)
 		)
 		(property "jlc_pcb:" "C28323"
+			(at 132.08 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "187-CL21B105KBFNNNE"
+			(at 132.08 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "CL21B105KBFNNNE"
 			(at 132.08 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -20919,7 +21436,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -20970,6 +21487,50 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 269.24 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" ""
+			(at 269.24 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" ""
+			(at 269.24 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" ""
+			(at 269.24 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 269.24 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -21230,7 +21791,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 315.2648 72.39 0)
 			(hide yes)
 			(show_name no)
