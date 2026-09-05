@@ -6391,7 +6391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
 			(at 287.02 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7109,7 +7109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
 			(at 347.98 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7313,7 +7313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
 			(at 368.3 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7439,7 +7439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
 			(at 262.255 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -7450,7 +7450,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13564.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FaV1RSQ1VXVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"
 			(at 262.255 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -7472,7 +7472,7 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" ""
+		(property "jlc_pcb:" "C13564"
 			(at 262.255 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -7483,7 +7483,7 @@
 				)
 			)
 		)
-		(property "mpn" ""
+		(property "mpn" "NCP18XH103F03RB"
 			(at 262.255 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -7494,7 +7494,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "81-NCP18XH103F03RB"
 			(at 262.255 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -8032,7 +8032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
 			(at 388.62 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8312,7 +8312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
 			(at 243.332 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -8323,7 +8323,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13564.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FaV1RSQ1VXVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"
 			(at 245.11 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8335,6 +8335,39 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 245.11 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C13564"
+			(at 245.11 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "81-NCP18XH103F03RB"
+			(at 245.11 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "NCP18XH103F03RB"
 			(at 245.11 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9937,7 +9970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
 			(at 245.11 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -10773,7 +10806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
 			(at 327.66 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11101,7 +11134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
 			(at 305.562 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -11112,7 +11145,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13564.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FaV1RSQ1VXVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"
 			(at 307.34 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11124,6 +11157,39 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 307.34 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C13564"
+			(at 307.34 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "81-NCP18XH103F03RB"
+			(at 307.34 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "NCP18XH103F03RB"
 			(at 307.34 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11453,7 +11519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
 			(at 264.287 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -11464,7 +11530,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13564.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FaV1RSQ1VXVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"
 			(at 266.065 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11476,6 +11542,39 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 266.065 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C13564"
+			(at 266.065 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "81-NCP18XH103F03RB"
+			(at 266.065 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "NCP18XH103F03RB"
 			(at 266.065 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11971,7 +12070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 97.282 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -11982,7 +12081,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C99782.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.5.xh&lcsc_vid=TgUMVVJTT1APU1ICElJZUAAEEgNaVFJfFlJeUQADFVYxVlNeT1JfXlJSQFBdVjtW"
 			(at 99.06 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -11995,6 +12094,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 99.06 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C99782"
+			(at 99.06 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "603-RC0603FR-074K7L"
+			(at 99.06 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "RC0603FR-074K7L"
+			(at 99.06 210.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12438,7 +12570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
 			(at 325.882 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -12449,7 +12581,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13564.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FaV1RSQ1VXVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"
 			(at 327.66 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12461,6 +12593,39 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 327.66 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C13564"
+			(at 327.66 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "81-NCP18XH103F03RB"
+			(at 327.66 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "NCP18XH103F03RB"
 			(at 327.66 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12597,7 +12762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
 			(at 260.477 31.75 90)
 			(hide yes)
 			(show_name no)
@@ -12608,7 +12773,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13564.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FaV1RSQ1VXVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"
 			(at 262.255 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12620,6 +12785,39 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 262.255 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C13564"
+			(at 262.255 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "81-NCP18XH103F03RB"
+			(at 262.255 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "NCP18XH103F03RB"
 			(at 262.255 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12679,7 +12877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
 			(at 346.202 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -12690,7 +12888,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13564.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FaV1RSQ1VXVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"
 			(at 347.98 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12702,6 +12900,39 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 347.98 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C13564"
+			(at 347.98 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "81-NCP18XH103F03RB"
+			(at 347.98 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "NCP18XH103F03RB"
 			(at 347.98 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -13499,7 +13730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
 			(at 266.065 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13858,7 +14089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 92.202 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -13869,7 +14100,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C99782.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.5.xh&lcsc_vid=TgUMVVJTT1APU1ICElJZUAAEEgNaVFJfFlJeUQADFVYxVlNeT1JfXlJSQFBdVjtW"
 			(at 93.98 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -13882,6 +14113,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 93.98 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C99782"
+			(at 93.98 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "603-RC0603FR-074K7L"
+			(at 93.98 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "RC0603FR-074K7L"
+			(at 93.98 210.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14440,7 +14704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
 			(at 366.522 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -14451,7 +14715,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13564.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FaV1RSQ1VXVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"
 			(at 368.3 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -14463,6 +14727,39 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 368.3 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C13564"
+			(at 368.3 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "81-NCP18XH103F03RB"
+			(at 368.3 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "NCP18XH103F03RB"
 			(at 368.3 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15002,7 +15299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
 			(at 386.842 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -15013,7 +15310,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13564.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FaV1RSQ1VXVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"
 			(at 388.62 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15025,6 +15322,39 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 388.62 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C13564"
+			(at 388.62 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "81-NCP18XH103F03RB"
+			(at 388.62 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "NCP18XH103F03RB"
 			(at 388.62 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -15162,7 +15492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
 			(at 307.34 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16193,7 +16523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
 			(at 285.242 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -16204,7 +16534,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13564.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FaV1RSQ1VXVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"
 			(at 287.02 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -16216,6 +16546,39 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 287.02 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C13564"
+			(at 287.02 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "81-NCP18XH103F03RB"
+			(at 287.02 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "NCP18XH103F03RB"
 			(at 287.02 68.58 0)
 			(hide yes)
 			(show_name no)
