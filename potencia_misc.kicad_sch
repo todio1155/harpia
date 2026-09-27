@@ -7847,7 +7847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD_R_0603_1608Metric"
 			(at 256.032 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -10340,7 +10340,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "IRFL4315TRPBF"
 			(at 279.4 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10351,7 +10351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 278.13 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10362,7 +10362,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C537930.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.10.xh&lcsc_vid=TgUMVVJTT1APU1ICElJZUAAEEgNaVFJfFlJeUQADFVYxVlNeT1ZfVlJXQ1lcUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXQ1JYSQwSGg0%3D"
 			(at 273.05 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10408,6 +10408,50 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 273.05 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C537930"
+			(at 273.05 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "IRFL4315TRPBF"
+			(at 273.05 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "942-IRFL4315TRPBF"
+			(at 273.05 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
+			(at 273.05 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10751,7 +10795,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD_R_0603_1608Metric"
 			(at 44.958 217.805 90)
 			(hide yes)
 			(show_name no)
@@ -11069,7 +11113,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD_R_0603_1608Metric"
 			(at 44.958 210.185 90)
 			(hide yes)
 			(show_name no)
@@ -12795,7 +12839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "IRFL4315TRPBF"
 			(at 279.4 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12806,7 +12850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 278.13 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -12817,7 +12861,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C537930.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.10.xh&lcsc_vid=TgUMVVJTT1APU1ICElJZUAAEEgNaVFJfFlJeUQADFVYxVlNeT1ZfVlJXQ1lcUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXQ1JYSQwSGg0%3D"
 			(at 273.05 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -12863,6 +12907,39 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 273.05 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C537930"
+			(at 273.05 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "942-IRFL4315TRPBF"
+			(at 273.05 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "IRFL4315TRPBF"
+			(at 273.05 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12924,7 +13001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD_R_0603_1608Metric"
 			(at 106.172 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -13593,7 +13670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD_R_0603_1608Metric"
 			(at 254.762 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -15991,7 +16068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD_R_0603_1608Metric"
 			(at 256.032 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -18061,7 +18138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD_R_0603_1608Metric"
 			(at 264.287 162.56 90)
 			(hide yes)
 			(show_name no)

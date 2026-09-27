@@ -8426,28 +8426,12 @@
 		(uuid "3caadaf4-991e-4bd1-8505-c34dbfea603a")
 	)
 	(no_connect
-		(at 128.27 184.15)
-		(uuid "5209ba6a-8a51-4bc3-a14a-26478ef078df")
-	)
-	(no_connect
-		(at 128.27 214.63)
-		(uuid "71596bc5-7c4b-48ef-bc79-9feed7001713")
-	)
-	(no_connect
 		(at 128.27 118.11)
 		(uuid "76d0735f-b6d1-49f2-b12a-7c6411cfe665")
 	)
 	(no_connect
-		(at 128.27 219.71)
-		(uuid "793aa2a0-10f4-4726-bc64-c570e638b064")
-	)
-	(no_connect
 		(at 128.27 163.83)
 		(uuid "89651224-fabf-4c1b-8fc1-4ae20776dbaa")
-	)
-	(no_connect
-		(at 128.27 217.17)
-		(uuid "89c8eb19-f481-40a2-a533-198cb047c83d")
 	)
 	(no_connect
 		(at 128.27 176.53)
@@ -9485,6 +9469,30 @@
 			)
 		)
 	)
+	(global_label "TMC_SPRE_3"
+		(shape input)
+		(at 128.27 219.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33348dee-868b-4942-9f97-af68a42ca76c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.9874 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "CLK_X"
 		(shape input)
 		(at 77.47 113.03 180)
@@ -9746,6 +9754,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "TMC_SPRE_1"
+		(shape input)
+		(at 128.27 214.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5948372a-4495-4ce6-9ed7-03e9619dcca7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.9874 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "TMC_SPRE_2"
+		(shape input)
+		(at 128.27 217.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "597950dd-6fc0-436e-ba46-a5e4e4540911")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.9874 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -10322,6 +10378,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "TMC_SPRE_4"
+		(shape input)
+		(at 128.27 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c332038-31b7-49d9-bae4-57d98a492bd8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.9874 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -11592,7 +11672,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD_R_0603_1608Metric"
 			(at 76.073 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -11603,7 +11683,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13564.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FaV1RSQ1VXVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"
 			(at 74.295 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -11616,6 +11696,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 74.295 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C13564"
+			(at 74.295 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "81-NCP18XH103F03RB"
+			(at 74.295 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "NCP18XH103F03RB"
+			(at 74.295 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13589,7 +13702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD_R_0603_1608Metric"
 			(at 178.562 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -13866,7 +13979,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 135.255 99.568 90)
 			(hide yes)
 			(show_name no)
@@ -13877,7 +13990,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf?_gl=1*ya02x1*_gcl_aw*R0NMLjE3ODgzOTA0MzUuQ2owS0NRandrdF9VQmhETUFSSXNBTHBuT0F6MVAzQW5US2dJVzF1UmFuR3pSR014ckJhT21nV0tyNmcxdnBMXzV5YTBUbDBFb3RWNWwwMGFBcmhzRUFMd193Y0I.*_gcl_au*MzAxOTQ0MDA4LjE3ODI0OTAxMjAuMTYyMDM5NjQxNy4xNzg4MzkxODY3LjE3ODgzOTMwMDYuNTE5NjcwMTA1LjE3ODgzOTE4NjcuMTc4ODM5MzAwNg..*_ga*ODg1NTk4MjYzLjE3NzM0NTUwOTM.*_ga_15W4STQT4T*czE3ODg3MTA2MTEkbzM1JGcxJHQxNzg4NzEwNjc4JGo1NCRsMCRoMA.."
 			(at 135.255 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -13890,6 +14003,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 135.255 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C22548"
+			(at 135.255 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "603-RC0603FR-071KL"
+			(at 135.255 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "RC0603FR-071KL"
+			(at 135.255 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13948,7 +14094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 263.017 24.13 90)
 			(hide yes)
 			(show_name no)
@@ -13959,7 +14105,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C105872.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=TgUMVVJTT1APU1ICElJZUAAEEgNaVFJfFlJeUQADFVYxVlNeT1ZfV1ZWR1JdUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
 			(at 264.795 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -15056,7 +15202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 273.177 24.13 90)
 			(hide yes)
 			(show_name no)
@@ -15067,7 +15213,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C105872.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=TgUMVVJTT1APU1ICElJZUAAEEgNaVFJfFlJeUQADFVYxVlNeT1ZfV1ZWR1JdUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
 			(at 274.955 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -16065,7 +16211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm_FlatTop"
 			(at 229.87 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -16076,7 +16222,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7361592.pdf"
 			(at 229.87 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -16109,7 +16255,7 @@
 				)
 			)
 		)
-		(property "jlc_pcb:" ""
+		(property "jlc_pcb:" "C7148823"
 			(at 229.87 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -16120,7 +16266,7 @@
 				)
 			)
 		)
-		(property "mpn" ""
+		(property "mpn" "VLCS5130"
 			(at 229.87 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -16131,7 +16277,7 @@
 				)
 			)
 		)
-		(property "mouser:" ""
+		(property "mouser:" "78-VLCS5130"
 			(at 229.87 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -22742,7 +22888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 229.87 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -22753,7 +22899,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf?_gl=1*1eygpnr*_gcl_aw*R0NMLjE3ODgzOTA0MzUuQ2owS0NRandrdF9VQmhETUFSSXNBTHBuT0F6MVAzQW5US2dJVzF1UmFuR3pSR014ckJhT21nV0tyNmcxdnBMXzV5YTBUbDBFb3RWNWwwMGFBcmhzRUFMd193Y0I.*_gcl_au*MzAxOTQ0MDA4LjE3ODI0OTAxMjAuMTYyMDM5NjQxNy4xNzg4MzkxODY3LjE3ODgzOTMwMDYuNTE5NjcwMTA1LjE3ODgzOTE4NjcuMTc4ODM5MzAwNg..*_ga*ODg1NTk4MjYzLjE3NzM0NTUwOTM.*_ga_15W4STQT4T*czE3ODg3MTA2MTEkbzM1JGcxJHQxNzg4NzEwODU3JGoyNSRsMCRoMA.."
 			(at 229.87 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -22765,6 +22911,39 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 229.87 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C114564"
+			(at 229.87 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "603-RC0805FR-07470RL"
+			(at 229.87 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "RC0805FR-07470RL"
 			(at 229.87 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -22823,7 +23002,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD_R_0603_1608Metric"
 			(at 79.248 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -22834,7 +23013,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13564.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FaV1RSQ1VXVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"
 			(at 77.47 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -22847,6 +23026,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 77.47 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C13564"
+			(at 77.47 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "81-NCP18XH103F03RB"
+			(at 77.47 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "NCP18XH103F03RB"
+			(at 77.47 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24473,7 +24685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD_R_0603_1608Metric"
 			(at 178.562 30.48 90)
 			(hide yes)
 			(show_name no)

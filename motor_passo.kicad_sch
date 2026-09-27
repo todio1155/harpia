@@ -2814,20 +2814,8 @@
 		(uuid "edc6e9ec-42b5-40b1-9144-6ea267f77fa6")
 	)
 	(no_connect
-		(at 66.04 199.39)
-		(uuid "146aca08-f8e1-4a4f-8a8f-5f075001945f")
-	)
-	(no_connect
-		(at 237.49 196.85)
-		(uuid "1b7787bb-3e9d-49ef-bf34-c0906341c932")
-	)
-	(no_connect
 		(at 66.04 212.09)
 		(uuid "1cbeab3d-57f0-40d1-a7f4-13b4a41f213a")
-	)
-	(no_connect
-		(at 237.49 87.63)
-		(uuid "2626c1c4-0e83-40ab-ac60-e3d39c763e47")
 	)
 	(no_connect
 		(at 237.49 102.87)
@@ -2844,10 +2832,6 @@
 	(no_connect
 		(at 66.04 214.63)
 		(uuid "6722f67f-6a1b-46ef-b01e-7f45d256d077")
-	)
-	(no_connect
-		(at 66.04 90.17)
-		(uuid "6f236f04-a97c-4c49-b1e0-b61bdb15b69e")
 	)
 	(no_connect
 		(at 66.04 105.41)
@@ -4606,6 +4590,30 @@
 			)
 		)
 	)
+	(global_label "TMC_SPRE_1"
+		(shape input)
+		(at 66.04 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36c034f6-cfa7-4541-bf2a-10c39d27e51d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.3226 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "TMC_uart"
 		(shape input)
 		(at 64.77 80.01 180)
@@ -4667,6 +4675,30 @@
 		(uuid "5a45e380-aeaa-4387-ad70-4b224bba5382")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 54.5883 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "TMC_SPRE_3"
+		(shape input)
+		(at 66.04 199.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f206c0b-8371-4277-9fcb-182a4f71e52a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.3226 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4750,6 +4782,30 @@
 			)
 		)
 	)
+	(global_label "TMC_SPRE_4"
+		(shape input)
+		(at 237.49 196.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "839592b5-6319-43d6-890d-6758e8f955ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.7726 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "TMC_DIR_4"
 		(shape input)
 		(at 237.49 176.53 180)
@@ -4787,6 +4843,30 @@
 		(uuid "a3e6ac01-1652-4a04-9778-9a7dacb97864")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 224.7683 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "TMC_SPRE_2"
+		(shape input)
+		(at 237.49 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af86872a-5f11-43ac-8c1c-981e8de15add")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.7726 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6698,7 +6778,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "10kΩ"
 			(at 233.68 201.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6708,7 +6788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD_R_0603_1608Metric"
 			(at 233.68 203.708 90)
 			(hide yes)
 			(show_name no)
@@ -6719,7 +6799,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13564.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FaV1RSQ1VXVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"
 			(at 233.68 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -6731,6 +6811,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 233.68 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C13564"
+			(at 233.68 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "NCP18XH103F03RB"
+			(at 233.68 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "81-NCP18XH103F03RB"
+			(at 233.68 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Descrição" ""
 			(at 233.68 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -6892,7 +7016,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "262298f1-6ab9-497a-84f2-3db4e92e5089")
 		(property "Reference" "#PWR097"
 			(at 234.95 210.82 0)
@@ -6906,7 +7029,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 209.55 0)
+			(at 234.95 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8448,7 +8571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 270.51 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -15193,7 +15316,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "10kΩ"
 			(at 62.23 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15203,7 +15326,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD_R_0603_1608Metric"
 			(at 62.23 97.028 90)
 			(hide yes)
 			(show_name no)
@@ -15214,7 +15337,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13564.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FaV1RSQ1VXVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"
 			(at 62.23 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -15227,6 +15350,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 62.23 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C13564"
+			(at 62.23 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "81-NCP18XH103F03RB"
+			(at 62.23 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "NCP18XH103F03RB"
+			(at 62.23 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17692,7 +17848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 270.51 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -18235,7 +18391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 97.79 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -18874,7 +19030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 99.06 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -20720,7 +20876,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "10kΩ"
 			(at 233.68 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20730,7 +20886,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD_R_0603_1608Metric"
 			(at 233.68 94.488 90)
 			(hide yes)
 			(show_name no)
@@ -20741,7 +20897,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13564.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FaV1RSQ1VXVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"
 			(at 233.68 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -20754,6 +20910,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 233.68 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C13564"
+			(at 233.68 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "81-NCP18XH103F03RB"
+			(at 233.68 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "NCP18XH103F03RB"
+			(at 233.68 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21002,7 +21191,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "10kΩ"
 			(at 62.23 204.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21012,7 +21201,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric Resistor_SMD_R_0603_1608Metric"
 			(at 62.23 206.248 90)
 			(hide yes)
 			(show_name no)
@@ -21023,7 +21212,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C13564.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RFYLUFJeFgBYVgUARVEKU1ZUEwNcUQJQEVkIVlNSQgIxVlNeT1FaV1RSQ1VXVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZcSQwSGg0%3D"
 			(at 62.23 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -21036,6 +21225,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 62.23 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C13564"
+			(at 62.23 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "81-NCP18XH103F03RB"
+			(at 62.23 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "NCP18XH103F03RB"
+			(at 62.23 204.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

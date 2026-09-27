@@ -3555,7 +3555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 21.082 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -3566,7 +3566,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf?_gl=1*ya02x1*_gcl_aw*R0NMLjE3ODgzOTA0MzUuQ2owS0NRandrdF9VQmhETUFSSXNBTHBuT0F6MVAzQW5US2dJVzF1UmFuR3pSR014ckJhT21nV0tyNmcxdnBMXzV5YTBUbDBFb3RWNWwwMGFBcmhzRUFMd193Y0I.*_gcl_au*MzAxOTQ0MDA4LjE3ODI0OTAxMjAuMTYyMDM5NjQxNy4xNzg4MzkxODY3LjE3ODgzOTMwMDYuNTE5NjcwMTA1LjE3ODgzOTE4NjcuMTc4ODM5MzAwNg..*_ga*ODg1NTk4MjYzLjE3NzM0NTUwOTM.*_ga_15W4STQT4T*czE3ODg3MTA2MTEkbzM1JGcxJHQxNzg4NzEwNjc4JGo1NCRsMCRoMA.."
 			(at 22.86 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3599,7 +3599,29 @@
 				)
 			)
 		)
-		(property "mpn" ""
+		(property "mpn" "RC0603FR-071KL"
+			(at 22.86 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C22548"
+			(at 22.86 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "603-RC0603FR-071KL"
 			(at 22.86 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3658,7 +3680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 21.082 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -3669,7 +3691,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf?_gl=1*ya02x1*_gcl_aw*R0NMLjE3ODgzOTA0MzUuQ2owS0NRandrdF9VQmhETUFSSXNBTHBuT0F6MVAzQW5US2dJVzF1UmFuR3pSR014ckJhT21nV0tyNmcxdnBMXzV5YTBUbDBFb3RWNWwwMGFBcmhzRUFMd193Y0I.*_gcl_au*MzAxOTQ0MDA4LjE3ODI0OTAxMjAuMTYyMDM5NjQxNy4xNzg4MzkxODY3LjE3ODgzOTMwMDYuNTE5NjcwMTA1LjE3ODgzOTE4NjcuMTc4ODM5MzAwNg..*_ga*ODg1NTk4MjYzLjE3NzM0NTUwOTM.*_ga_15W4STQT4T*czE3ODg3MTA2MTEkbzM1JGcxJHQxNzg4NzEwNjc4JGo1NCRsMCRoMA.."
 			(at 22.86 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3702,7 +3724,29 @@
 				)
 			)
 		)
-		(property "mpn" ""
+		(property "mpn" "RC0603FR-071KL"
+			(at 22.86 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C22548"
+			(at 22.86 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "603-RC0603FR-071KL"
 			(at 22.86 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3816,7 +3860,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "136830cd-abed-4688-8182-26d0b4896195")
 		(property "Reference" "R107"
 			(at 71.12 123.1899 0)
@@ -3840,7 +3884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 66.802 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -3851,7 +3895,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf?_gl=1*ya02x1*_gcl_aw*R0NMLjE3ODgzOTA0MzUuQ2owS0NRandrdF9VQmhETUFSSXNBTHBuT0F6MVAzQW5US2dJVzF1UmFuR3pSR014ckJhT21nV0tyNmcxdnBMXzV5YTBUbDBFb3RWNWwwMGFBcmhzRUFMd193Y0I.*_gcl_au*MzAxOTQ0MDA4LjE3ODI0OTAxMjAuMTYyMDM5NjQxNy4xNzg4MzkxODY3LjE3ODgzOTMwMDYuNTE5NjcwMTA1LjE3ODgzOTE4NjcuMTc4ODM5MzAwNg..*_ga*ODg1NTk4MjYzLjE3NzM0NTUwOTM.*_ga_15W4STQT4T*czE3ODg3MTA2MTEkbzM1JGcxJHQxNzg4NzEwNjc4JGo1NCRsMCRoMA.."
 			(at 68.58 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3884,7 +3928,29 @@
 				)
 			)
 		)
-		(property "mpn" ""
+		(property "mpn" "RC0603FR-071KL"
+			(at 68.58 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C22548"
+			(at 68.58 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "603-RC0603FR-071KL"
 			(at 68.58 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4302,7 +4368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 19.812 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -4313,7 +4379,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf?_gl=1*1eygpnr*_gcl_aw*R0NMLjE3ODgzOTA0MzUuQ2owS0NRandrdF9VQmhETUFSSXNBTHBuT0F6MVAzQW5US2dJVzF1UmFuR3pSR014ckJhT21nV0tyNmcxdnBMXzV5YTBUbDBFb3RWNWwwMGFBcmhzRUFMd193Y0I.*_gcl_au*MzAxOTQ0MDA4LjE3ODI0OTAxMjAuMTYyMDM5NjQxNy4xNzg4MzkxODY3LjE3ODgzOTMwMDYuNTE5NjcwMTA1LjE3ODgzOTE4NjcuMTc4ODM5MzAwNg..*_ga*ODg1NTk4MjYzLjE3NzM0NTUwOTM.*_ga_15W4STQT4T*czE3ODg3MTA2MTEkbzM1JGcxJHQxNzg4NzEwODU3JGoyNSRsMCRoMA.."
 			(at 21.59 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4325,6 +4391,39 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 21.59 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C114564"
+			(at 21.59 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "603-RC0805FR-07470RL"
+			(at 21.59 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "RC0805FR-07470RL"
 			(at 21.59 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5238,7 +5337,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "538153b2-7acc-4a48-b297-327788afb716")
 		(property "Reference" "D5"
 			(at 25.4 60.0074 90)
@@ -5251,7 +5349,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 25.4 62.5474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5262,7 +5360,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm_FlatTop"
 			(at 21.59 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5273,7 +5371,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7361592.pdf"
 			(at 21.59 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5297,6 +5395,39 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 21.59 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C7148823"
+			(at 21.59 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "78-VLCS5130"
+			(at 21.59 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "VLCS5130"
+			(at 21.59 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6845,7 +6976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 38.862 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -6856,7 +6987,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf?_gl=1*1eygpnr*_gcl_aw*R0NMLjE3ODgzOTA0MzUuQ2owS0NRandrdF9VQmhETUFSSXNBTHBuT0F6MVAzQW5US2dJVzF1UmFuR3pSR014ckJhT21nV0tyNmcxdnBMXzV5YTBUbDBFb3RWNWwwMGFBcmhzRUFMd193Y0I.*_gcl_au*MzAxOTQ0MDA4LjE3ODI0OTAxMjAuMTYyMDM5NjQxNy4xNzg4MzkxODY3LjE3ODgzOTMwMDYuNTE5NjcwMTA1LjE3ODgzOTE4NjcuMTc4ODM5MzAwNg..*_ga*ODg1NTk4MjYzLjE3NzM0NTUwOTM.*_ga_15W4STQT4T*czE3ODg3MTA2MTEkbzM1JGcxJHQxNzg4NzEwODU3JGoyNSRsMCRoMA.."
 			(at 40.64 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6868,6 +6999,39 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 40.64 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C114564"
+			(at 40.64 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "603-RC0805FR-07470RL"
+			(at 40.64 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "RC0805FR-07470RL"
 			(at 40.64 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7403,7 +7567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 42.672 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -7414,7 +7578,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf?_gl=1*ya02x1*_gcl_aw*R0NMLjE3ODgzOTA0MzUuQ2owS0NRandrdF9VQmhETUFSSXNBTHBuT0F6MVAzQW5US2dJVzF1UmFuR3pSR014ckJhT21nV0tyNmcxdnBMXzV5YTBUbDBFb3RWNWwwMGFBcmhzRUFMd193Y0I.*_gcl_au*MzAxOTQ0MDA4LjE3ODI0OTAxMjAuMTYyMDM5NjQxNy4xNzg4MzkxODY3LjE3ODgzOTMwMDYuNTE5NjcwMTA1LjE3ODgzOTE4NjcuMTc4ODM5MzAwNg..*_ga*ODg1NTk4MjYzLjE3NzM0NTUwOTM.*_ga_15W4STQT4T*czE3ODg3MTA2MTEkbzM1JGcxJHQxNzg4NzEwNjc4JGo1NCRsMCRoMA.."
 			(at 44.45 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7447,7 +7611,29 @@
 				)
 			)
 		)
-		(property "mpn" ""
+		(property "mpn" "RC0603FR-071KL"
+			(at 44.45 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C22548"
+			(at 44.45 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "603-RC0603FR-071KL"
 			(at 44.45 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7584,7 +7770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 66.802 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -7595,7 +7781,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf?_gl=1*ya02x1*_gcl_aw*R0NMLjE3ODgzOTA0MzUuQ2owS0NRandrdF9VQmhETUFSSXNBTHBuT0F6MVAzQW5US2dJVzF1UmFuR3pSR014ckJhT21nV0tyNmcxdnBMXzV5YTBUbDBFb3RWNWwwMGFBcmhzRUFMd193Y0I.*_gcl_au*MzAxOTQ0MDA4LjE3ODI0OTAxMjAuMTYyMDM5NjQxNy4xNzg4MzkxODY3LjE3ODgzOTMwMDYuNTE5NjcwMTA1LjE3ODgzOTE4NjcuMTc4ODM5MzAwNg..*_ga*ODg1NTk4MjYzLjE3NzM0NTUwOTM.*_ga_15W4STQT4T*czE3ODg3MTA2MTEkbzM1JGcxJHQxNzg4NzEwNjc4JGo1NCRsMCRoMA.."
 			(at 68.58 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7628,7 +7814,29 @@
 				)
 			)
 		)
-		(property "mpn" ""
+		(property "mpn" "RC0603FR-071KL"
+			(at 68.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C22548"
+			(at 68.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "603-RC0603FR-071KL"
 			(at 68.58 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8206,7 +8414,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 44.45 62.5474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8217,7 +8425,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm_FlatTop"
 			(at 40.64 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8228,7 +8436,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7361592.pdf"
 			(at 40.64 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8252,6 +8460,39 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 40.64 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C7148823"
+			(at 40.64 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "78-VLCS5130"
+			(at 40.64 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "VLCS5130"
+			(at 40.64 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8465,7 +8706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 42.672 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -8476,7 +8717,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf?_gl=1*ya02x1*_gcl_aw*R0NMLjE3ODgzOTA0MzUuQ2owS0NRandrdF9VQmhETUFSSXNBTHBuT0F6MVAzQW5US2dJVzF1UmFuR3pSR014ckJhT21nV0tyNmcxdnBMXzV5YTBUbDBFb3RWNWwwMGFBcmhzRUFMd193Y0I.*_gcl_au*MzAxOTQ0MDA4LjE3ODI0OTAxMjAuMTYyMDM5NjQxNy4xNzg4MzkxODY3LjE3ODgzOTMwMDYuNTE5NjcwMTA1LjE3ODgzOTE4NjcuMTc4ODM5MzAwNg..*_ga*ODg1NTk4MjYzLjE3NzM0NTUwOTM.*_ga_15W4STQT4T*czE3ODg3MTA2MTEkbzM1JGcxJHQxNzg4NzEwNjc4JGo1NCRsMCRoMA.."
 			(at 44.45 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8509,7 +8750,29 @@
 				)
 			)
 		)
-		(property "mpn" ""
+		(property "mpn" "RC0603FR-071KL"
+			(at 44.45 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "jlc_pcb:" "C22548"
+			(at 44.45 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mouser:" "603-RC0603FR-071KL"
 			(at 44.45 124.46 0)
 			(hide yes)
 			(show_name no)
